@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(0, 0, 74, 200);
+
+	color: rgb(255, 255, 255);
+	border:1px solid rgb(255, 255, 255);
+}
+QPushButton:hover{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(85, 255, 255,200);
+	
+	color: rgb(0, 0, 0);
+	border:1px solid rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(255, 0, 0,200);
+	
+	color: rgb(0, 0, 0);
+	border:1px solid rgb(255, 255, 255);
+}
+
+
+
+
+#bt_dm,#bt_python,#bt_spider,#bt_pyQt5,#bt_lw,#bt_win32,#bt_flask{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(0, 0, 0,200);
+
+	color: rgb(255, 255, 255);
+	border:1px solid rgb(255, 255, 255);
+}
+#bt_dm:hover,#bt_python:hover,#bt_spider:hover,#bt_pyQt5:hover,#bt_lw:hover,#bt_win32:hover,#bt_flask:hover{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(85, 255, 255,200);
+	
+	color: rgb(0, 0, 0);
+	border:1px solid rgb(255, 255, 255);
+}
+#bt_dm:pressed,#bt_python:pressed,#bt_spider:pressed,#bt_pyQt5:pressed,#bt_lw:pressed,#bt_win32:pressed,#bt_flask:pressed{
+	font: 75 10pt &quot;微软雅黑&quot;;
+	background-color: rgba(255, 0, 0,200);
+	
+	color: rgb(0, 0, 0);
+	border:1px solid rgb(255, 255, 255);
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_python">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_python_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_python_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_python_gnhs">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>功能函数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_python_lrgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>懒人工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_spider">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_spider_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_spider_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_spider_gnhs">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>功能函数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_spider_lrgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>懒人工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_pyQt5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>140</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_pyQt5_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_pyQt5_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_pyQt5_qssbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QSS宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_pyQt5_qssgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QSS工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_dm">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_dm_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_dm_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_dm_zhgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>综合工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_dm_bdgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>绑定工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_lw">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>280</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_lw_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_lw_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_lw_lwzs">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>乐玩助手</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_win32">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_win32_ksrm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32_scbd">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32_lrgj">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>懒人工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_flask">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>420</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_win32_ksrm_2">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>快速入门</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32_scbd_2">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>速查宝典</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32_lrgj_2">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>懒人工具</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_main">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>73</width>
+      <height>492</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMinAndMaxSize</enum>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="bt_python">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>71</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>python</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_spider">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>爬虫</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_pyQt5">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;lt;h1&amp;gt;python&amp;lt;h1&amp;gt;&lt;/p&gt;&lt;p&gt;&amp;lt;span&amp;gt;dsgsdgsdg&amp;lt;/span&amp;gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>PyQt5</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_dm">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>大漠</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_lw">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>乐玩</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>win32</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_flask">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>flask</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
