@@ -2,6 +2,8 @@ from PyQt5.QtWidgets import QApplication,QMainWindow
 import sys,threading
 from ui import wf_main
 from code_ui.code_main import init_window_main
+from code_ui.code_ksrm import init_window_ksrm
+from ui import wf_ksrm
 
 if __name__ == '__main__':
     app=QApplication(sys.argv)
@@ -10,6 +12,8 @@ if __name__ == '__main__':
     ui_main.setupUi(window_main)#运行里面的代码
     init_window_main(window_main,ui_main)#初始化和对接代码功能
     window_main.show()
+
+
     sys.exit(app.exec_())
 
 
