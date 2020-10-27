@@ -1,0 +1,11 @@
+push 0xff
+Call ::Sleep
+xor eax,eax
+_b
+cmp eax,0
+jnz _a
+add eax,0xff
+mov ebx,0x3
+imul eax,ebx
+jmp _b
+_a

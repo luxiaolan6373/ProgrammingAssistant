@@ -4,7 +4,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QCursor
 from code_ui.code_ksrm import init_window_ksrm
 from ui import wf_ksrm
-import time
+import time,os,threading
 
 
 class init_window_main:
@@ -15,6 +15,7 @@ class init_window_main:
         self.y = 0
         self.app=app
         self.set()
+        self.path=os.getcwd()
 
     def set(self):
         # 设置标题
@@ -59,7 +60,7 @@ class init_window_main:
         self.ui.bt_flask.clicked.connect(self.clicked)
         #关闭按钮
         self.ui.bt_gb.clicked.connect(self.app.exit)
-        #具体功能按钮的信号绑定槽 因为 用lambad表达式传参数
+        #快速入门具体功能按钮的信号绑定槽 因为 用lambad表达式传参数
         self.ui.bt_python_ksrm.clicked.connect(lambda: self.clicked_ksrm('python'))
         self.ui.bt_spider_ksrm.clicked.connect(lambda: self.clicked_ksrm('spider'))
         self.ui.bt_pyQt5_ksrm.clicked.connect(lambda: self.clicked_ksrm('pyQt5'))
@@ -67,6 +68,18 @@ class init_window_main:
         self.ui.bt_lw_ksrm.clicked.connect(lambda: self.clicked_ksrm('lw'))
         self.ui.bt_win32_ksrm.clicked.connect(lambda: self.clicked_ksrm('win32'))
         self.ui.bt_flask_ksrm.clicked.connect(lambda: self.clicked_ksrm('flask'))
+        #速查宝典start是不等待执行结束
+        self.ui.bt_lw_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/lw/乐玩插件接口说明.chm'))
+        self.ui.bt_dm_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/dm/大漠插件接口说明.chm'))
+
+        #大漠综合工具
+        self.ui.bt_dm_zhgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\综合工具\大漠综合工具.exe'))
+        #大漠绑定工具
+        self.ui.bt_dm_bdgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\绑定工具\大漠插件绑定测试工具(VIP专用).exe'))
+        # 乐玩编程助手
+        self.ui.bt_lw_lwzs.clicked.connect(lambda: os.system(f'start {self.path}/html\lw\编程助手\乐玩助手.exe'))
+
+
 
 
     def enterEvent(self, event):
