@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>ReadShort</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>ReadShort</H1></DIV></DIV>
+<DIV id=nstext>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<DIV><SPAN style="FONT-SIZE: 13.5pt">读取指定地址的16位短整数数值.</SPAN> </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">Short ReadShort(addr)</SPAN></DIV><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P class=style1>&nbsp;</P>
+<P class=style1><FONT color=#0000ff>参数定义</FONT><SPAN lang=EN-US><FONT 
+color=#0000ff>:<BR></FONT></SPAN><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US>addr </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US>: 要读取的绝对地址.如 1334123</SPAN></P>
+<P class=style1><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US></SPAN>&nbsp;</P><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">短整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">成功返回读取到的数值,失败一定返回-100<SPAN 
+lang=EN-US><BR></SPAN></SPAN></P></SPAN></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>示例<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>ret&nbsp;= lw.ReadShort(1334123)<BR></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">MessageBox<SPAN style="mso-spacerun: yes">&nbsp; 
+</SPAN>ret</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在读取之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

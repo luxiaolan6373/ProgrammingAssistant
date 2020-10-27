@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office" xmlns:st1 = 
+"urn:schemas-microsoft-com:office:smarttags"><HEAD><TITLE>ReadDouble</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 9.00.8112.16684"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>ReadUniversalEx</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt">函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">读取指定地址的数据</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff>函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR>string&nbsp;&nbsp;ReadUniversalEx(addr,type,len)</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN>&nbsp;</P>
+<P class=style1><FONT color=#0000ff size=4><STRONG>参数定义</STRONG></FONT><SPAN 
+lang=EN-US><FONT color=#0000ff size=4><STRONG>:<BR></STRONG><FONT 
+color=#000000><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>addr </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">用字符串来描述地址，等同于OD的地址描述，数值必须是<SPAN 
+lang=EN-US>16</SPAN>进制<SPAN lang=EN-US>,</SPAN>里面可以用<SPAN lang=EN-US>[ ] + 
+-</SPAN>这些符号来描述一个地址。<SPAN lang=EN-US>+</SPAN>表示地址加，<SPAN 
+lang=EN-US>-</SPAN>表示地址减,*表示地址乘<SPAN lang=EN-US><BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">例如<SPAN lang=EN-US>:<o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -27pt; MARGIN-LEFT: 67.5pt; mso-list: l0 level1 lfo2; tab-stops: list 67.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="mso-list: Ignore">1.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>"4DA678" 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">最简单的方式，用十六进制绝对数值来表示地址<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -27pt; MARGIN-LEFT: 67.5pt; mso-list: l0 level1 lfo2; tab-stops: list 67.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="mso-list: Ignore">2.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>"[4DA678]+<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="a">3A</st1:chmetcnv>" </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">用绝对数值加偏移，相当于一级指针<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -27pt; MARGIN-LEFT: 67.5pt; mso-list: l0 level1 lfo2; tab-stops: list 67.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="mso-list: Ignore">3.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>"[[DA678]+<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="a">3A</st1:chmetcnv>]+5B]+8" </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">这个是一个三级指针</SPAN></P><SPAN style="FONT-SIZE: 13.5pt">
+<P 
+style="TEXT-INDENT: -27pt; MARGIN-LEFT: 67.5pt; mso-list: l0 level1 lfo2; tab-stops: list 67.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="mso-list: Ignore">4.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>"[[DA678]+<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="a">3A</st1:chmetcnv>]+5B+1*4]+8" </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">这个是一个带乘法的三级指针</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"></P>
+<P 
+style="TEXT-INDENT: -27pt; MARGIN-LEFT: 67.5pt; mso-list: l0 level1 lfo2; tab-stops: list 67.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="mso-list: Ignore">5.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>"[&lt;360SE.exe&gt;+DA678]+<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="a">3A</st1:chmetcnv>" </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">用模块定基址的方式，也是一级指针<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN><SPAN lang=EN-US><o:p></o:p></SPAN></SPAN>
+<P style="MARGIN-LEFT: 40.5pt"><SPAN style="FONT-SIZE: 13.5pt">总之熟悉<SPAN 
+lang=EN-US>OD</SPAN>的人 应该对这个地址描述都很熟悉<SPAN lang=EN-US>,</SPAN>我就不多举例了<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=style1></SPAN></FONT></FONT></SPAN><SPAN lang=EN-US><FONT color=#0000ff 
+size=4><SPAN style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><FONT 
+color=#000000>type</FONT>&nbsp;<FONT color=#800000 size=4>整数型:<FONT 
+color=#000000>要读取的类型，<FONT 
+color=#ff0000>默认为0</FONT>,取值方式如下：</FONT></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#000000>0</FONT><FONT 
+color=#000000>：整数型（int）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#800000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#000000>1：短整数型（short&nbsp;）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#000000>2:&nbsp; 长整数型（long&nbsp;）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#000000>3:&nbsp; 字节型（byte）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#000000>4:&nbsp;&nbsp;单精度浮点（float）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#000000>&nbsp;5:&nbsp;&nbsp;双精度浮点（double）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#000000>6:</FONT>&nbsp; <FONT color=#000000>GBK<SPAN 
+style="FONT-SIZE: 13.5pt">字符串</SPAN></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+7:&nbsp; Unicode<SPAN 
+style="FONT-SIZE: 13.5pt">字符串</SPAN></SPAN></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+8: 字节数组（Array of Bytes 以十六进制形式返回）</SPAN></SPAN></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9: 
+字节数组（Array of Bytes 以十进制形式返回）</SPAN></SPAN></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt">len&nbsp; <FONT 
+color=#800000 size=4>整数型: <FONT 
+color=#000000>欲读取长度，读取的类型小于等于5时，此参数无效，6或者7时，如果此参数为0时，自动判断文本的长度，否则读取指定长度，8或者9时，此参数是必须的。</FONT><FONT 
+color=#ff0000>默认为0。</FONT></FONT></SPAN></SPAN></FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#000000 size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"></SPAN></FONT></SPAN><SPAN 
+lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="COLOR: #ff9900; FONT-SIZE: 13.5pt"><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff>返回值<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></P></SPAN></FONT></SPAN>
+<P class=style1><SPAN lang=EN-US><FONT color=#808080 size=4><SPAN 
+style="FONT-SIZE: 13.5pt">字符串：</SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>成功返回读取到的数值（以字符串形式返回）</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></FONT></SPAN>&nbsp;</P>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></FONT></SPAN><SPAN lang=EN-US><FONT 
+color=#0000ff size=4><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG>示例<SPAN 
+lang=EN-US>:</SPAN></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></P></FONT></SPAN>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><FONT color=#000000>value = 
+lw.ReadUniversalEx(<FONT size=1 face="Times New Roman">&nbsp; </FONT><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>"[[DA678]+<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="a">3A</st1:chmetcnv>]+5B+1*4]+8" 
+</SPAN>)</FONT></SPAN></FONT></SPAN></P>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><FONT color=#000000>MessageBox<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN>value</FONT><BR 
+style="mso-special-character: line-break"></P></SPAN></FONT></SPAN>
+<P class=style1><SPAN lang=EN-US><FONT color=#0000ff size=4><BR><STRONG><FONT 
+color=#ff0000>提示：此命令支持对64位进程的读写，建议使用。</FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在读写之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P></FONT></SPAN>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

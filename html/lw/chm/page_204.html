@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>ExcludePosTang</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>ExcludePosTang</H1></DIV></DIV>
+<DIV id=nstext><BR><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT size=4><FONT 
+color=#008000>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></FONT></FONT></STRONG></SPAN></P></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt">根据部分<SPAN 
+lang=EN-US>Ex</SPAN>接口的返回值，排除或者保留指定矩形范围区域内的坐标。</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>string 
+ExcludePosTang(allPos,x1,y1,x2,y2,flag)<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>allPos </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>: </SPAN><SPAN style="FONT-SIZE: 13.5pt">坐标描述串。<SPAN lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>一般是<SPAN 
+lang=EN-US>FindStrEx,FindStrFastEx,</SPAN></SPAN><SPAN 
+lang=EN-US>FindColorEx,</SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US> 
+FindMultiColorEx,</SPAN><SPAN style="FONT-SIZE: 13.5pt">和<SPAN 
+lang=EN-US>FindPicEx</SPAN>的返回值<SPAN 
+lang=EN-US>.</SPAN></SPAN></o:p></SPAN></SPAN></P><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>x1 </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">左上角横坐标<SPAN lang=EN-US><BR>y1 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>: </SPAN>左上角纵坐标<SPAN 
+lang=EN-US><BR>x2 </SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>: </SPAN>右下角横坐标<SPAN lang=EN-US><BR>y2 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>: </SPAN>右下角纵坐标</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>flag <SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>0＝只取区域内的坐标；1＝排除区域内的坐标<SPAN 
+lang=EN-US>，<FONT color=#ff0000>可空，</FONT><FONT 
+color=#ff0000>默认为0</FONT></SPAN></P><SPAN lang=EN-US><FONT 
+color=#ff0000></FONT></SPAN></SPAN></SPAN></o:p></SPAN></SPAN></DIV><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN lang=EN-US>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN></FONT></STRONG></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;返回值<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;字符串<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp; 
+经过筛选以后的返回值，格式和Ex接口一致（“id,x,y|id,x,y|id,x,y........”）。</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>&nbsp;&nbsp;&nbsp; 示例<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; ret = 
+lw.FindColorEx(0,0,2000,2000,"aaaaaa-000000",1.0,0)<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+ret = lw.ExcludePosTang(ret,100,100,300,400)<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+TracePrint 
+ret<o:p></o:p></SPAN></P></SPAN></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P><BR></P></SPAN></SPAN></o:p></SPAN></SPAN>
+<P>
+<DIV>
+<HR>
+</DIV>
+<P></P>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

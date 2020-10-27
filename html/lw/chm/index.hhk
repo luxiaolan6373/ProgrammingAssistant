@@ -1,0 +1,2627 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+</HEAD><BODY>
+<OBJECT TYPE="text/site properties">
+</OBJECT>
+<UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbActivity 取任务堆栈">
+      <param name="Name" value="AdbActivity">
+      <param name="Local" value="page_233.html">
+      <param name="Name" value="AdbActivity">
+      <param name="Local" value="page_233.html">
+      <param name="Name" value="AdbActivity">
+      <param name="Local" value="page_233.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbChick  模拟点击">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_252.html">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_252.html">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_252.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbClearData  清理应用数据">
+      <param name="Name" value="AdbClearData">
+      <param name="Local" value="page_238.html">
+      <param name="Name" value="AdbClearData">
+      <param name="Local" value="page_238.html">
+      <param name="Name" value="AdbClearData">
+      <param name="Local" value="page_238.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbCloseApp  关闭应用">
+      <param name="Name" value="AdbCloseApp">
+      <param name="Local" value="page_237.html">
+      <param name="Name" value="AdbCloseApp">
+      <param name="Local" value="page_237.html">
+      <param name="Name" value="AdbCloseApp">
+      <param name="Local" value="page_237.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbDelteFile  删除文件">
+      <param name="Name" value="AdbDelteFile">
+      <param name="Local" value="page_244.html">
+      <param name="Name" value="AdbDelteFile">
+      <param name="Local" value="page_244.html">
+      <param name="Name" value="AdbDelteFile">
+      <param name="Local" value="page_244.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbDo  执行命令">
+      <param name="Name" value="AdbDo">
+      <param name="Local" value="page_251.html">
+      <param name="Name" value="AdbDo">
+      <param name="Local" value="page_251.html">
+      <param name="Name" value="AdbDo">
+      <param name="Local" value="page_251.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbFindUI  查找控件">
+      <param name="Name" value="AdbFindUI">
+      <param name="Local" value="page_255.html">
+      <param name="Name" value="AdbFindUI">
+      <param name="Local" value="page_255.html">
+      <param name="Name" value="AdbFindUI">
+      <param name="Local" value="page_255.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetAll  取所有端口">
+      <param name="Name" value="AdbGetAll">
+      <param name="Local" value="page_234.html">
+      <param name="Name" value="AdbGetAll">
+      <param name="Local" value="page_234.html">
+      <param name="Name" value="AdbGetAll">
+      <param name="Local" value="page_234.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetClass  取控件类名">
+      <param name="Name" value="AdbGetClass">
+      <param name="Local" value="page_261.html">
+      <param name="Name" value="AdbGetClass">
+      <param name="Local" value="page_261.html">
+      <param name="Name" value="AdbGetClass">
+      <param name="Local" value="page_261.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetDefaultIme  取默认输入法">
+      <param name="Name" value="AdbGetDefaultIme">
+      <param name="Local" value="page_242.html">
+      <param name="Name" value="AdbGetDefaultIme">
+      <param name="Local" value="page_242.html">
+      <param name="Name" value="AdbGetDefaultIme">
+      <param name="Local" value="page_242.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetDesc  取控件Desc">
+      <param name="Name" value="AdbGetDesc">
+      <param name="Local" value="page_264.html">
+      <param name="Name" value="AdbGetDesc">
+      <param name="Local" value="page_264.html">
+      <param name="Name" value="AdbGetDesc">
+      <param name="Local" value="page_264.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetFindedUIId  取找到控件序号">
+      <param name="Name" value="AdbGetFindedUIId">
+      <param name="Local" value="page_314.html">
+      <param name="Name" value="AdbGetFindedUIId">
+      <param name="Local" value="page_314.html">
+      <param name="Name" value="AdbGetFindedUIId">
+      <param name="Local" value="page_314.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetItemCount  取控件数量">
+      <param name="Name" value="AdbGetItemCount">
+      <param name="Local" value="page_263.html">
+      <param name="Name" value="AdbGetItemCount">
+      <param name="Local" value="page_263.html">
+      <param name="Name" value="AdbGetItemCount">
+      <param name="Local" value="page_263.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetmMachineInfo  取硬件信息">
+      <param name="Name" value="AdbGetmMachineInfo">
+      <param name="Local" value="page_246.html">
+      <param name="Name" value="AdbGetmMachineInfo">
+      <param name="Local" value="page_246.html">
+      <param name="Name" value="AdbGetmMachineInfo">
+      <param name="Local" value="page_246.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetmMachineInfoAll  取硬件信息全部">
+      <param name="Name" value="AdbGetmMachineInfoAll ??????????????">
+      <param name="Local" value="page_245.html">
+      <param name="Name" value="AdbGetmMachineInfoAll ??????????????">
+      <param name="Local" value="page_245.html">
+      <param name="Name" value="AdbGetmMachineInfoAll ??????????????">
+      <param name="Local" value="page_245.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetNotificationInfo 取通知栏信息">
+      <param name="Name" value="AdbGetNotificationInfo ????????????">
+      <param name="Local" value="page_280.html">
+      <param name="Name" value="AdbGetNotificationInfo ????????????">
+      <param name="Local" value="page_280.html">
+      <param name="Name" value="AdbGetNotificationInfo ????????????">
+      <param name="Local" value="page_280.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetShellAddr  取端口地址">
+      <param name="Name" value="AdbGetShellAddr">
+      <param name="Local" value="page_364.html">
+      <param name="Name" value="AdbGetShellAddr">
+      <param name="Local" value="page_364.html">
+      <param name="Name" value="AdbGetShellAddr">
+      <param name="Local" value="page_364.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetTitle  取控件标题">
+      <param name="Name" value="AdbGetTitle">
+      <param name="Local" value="page_260.html">
+      <param name="Name" value="AdbGetTitle">
+      <param name="Local" value="page_260.html">
+      <param name="Name" value="AdbGetTitle">
+      <param name="Local" value="page_260.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetX1 取控件左上X">
+      <param name="Name" value="AdbGetX1">
+      <param name="Local" value="page_256.html">
+      <param name="Name" value="AdbGetX1">
+      <param name="Local" value="page_256.html">
+      <param name="Name" value="AdbGetX1">
+      <param name="Local" value="page_256.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetX2  取控件右下x">
+      <param name="Name" value="AdbGetX2">
+      <param name="Local" value="page_258.html">
+      <param name="Name" value="AdbGetX2">
+      <param name="Local" value="page_258.html">
+      <param name="Name" value="AdbGetX2">
+      <param name="Local" value="page_258.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetY1 取控件左上y">
+      <param name="Name" value="AdbGetY1">
+      <param name="Local" value="page_257.html">
+      <param name="Name" value="AdbGetY1">
+      <param name="Local" value="page_257.html">
+      <param name="Name" value="AdbGetY1">
+      <param name="Local" value="page_257.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbGetY2 取控件右下y">
+      <param name="Name" value="AdbGetY2">
+      <param name="Local" value="page_259.html">
+      <param name="Name" value="AdbGetY2">
+      <param name="Local" value="page_259.html">
+      <param name="Name" value="AdbGetY2">
+      <param name="Local" value="page_259.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbInitialize  初始化">
+      <param name="Name" value="AdbInitialize">
+      <param name="Local" value="page_231.html">
+      <param name="Name" value="AdbInitialize">
+      <param name="Local" value="page_231.html">
+      <param name="Name" value="AdbInitialize">
+      <param name="Local" value="page_231.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbInstallApk  安装应用">
+      <param name="Name" value="AdbInstallApk">
+      <param name="Local" value="page_249.html">
+      <param name="Name" value="AdbInstallApk">
+      <param name="Local" value="page_249.html">
+      <param name="Name" value="AdbInstallApk">
+      <param name="Local" value="page_249.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbKeyPress  模拟按键">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_253.html">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_253.html">
+      <param name="Name" value="AdbChick">
+      <param name="Local" value="page_253.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbPS 取进程列表">
+      <param name="Name" value="AdbPS">
+      <param name="Local" value="page_239.html">
+      <param name="Name" value="AdbPS">
+      <param name="Local" value="page_239.html">
+      <param name="Name" value="AdbPS">
+      <param name="Local" value="page_239.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbPullFile  下载文件">
+      <param name="Name" value="AdbPullFile">
+      <param name="Local" value="page_241.html">
+      <param name="Name" value="AdbPullFile">
+      <param name="Local" value="page_241.html">
+      <param name="Name" value="AdbPullFile">
+      <param name="Local" value="page_241.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbPushFile 传送文件">
+      <param name="Name" value="AdbPushFile">
+      <param name="Local" value="page_240.html">
+      <param name="Name" value="AdbPushFile">
+      <param name="Local" value="page_240.html">
+      <param name="Name" value="AdbPushFile">
+      <param name="Local" value="page_240.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbRestore  修复">
+      <param name="Name" value="AdbRestore">
+      <param name="Local" value="page_235.html">
+      <param name="Name" value="AdbRestore">
+      <param name="Local" value="page_235.html">
+      <param name="Name" value="AdbRestore">
+      <param name="Local" value="page_235.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbRunApp  启动应用">
+      <param name="Name" value="activity">
+      <param name="Local" value="page_236.html">
+      <param name="Name" value="activity">
+      <param name="Local" value="page_236.html">
+      <param name="Name" value="activity">
+      <param name="Local" value="page_236.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbSetDefaultIme 置默认输入法">
+      <param name="Name" value="AdbSetDefaultIme">
+      <param name="Local" value="page_243.html">
+      <param name="Name" value="AdbSetDefaultIme">
+      <param name="Local" value="page_243.html">
+      <param name="Name" value="AdbSetDefaultIme">
+      <param name="Local" value="page_243.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbSetmMachineInfo  修改硬件信息">
+      <param name="Name" value="AdbSetmMachineInfo">
+      <param name="Local" value="page_248.html">
+      <param name="Name" value="AdbSetmMachineInfo">
+      <param name="Local" value="page_248.html">
+      <param name="Name" value="AdbSetmMachineInfo">
+      <param name="Local" value="page_248.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AdbUninstallApk  卸载应用">
+      <param name="Name" value="AdbUninstallApk ????????">
+      <param name="Local" value="page_250.html">
+      <param name="Name" value="AdbUninstallApk ????????">
+      <param name="Local" value="page_250.html">
+      <param name="Name" value="AdbUninstallApk ????????">
+      <param name="Local" value="page_250.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Adb安卓桥接调试">
+      <param name="Name" value="????????????">
+      <param name="Local" value="page_232.html">
+      <param name="Name" value="????????????">
+      <param name="Local" value="page_232.html">
+      <param name="Name" value="????????????">
+      <param name="Local" value="page_232.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ADB键码表">
+      <param name="Name" value="ADB??????">
+      <param name="Local" value="page_254.html">
+      <param name="Name" value="ADB??????">
+      <param name="Local" value="page_254.html">
+      <param name="Name" value="ADB??????">
+      <param name="Local" value="page_254.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AsmAdd  添加指令">
+      <param name="Name" value="AsmAdd">
+      <param name="Local" value="page_163.html">
+      <param name="Name" value="AsmAdd">
+      <param name="Local" value="page_163.html">
+      <param name="Name" value="AsmAdd">
+      <param name="Local" value="page_163.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AsmCall  执行汇编">
+      <param name="Name" value="AsmCall">
+      <param name="Local" value="page_164.html">
+      <param name="Name" value="AsmCall">
+      <param name="Local" value="page_164.html">
+      <param name="Name" value="AsmCall">
+      <param name="Local" value="page_164.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AsmClear  清除汇编">
+      <param name="Name" value="AsmClear">
+      <param name="Local" value="page_165.html">
+      <param name="Name" value="AsmClear">
+      <param name="Local" value="page_165.html">
+      <param name="Name" value="AsmClear">
+      <param name="Local" value="page_165.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="AsmCode  取出汇编">
+      <param name="Name" value="AsmCode">
+      <param name="Local" value="page_166.html">
+      <param name="Name" value="AsmCode">
+      <param name="Local" value="page_166.html">
+      <param name="Name" value="AsmCode">
+      <param name="Local" value="page_166.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Assemble  反汇编">
+      <param name="Name" value="Assemble">
+      <param name="Local" value="page_167.html">
+      <param name="Name" value="Assemble">
+      <param name="Local" value="page_167.html">
+      <param name="Name" value="Assemble">
+      <param name="Local" value="page_167.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="BindWindow　绑定">
+      <param name="Name" value="BindWindow">
+      <param name="Local" value="page_10.html">
+      <param name="Name" value="BindWindow">
+      <param name="Local" value="page_10.html">
+      <param name="Name" value="BindWindow">
+      <param name="Local" value="page_10.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CapturePre  取缓存图像">
+      <param name="Name" value="CapturePre">
+      <param name="Local" value="page_302.html">
+      <param name="Name" value="CapturePre">
+      <param name="Local" value="page_302.html">
+      <param name="Name" value="CapturePre">
+      <param name="Local" value="page_302.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CaptureToBuffer  截图到缓冲区">
+      <param name="Name" value="CaptureToBuffe">
+      <param name="Local" value="page_118.html">
+      <param name="Name" value="CaptureToBuffe">
+      <param name="Local" value="page_118.html">
+      <param name="Name" value="CaptureToBuffe">
+      <param name="Local" value="page_118.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Capture　截图">
+      <param name="Name" value="Capture">
+      <param name="Local" value="page_77.html">
+      <param name="Name" value="Capture">
+      <param name="Local" value="page_77.html">
+      <param name="Name" value="Capture">
+      <param name="Local" value="page_77.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CheckFontSmooth  是否已开启平滑字体">
+      <param name="Name" value="CheckFontSmooth">
+      <param name="Local" value="page_169.html">
+      <param name="Name" value="CheckFontSmooth">
+      <param name="Local" value="page_169.html">
+      <param name="Name" value="CheckFontSmooth">
+      <param name="Local" value="page_169.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CheckUAC  是否已开启UAC">
+      <param name="Name" value="CheckUAC">
+      <param name="Local" value="page_170.html">
+      <param name="Name" value="CheckUAC">
+      <param name="Local" value="page_170.html">
+      <param name="Name" value="CheckUAC">
+      <param name="Local" value="page_170.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ClientToScreen   窗口坐标转屏幕坐标">
+      <param name="Name" value="ClientToScreen">
+      <param name="Local" value="page_95.html">
+      <param name="Name" value="ClientToScreen">
+      <param name="Local" value="page_95.html">
+      <param name="Name" value="ClientToScreen">
+      <param name="Local" value="page_95.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CmpColor　颜色比较">
+      <param name="Name" value="CmpColor">
+      <param name="Local" value="page_28.html">
+      <param name="Name" value="CmpColor">
+      <param name="Local" value="page_28.html">
+      <param name="Name" value="CmpColor">
+      <param name="Local" value="page_28.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CmpPic  图片比较">
+      <param name="Name" value="CmpPic">
+      <param name="Local" value="page_282.html">
+      <param name="Name" value="CmpPic">
+      <param name="Local" value="page_282.html">
+      <param name="Name" value="CmpPic">
+      <param name="Local" value="page_282.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="COM插件">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_4.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_4.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_4.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="CreateFoobar  工具条创建">
+      <param name="Name" value="CreateFoobar">
+      <param name="Local" value="page_218.html">
+      <param name="Name" value="CreateFoobar">
+      <param name="Local" value="page_218.html">
+      <param name="Name" value="CreateFoobar">
+      <param name="Local" value="page_218.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Delay  超级延时">
+      <param name="Name" value="Delay">
+      <param name="Local" value="page_171.html">
+      <param name="Name" value="Delay">
+      <param name="Local" value="page_171.html">
+      <param name="Name" value="Delay">
+      <param name="Local" value="page_171.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DeleteMe  程序自删">
+      <param name="Name" value="DeleteMe">
+      <param name="Local" value="page_359.html">
+      <param name="Name" value="DeleteMe">
+      <param name="Local" value="page_359.html">
+      <param name="Name" value="DeleteMe">
+      <param name="Local" value="page_359.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DisableFontSmooth  置平滑字体">
+      <param name="Name" value="DisableFontSmooth">
+      <param name="Local" value="page_172.html">
+      <param name="Name" value="DisableFontSmooth">
+      <param name="Local" value="page_172.html">
+      <param name="Name" value="DisableFontSmooth">
+      <param name="Local" value="page_172.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DisablePowerSave  关闭电源管理">
+      <param name="Name" value="DisablePowerSave">
+      <param name="Local" value="page_173.html">
+      <param name="Name" value="DisablePowerSave">
+      <param name="Local" value="page_173.html">
+      <param name="Name" value="DisablePowerSave">
+      <param name="Local" value="page_173.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DisableScreenSave  关闭屏保">
+      <param name="Name" value="DisableScreenSave">
+      <param name="Local" value="page_174.html">
+      <param name="Name" value="DisableScreenSave">
+      <param name="Local" value="page_174.html">
+      <param name="Name" value="DisableScreenSave">
+      <param name="Local" value="page_174.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLConnect  拨号">
+      <param name="Name" value="DLConnect">
+      <param name="Local" value="page_330.html">
+      <param name="Name" value="DLConnect">
+      <param name="Local" value="page_330.html">
+      <param name="Name" value="DLConnect">
+      <param name="Local" value="page_330.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLCreate  创建连接">
+      <param name="Name" value="DLCreate">
+      <param name="Local" value="page_329.html">
+      <param name="Name" value="DLCreate">
+      <param name="Local" value="page_329.html">
+      <param name="Name" value="DLCreate">
+      <param name="Local" value="page_329.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLDisconnect  断开指定连接">
+      <param name="Name" value="DLDisconnect">
+      <param name="Local" value="page_331.html">
+      <param name="Name" value="DLDisconnect">
+      <param name="Local" value="page_331.html">
+      <param name="Name" value="DLDisconnect">
+      <param name="Local" value="page_331.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLEnumConnect  枚举连接">
+      <param name="Name" value="DLEnumConnect">
+      <param name="Local" value="page_334.html">
+      <param name="Name" value="DLEnumConnect">
+      <param name="Local" value="page_334.html">
+      <param name="Name" value="DLEnumConnect">
+      <param name="Local" value="page_334.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLIsConnect  是否已连接">
+      <param name="Name" value="DLIsConnect">
+      <param name="Local" value="page_333.html">
+      <param name="Name" value="DLIsConnect">
+      <param name="Local" value="page_333.html">
+      <param name="Name" value="DLIsConnect">
+      <param name="Local" value="page_333.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DLIsConnectEx  断开连接">
+      <param name="Name" value="DLIsConnect2">
+      <param name="Local" value="page_332.html">
+      <param name="Name" value="DLIsConnect2">
+      <param name="Local" value="page_332.html">
+      <param name="Name" value="DLIsConnect2">
+      <param name="Local" value="page_332.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="DownCpu　降CPU">
+      <param name="Name" value="DownCpu(">
+      <param name="Local" value="page_79.html">
+      <param name="Name" value="DownCpu(">
+      <param name="Local" value="page_79.html">
+      <param name="Name" value="DownCpu(">
+      <param name="Local" value="page_79.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="EnableKeyMouseSync  置键鼠消息模式">
+      <param name="Name" value="EnableKeyMouseSync">
+      <param name="Local" value="page_310.html">
+      <param name="Name" value="EnableKeyMouseSync">
+      <param name="Local" value="page_310.html">
+      <param name="Name" value="EnableKeyMouseSync">
+      <param name="Local" value="page_310.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="EnablePicCache  图像缓存开关">
+      <param name="Name" value="EnablePicCache">
+      <param name="Local" value="page_363.html">
+      <param name="Name" value="EnablePicCache">
+      <param name="Local" value="page_363.html">
+      <param name="Name" value="EnablePicCache">
+      <param name="Local" value="page_363.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="EnableRealMouse　开启鼠标轨迹移动">
+      <param name="Name" value="EnableRealMouse">
+      <param name="Local" value="page_72.html">
+      <param name="Name" value="EnableRealMouse">
+      <param name="Local" value="page_72.html">
+      <param name="Name" value="EnableRealMouse">
+      <param name="Local" value="page_72.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="EnableSwitchWindow   禁止绑定前激活">
+      <param name="Name" value="EnableSwitchWindow">
+      <param name="Local" value="page_327.html">
+      <param name="Name" value="EnableSwitchWindow">
+      <param name="Local" value="page_327.html">
+      <param name="Name" value="EnableSwitchWindow">
+      <param name="Local" value="page_327.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="EnumWindow  枚举窗口">
+      <param name="Name" value="EnumWindow">
+      <param name="Local" value="page_82.html">
+      <param name="Name" value="EnumWindow">
+      <param name="Local" value="page_82.html">
+      <param name="Name" value="EnumWindow">
+      <param name="Local" value="page_82.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ExcludePosBorder 相邻点过滤">
+      <param name="Name" value="ExcludePosBorder">
+      <param name="Local" value="page_209.html">
+      <param name="Name" value="ExcludePosBorder">
+      <param name="Local" value="page_209.html">
+      <param name="Name" value="ExcludePosBorder">
+      <param name="Local" value="page_209.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ExcludePosRad  半径过滤">
+      <param name="Name" value="ExcludePosRad">
+      <param name="Local" value="page_205.html">
+      <param name="Name" value="ExcludePosRad">
+      <param name="Local" value="page_205.html">
+      <param name="Name" value="ExcludePosRad">
+      <param name="Local" value="page_205.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ExcludePosTang  矩形过滤">
+      <param name="Name" value="ExcludePosTang">
+      <param name="Local" value="page_204.html">
+      <param name="Name" value="ExcludePosTang">
+      <param name="Local" value="page_204.html">
+      <param name="Name" value="ExcludePosTang">
+      <param name="Local" value="page_204.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ExitOs 退出系统">
+      <param name="Name" value="ExitOs">
+      <param name="Local" value="page_175.html">
+      <param name="Name" value="ExitOs">
+      <param name="Local" value="page_175.html">
+      <param name="Name" value="ExitOs">
+      <param name="Local" value="page_175.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FetchLattice  提取点阵">
+      <param name="Name" value="FetchLattice">
+      <param name="Local" value="page_279.html">
+      <param name="Name" value="FetchLattice">
+      <param name="Local" value="page_279.html">
+      <param name="Name" value="FetchLattice">
+      <param name="Local" value="page_279.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindBrightPoint  找亮点">
+      <param name="Name" value="FindBrightPoint">
+      <param name="Local" value="page_326.html">
+      <param name="Name" value="FindBrightPoint">
+      <param name="Local" value="page_326.html">
+      <param name="Name" value="FindBrightPoint">
+      <param name="Local" value="page_326.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindCode  特征码搜索">
+      <param name="Name" value="FindCode">
+      <param name="Local" value="page_161.html">
+      <param name="Name" value="FindCode">
+      <param name="Local" value="page_161.html">
+      <param name="Name" value="FindCode">
+      <param name="Local" value="page_161.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindColorBlock  找色块">
+      <param name="Name" value="FindColoRLump">
+      <param name="Local" value="page_303.html">
+      <param name="Name" value="FindColoRLump">
+      <param name="Local" value="page_303.html">
+      <param name="Name" value="FindColoRLump">
+      <param name="Local" value="page_303.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindColorBlockEx  找色块扩展">
+      <param name="Name" value="FindColorBlockEx">
+      <param name="Local" value="page_312.html">
+      <param name="Name" value="FindColorBlockEx">
+      <param name="Local" value="page_312.html">
+      <param name="Name" value="FindColorBlockEx">
+      <param name="Local" value="page_312.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindColorEx　找色扩展">
+      <param name="Name" value="FindColorEx">
+      <param name="Local" value="page_29.html">
+      <param name="Name" value="FindColorEx">
+      <param name="Local" value="page_29.html">
+      <param name="Name" value="FindColorEx">
+      <param name="Local" value="page_29.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindColor　找色">
+      <param name="Name" value="FindColor">
+      <param name="Local" value="page_26.html">
+      <param name="Name" value="FindColor">
+      <param name="Local" value="page_26.html">
+      <param name="Name" value="FindColor">
+      <param name="Local" value="page_26.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindMultiColorEx　找色多点扩展">
+      <param name="Name" value="FindMultiColorEx">
+      <param name="Local" value="page_37.html">
+      <param name="Name" value="FindMultiColorEx">
+      <param name="Local" value="page_37.html">
+      <param name="Name" value="FindMultiColorEx">
+      <param name="Local" value="page_37.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindMultiColor　找色多点">
+      <param name="Name" value="FindMultiColor">
+      <param name="Local" value="page_35.html">
+      <param name="Name" value="FindMultiColor">
+      <param name="Local" value="page_35.html">
+      <param name="Name" value="FindMultiColor">
+      <param name="Local" value="page_35.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindNearestPos  取最近或最远点">
+      <param name="Name" value="FindNearestPos">
+      <param name="Local" value="page_207.html">
+      <param name="Name" value="FindNearestPos">
+      <param name="Local" value="page_207.html">
+      <param name="Name" value="FindNearestPos">
+      <param name="Local" value="page_207.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindPic   找图">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_24.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_24.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_24.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindPicEx　找图扩展">
+      <param name="Name" value="FindPicEx">
+      <param name="Local" value="page_25.html">
+      <param name="Name" value="FindPicEx">
+      <param name="Local" value="page_25.html">
+      <param name="Name" value="FindPicEx">
+      <param name="Local" value="page_25.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindSonWindow 查找下层窗口">
+      <param name="Name" value="FindSonHwnd">
+      <param name="Local" value="page_227.html">
+      <param name="Name" value="FindSonHwnd">
+      <param name="Local" value="page_227.html">
+      <param name="Name" value="FindSonHwnd">
+      <param name="Local" value="page_227.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindStrEx　找字扩展">
+      <param name="Name" value="FindStrEx">
+      <param name="Local" value="page_47.html">
+      <param name="Name" value="FindStrEx">
+      <param name="Local" value="page_47.html">
+      <param name="Name" value="FindStrEx">
+      <param name="Local" value="page_47.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindStrFastEx　找字快速扩展">
+      <param name="Name" value="FindStrFastEx">
+      <param name="Local" value="page_48.html">
+      <param name="Name" value="FindStrFastEx">
+      <param name="Local" value="page_48.html">
+      <param name="Name" value="FindStrFastEx">
+      <param name="Local" value="page_48.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindStrFast　找字快速">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_43.html">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_43.html">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_43.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindStr　找字">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_42.html">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_42.html">
+      <param name="Name" value="FindStr">
+      <param name="Local" value="page_42.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FindWindow  查找窗口">
+      <param name="Name" value="FindWindow">
+      <param name="Local" value="page_81.html">
+      <param name="Name" value="FindWindow">
+      <param name="Local" value="page_81.html">
+      <param name="Name" value="FindWindow">
+      <param name="Local" value="page_81.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarAddText  添加输出文本">
+      <param name="Name" value="FoobarAddText">
+      <param name="Local" value="page_220.html">
+      <param name="Name" value="FoobarAddText">
+      <param name="Local" value="page_220.html">
+      <param name="Name" value="FoobarAddText">
+      <param name="Local" value="page_220.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarClearPic  清除图像">
+      <param name="Name" value="FoobarClearPic ????????">
+      <param name="Local" value="page_224.html">
+      <param name="Name" value="FoobarClearPic ????????">
+      <param name="Local" value="page_224.html">
+      <param name="Name" value="FoobarClearPic ????????">
+      <param name="Local" value="page_224.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarClearTex  清除文本">
+      <param name="Name" value="FoobarClearTex">
+      <param name="Local" value="page_221.html">
+      <param name="Name" value="FoobarClearTex">
+      <param name="Local" value="page_221.html">
+      <param name="Name" value="FoobarClearTex">
+      <param name="Local" value="page_221.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarClose  销毁工具条">
+      <param name="Name" value="FoobarClose">
+      <param name="Local" value="page_226.html">
+      <param name="Name" value="FoobarClose">
+      <param name="Local" value="page_226.html">
+      <param name="Name" value="FoobarClose">
+      <param name="Local" value="page_226.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarDrawPic  输出图像">
+      <param name="Name" value="FoobarDrawPic">
+      <param name="Local" value="page_222.html">
+      <param name="Name" value="FoobarDrawPic">
+      <param name="Local" value="page_222.html">
+      <param name="Name" value="FoobarDrawPic">
+      <param name="Local" value="page_222.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarGetText  取输出文本">
+      <param name="Name" value="FoobarGetText">
+      <param name="Local" value="page_225.html">
+      <param name="Name" value="FoobarGetText">
+      <param name="Local" value="page_225.html">
+      <param name="Name" value="FoobarGetText">
+      <param name="Local" value="page_225.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="FoobarSetFont  设置字体">
+      <param name="Name" value="FoobarSetFont">
+      <param name="Local" value="page_219.html">
+      <param name="Name" value="FoobarSetFont">
+      <param name="Local" value="page_219.html">
+      <param name="Name" value="FoobarSetFont">
+      <param name="Local" value="page_219.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ForceUnBindWindow　强制解绑">
+      <param name="Name" value="ForceUnBindWindow">
+      <param name="Local" value="page_12.html">
+      <param name="Name" value="ForceUnBindWindow">
+      <param name="Local" value="page_12.html">
+      <param name="Name" value="ForceUnBindWindow">
+      <param name="Local" value="page_12.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetApiAddress  取API入口地址">
+      <param name="Name" value="GetApiAddress">
+      <param name="Local" value="page_306.html">
+      <param name="Name" value="GetApiAddress">
+      <param name="Local" value="page_306.html">
+      <param name="Name" value="GetApiAddress">
+      <param name="Local" value="page_306.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetAveHSV　取色均值HSV">
+      <param name="Name" value="GetAveHSV">
+      <param name="Local" value="page_33.html">
+      <param name="Name" value="GetAveHSV">
+      <param name="Local" value="page_33.html">
+      <param name="Name" value="GetAveHSV">
+      <param name="Local" value="page_33.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetAveRGB　取色均值RGB">
+      <param name="Name" value="GetAveRGB">
+      <param name="Local" value="page_32.html">
+      <param name="Name" value="GetAveRGB">
+      <param name="Local" value="page_32.html">
+      <param name="Name" value="GetAveRGB">
+      <param name="Local" value="page_32.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetBindWindow　取回绑定窗口">
+      <param name="Name" value="GetBindWindow">
+      <param name="Local" value="page_69.html">
+      <param name="Name" value="GetBindWindow">
+      <param name="Local" value="page_69.html">
+      <param name="Name" value="GetBindWindow">
+      <param name="Local" value="page_69.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetClientSize  取客户区宽高">
+      <param name="Name" value="GetClientSize">
+      <param name="Local" value="page_108.html">
+      <param name="Name" value="GetClientSize">
+      <param name="Local" value="page_108.html">
+      <param name="Name" value="GetClientSize">
+      <param name="Local" value="page_108.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetClipboard  取剪辑板文本">
+      <param name="Name" value="GetClipboard">
+      <param name="Local" value="page_185.html">
+      <param name="Name" value="GetClipboard">
+      <param name="Local" value="page_185.html">
+      <param name="Name" value="GetClipboard">
+      <param name="Local" value="page_185.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetColorHSV　取色HSV">
+      <param name="Name" value="GetColorHSV">
+      <param name="Local" value="page_30.html">
+      <param name="Name" value="GetColorHSV">
+      <param name="Local" value="page_30.html">
+      <param name="Name" value="GetColorHSV">
+      <param name="Local" value="page_30.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetColorNum　取色数">
+      <param name="Name" value="GetColorNum">
+      <param name="Local" value="page_31.html">
+      <param name="Name" value="GetColorNum">
+      <param name="Local" value="page_31.html">
+      <param name="Name" value="GetColorNum">
+      <param name="Local" value="page_31.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetColor　取色">
+      <param name="Name" value="GetColor">
+      <param name="Local" value="page_27.html">
+      <param name="Name" value="GetColor">
+      <param name="Local" value="page_27.html">
+      <param name="Name" value="GetColor">
+      <param name="Local" value="page_27.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetCpuId   取CPU序列号">
+      <param name="Name" value="GetCpuId">
+      <param name="Local" value="page_284.html">
+      <param name="Name" value="GetCpuId">
+      <param name="Local" value="page_284.html">
+      <param name="Name" value="GetCpuId">
+      <param name="Local" value="page_284.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetCursorShape  取鼠标特征码">
+      <param name="Name" value="GetCursorShape">
+      <param name="Local" value="page_74.html">
+      <param name="Name" value="GetCursorShape">
+      <param name="Local" value="page_74.html">
+      <param name="Name" value="GetCursorShape">
+      <param name="Local" value="page_74.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetDiskSerial  硬盘序列号">
+      <param name="Name" value="GetDiskSerial">
+      <param name="Local" value="page_283.html">
+      <param name="Name" value="GetDiskSerial">
+      <param name="Local" value="page_283.html">
+      <param name="Name" value="GetDiskSerial">
+      <param name="Local" value="page_283.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetFindedPicName  取找到图片名">
+      <param name="Name" value="GetFindedPicName">
+      <param name="Local" value="page_315.html">
+      <param name="Name" value="GetFindedPicName">
+      <param name="Local" value="page_315.html">
+      <param name="Name" value="GetFindedPicName">
+      <param name="Local" value="page_315.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetHasche   取哈希值">
+      <param name="Name" value="GetHasche">
+      <param name="Local" value="page_288.html">
+      <param name="Name" value="GetHasche">
+      <param name="Local" value="page_288.html">
+      <param name="Name" value="GetHasche">
+      <param name="Local" value="page_288.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetIdx　取回序号">
+      <param name="Name" value="GetIdx">
+      <param name="Local" value="page_23.html">
+      <param name="Name" value="GetIdx">
+      <param name="Local" value="page_23.html">
+      <param name="Name" value="GetIdx">
+      <param name="Local" value="page_23.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetId　取对象ID">
+      <param name="Name" value="GetID">
+      <param name="Local" value="page_15.html">
+      <param name="Name" value="GetID">
+      <param name="Local" value="page_15.html">
+      <param name="Name" value="GetID">
+      <param name="Local" value="page_15.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetKeyState  取按键状态">
+      <param name="Name" value="GetKeyState">
+      <param name="Local" value="page_266.html">
+      <param name="Name" value="GetKeyState">
+      <param name="Local" value="page_266.html">
+      <param name="Name" value="GetKeyState">
+      <param name="Local" value="page_266.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetMACAddress  取网卡MAC">
+      <param name="Name" value="GetMACAddress">
+      <param name="Local" value="page_285.html">
+      <param name="Name" value="GetMACAddress">
+      <param name="Local" value="page_285.html">
+      <param name="Name" value="GetMACAddress">
+      <param name="Local" value="page_285.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetMaxHSV　取色最高值HSV">
+      <param name="Name" value="GetMaxHSV">
+      <param name="Local" value="page_34.html">
+      <param name="Name" value="GetMaxHSV">
+      <param name="Local" value="page_34.html">
+      <param name="Name" value="GetMaxHSV">
+      <param name="Local" value="page_34.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetModuleBaseAddrr  取模块地址">
+      <param name="Name" value="GetModuleAddr">
+      <param name="Local" value="page_138.html">
+      <param name="Name" value="GetModuleAddr">
+      <param name="Local" value="page_138.html">
+      <param name="Name" value="GetModuleAddr">
+      <param name="Local" value="page_138.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetMousePointWindow  取鼠标指向窗口">
+      <param name="Name" value="GetMouseWindow">
+      <param name="Local" value="page_100.html">
+      <param name="Name" value="GetMouseWindow">
+      <param name="Local" value="page_100.html">
+      <param name="Name" value="GetMouseWindow">
+      <param name="Local" value="page_100.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetMyPath  取自DLL路径">
+      <param name="Name" value="GetMyPath">
+      <param name="Local" value="page_291.html">
+      <param name="Name" value="GetMyPath">
+      <param name="Local" value="page_291.html">
+      <param name="Name" value="GetMyPath">
+      <param name="Local" value="page_291.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetNetIp  取公网IP">
+      <param name="Name" value="GetNetIp">
+      <param name="Local" value="page_336.html">
+      <param name="Name" value="GetNetIp">
+      <param name="Local" value="page_336.html">
+      <param name="Name" value="GetNetIp">
+      <param name="Local" value="page_336.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetNetTime  取网络北京时间">
+      <param name="Name" value="GetNetTime">
+      <param name="Local" value="page_305.html">
+      <param name="Name" value="GetNetTime">
+      <param name="Local" value="page_305.html">
+      <param name="Name" value="GetNetTime">
+      <param name="Local" value="page_305.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetOsType  取系统类型">
+      <param name="Name" value="GetOsType">
+      <param name="Local" value="page_176.html">
+      <param name="Name" value="GetOsType">
+      <param name="Local" value="page_176.html">
+      <param name="Name" value="GetOsType">
+      <param name="Local" value="page_176.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetPath　取全局路径">
+      <param name="Name" value="GetPath">
+      <param name="Local" value="page_18.html">
+      <param name="Name" value="GetPath">
+      <param name="Local" value="page_18.html">
+      <param name="Name" value="GetPath">
+      <param name="Local" value="page_18.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetPointWindow  取指定点句柄">
+      <param name="Name" value="GetPointWindow">
+      <param name="Local" value="page_99.html">
+      <param name="Name" value="GetPointWindow">
+      <param name="Local" value="page_99.html">
+      <param name="Name" value="GetPointWindow">
+      <param name="Local" value="page_99.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetProcAddress  取函数地址">
+      <param name="Name" value="GetProcAddress">
+      <param name="Local" value="page_307.html">
+      <param name="Name" value="GetProcAddress">
+      <param name="Local" value="page_307.html">
+      <param name="Name" value="GetProcAddress">
+      <param name="Local" value="page_307.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetRnd  取随机数">
+      <param name="Name" value="GetRnd">
+      <param name="Local" value="page_216.html">
+      <param name="Name" value="GetRnd">
+      <param name="Local" value="page_216.html">
+      <param name="Name" value="GetRnd">
+      <param name="Local" value="page_216.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetScreenDepth  取系统色深">
+      <param name="Name" value="GetScreenDepth">
+      <param name="Local" value="page_177.html">
+      <param name="Name" value="GetScreenDepth">
+      <param name="Local" value="page_177.html">
+      <param name="Name" value="GetScreenDepth">
+      <param name="Local" value="page_177.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetScreenHeight  取屏幕高度">
+      <param name="Name" value="GetScreenHeight">
+      <param name="Local" value="page_178.html">
+      <param name="Name" value="GetScreenHeight">
+      <param name="Local" value="page_178.html">
+      <param name="Name" value="GetScreenHeight">
+      <param name="Local" value="page_178.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetScreenWidth 取屏幕宽度">
+      <param name="Name" value="GetScreenWidth">
+      <param name="Local" value="page_179.html">
+      <param name="Name" value="GetScreenWidth">
+      <param name="Local" value="page_179.html">
+      <param name="Name" value="GetScreenWidth">
+      <param name="Local" value="page_179.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetSonWindow  取子窗口">
+      <param name="Name" value="GetSonWindow">
+      <param name="Local" value="page_228.html">
+      <param name="Name" value="GetSonWindow">
+      <param name="Local" value="page_228.html">
+      <param name="Name" value="GetSonWindow">
+      <param name="Local" value="page_228.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetUser  取自定义值">
+      <param name="Name" value="GetUser">
+      <param name="Local" value="page_270.html">
+      <param name="Name" value="GetUser">
+      <param name="Local" value="page_270.html">
+      <param name="Name" value="GetUser">
+      <param name="Local" value="page_270.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindow  取相关窗口">
+      <param name="Name" value="GetWindow">
+      <param name="Local" value="page_84.html">
+      <param name="Name" value="GetWindow">
+      <param name="Local" value="page_84.html">
+      <param name="Name" value="GetWindow">
+      <param name="Local" value="page_84.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowById  控件ID取句柄">
+      <param name="Name" value="GetDlgItem">
+      <param name="Local" value="page_83.html">
+      <param name="Name" value="GetDlgItem">
+      <param name="Local" value="page_83.html">
+      <param name="Name" value="GetDlgItem">
+      <param name="Local" value="page_83.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowClass 取窗口类名">
+      <param name="Name" value="GetWindowClass">
+      <param name="Local" value="page_115.html">
+      <param name="Name" value="GetWindowClass">
+      <param name="Local" value="page_115.html">
+      <param name="Name" value="GetWindowClass">
+      <param name="Local" value="page_115.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowFlag  取窗口标记">
+      <param name="Name" value="GetWindowFlag">
+      <param name="Local" value="page_117.html">
+      <param name="Name" value="GetWindowFlag">
+      <param name="Local" value="page_117.html">
+      <param name="Name" value="GetWindowFlag">
+      <param name="Local" value="page_117.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowProcessId   取窗口进程ID">
+      <param name="Name" value="GetWindowProcessId">
+      <param name="Local" value="page_101.html">
+      <param name="Name" value="GetWindowProcessId">
+      <param name="Local" value="page_101.html">
+      <param name="Name" value="GetWindowProcessId">
+      <param name="Local" value="page_101.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowProcessName 取窗口进程名">
+      <param name="Name" value="GetWindowProcessName">
+      <param name="Local" value="page_106.html">
+      <param name="Name" value="GetWindowProcessName">
+      <param name="Local" value="page_106.html">
+      <param name="Name" value="GetWindowProcessName">
+      <param name="Local" value="page_106.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowProcessPath  取窗口进程路径">
+      <param name="Name" value="GetWindowProcessPath">
+      <param name="Local" value="page_105.html">
+      <param name="Name" value="GetWindowProcessPath">
+      <param name="Local" value="page_105.html">
+      <param name="Name" value="GetWindowProcessPath">
+      <param name="Local" value="page_105.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowSize  取窗口尺寸">
+      <param name="Name" value="GetWindowRect">
+      <param name="Local" value="page_102.html">
+      <param name="Name" value="GetWindowRect">
+      <param name="Local" value="page_102.html">
+      <param name="Name" value="GetWindowRect">
+      <param name="Local" value="page_102.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowState  取窗口状态">
+      <param name="Name" value="GetWindowState">
+      <param name="Local" value="page_103.html">
+      <param name="Name" value="GetWindowState">
+      <param name="Local" value="page_103.html">
+      <param name="Name" value="GetWindowState">
+      <param name="Local" value="page_103.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowTitle  取窗口标题">
+      <param name="Name" value="GetWindowTitle">
+      <param name="Local" value="page_104.html">
+      <param name="Name" value="GetWindowTitle">
+      <param name="Local" value="page_104.html">
+      <param name="Name" value="GetWindowTitle">
+      <param name="Local" value="page_104.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetWindowVertex 取窗口顶点">
+      <param name="Name" value="GetWindowVertex">
+      <param name="Local" value="page_265.html">
+      <param name="Name" value="GetWindowVertex">
+      <param name="Local" value="page_265.html">
+      <param name="Name" value="GetWindowVertex">
+      <param name="Local" value="page_265.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetX　取回横坐标">
+      <param name="Name" value="GetX">
+      <param name="Local" value="page_21.html">
+      <param name="Name" value="GetX">
+      <param name="Local" value="page_21.html">
+      <param name="Name" value="GetX">
+      <param name="Local" value="page_21.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="GetY　取回纵坐标">
+      <param name="Name" value="GetY">
+      <param name="Local" value="page_22.html">
+      <param name="Name" value="GetY">
+      <param name="Local" value="page_22.html">
+      <param name="Name" value="GetY">
+      <param name="Local" value="page_22.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="idx　序号">
+      <param name="Name" value="??????idx">
+      <param name="Local" value="page_87.html">
+      <param name="Name" value="??????idx">
+      <param name="Local" value="page_87.html">
+      <param name="Name" value="??????idx">
+      <param name="Local" value="page_87.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniDeleteKey  删除配置项">
+      <param name="Name" value="IniDeleteKey">
+      <param name="Local" value="page_323.html">
+      <param name="Name" value="IniDeleteKey">
+      <param name="Local" value="page_323.html">
+      <param name="Name" value="IniDeleteKey">
+      <param name="Local" value="page_323.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniDeleteSection 删除节">
+      <param name="Name" value="IniDeleteSection">
+      <param name="Local" value="page_322.html">
+      <param name="Name" value="IniDeleteSection">
+      <param name="Local" value="page_322.html">
+      <param name="Name" value="IniDeleteSection">
+      <param name="Local" value="page_322.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniEnumKey  枚举配置项">
+      <param name="Name" value="IniEnum">
+      <param name="Local" value="page_324.html">
+      <param name="Name" value="IniEnum">
+      <param name="Local" value="page_324.html">
+      <param name="Name" value="IniEnum">
+      <param name="Local" value="page_324.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniEnumSection  枚举节名称">
+      <param name="Name" value="IniEnumSection">
+      <param name="Local" value="page_325.html">
+      <param name="Name" value="IniEnumSection">
+      <param name="Local" value="page_325.html">
+      <param name="Name" value="IniEnumSection">
+      <param name="Local" value="page_325.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniRead  读配置项">
+      <param name="Name" value="ReadIni">
+      <param name="Local" value="page_320.html">
+      <param name="Name" value="ReadIni">
+      <param name="Local" value="page_320.html">
+      <param name="Name" value="ReadIni">
+      <param name="Local" value="page_320.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IniWrite  写配置项">
+      <param name="Name" value="IniWrite">
+      <param name="Local" value="page_321.html">
+      <param name="Name" value="IniWrite">
+      <param name="Local" value="page_321.html">
+      <param name="Name" value="IniWrite">
+      <param name="Local" value="page_321.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Is64Bit  是否64位系统">
+      <param name="Name" value="Is64Bit">
+      <param name="Local" value="page_180.html">
+      <param name="Name" value="Is64Bit">
+      <param name="Local" value="page_180.html">
+      <param name="Name" value="Is64Bit">
+      <param name="Local" value="page_180.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="isBind  是否已绑定">
+      <param name="Name" value="isBind">
+      <param name="Local" value="page_365.html">
+      <param name="Name" value="isBind">
+      <param name="Local" value="page_365.html">
+      <param name="Name" value="isBind">
+      <param name="Local" value="page_365.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IsDebuging  是否被调试">
+      <param name="Name" value="IsDebuging">
+      <param name="Local" value="page_361.html">
+      <param name="Name" value="IsDebuging">
+      <param name="Local" value="page_361.html">
+      <param name="Name" value="IsDebuging">
+      <param name="Local" value="page_361.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IsDisplayDead  是否卡屏">
+      <param name="Name" value="IsDisplayDead">
+      <param name="Local" value="page_124.html">
+      <param name="Name" value="IsDisplayDead">
+      <param name="Local" value="page_124.html">
+      <param name="Name" value="IsDisplayDead">
+      <param name="Local" value="page_124.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="IsGrayScaleImage  是否灰阶图">
+      <param name="Name" value="IsGrayScaleImage">
+      <param name="Local" value="page_362.html">
+      <param name="Name" value="IsGrayScaleImage">
+      <param name="Local" value="page_362.html">
+      <param name="Name" value="IsGrayScaleImage">
+      <param name="Local" value="page_362.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="KeyDown 按住">
+      <param name="Name" value="KeyDown">
+      <param name="Local" value="page_50.html">
+      <param name="Name" value="KeyDown">
+      <param name="Local" value="page_50.html">
+      <param name="Name" value="KeyDown">
+      <param name="Local" value="page_50.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="KeyPress  按键">
+      <param name="Name" value="KeyPress">
+      <param name="Local" value="page_52.html">
+      <param name="Name" value="KeyPress">
+      <param name="Local" value="page_52.html">
+      <param name="Name" value="KeyPress">
+      <param name="Local" value="page_52.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="KeyPressEx  按组合键">
+      <param name="Name" value="KeyPressEx">
+      <param name="Local" value="page_89.html">
+      <param name="Name" value="KeyPressEx">
+      <param name="Local" value="page_89.html">
+      <param name="Name" value="KeyPressEx">
+      <param name="Local" value="page_89.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="KeyPressStr  字符输入">
+      <param name="Name" value="KeyPressStr">
+      <param name="Local" value="page_53.html">
+      <param name="Name" value="KeyPressStr">
+      <param name="Local" value="page_53.html">
+      <param name="Name" value="KeyPressStr">
+      <param name="Local" value="page_53.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="KeyUp  弹起">
+      <param name="Name" value="KeyUp">
+      <param name="Local" value="page_51.html">
+      <param name="Name" value="KeyUp">
+      <param name="Local" value="page_51.html">
+      <param name="Name" value="KeyUp">
+      <param name="Local" value="page_51.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LeftClick  左键点击">
+      <param name="Name" value="LeftClick">
+      <param name="Local" value="page_54.html">
+      <param name="Name" value="LeftClick">
+      <param name="Local" value="page_54.html">
+      <param name="Name" value="LeftClick">
+      <param name="Local" value="page_54.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LeftDoubleClick  左键双击">
+      <param name="Name" value="LeftDoubleClick">
+      <param name="Local" value="page_55.html">
+      <param name="Name" value="LeftDoubleClick">
+      <param name="Local" value="page_55.html">
+      <param name="Name" value="LeftDoubleClick">
+      <param name="Local" value="page_55.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LeftDown  左键按住">
+      <param name="Name" value="LeftDown">
+      <param name="Local" value="page_56.html">
+      <param name="Name" value="LeftDown">
+      <param name="Local" value="page_56.html">
+      <param name="Name" value="LeftDown">
+      <param name="Local" value="page_56.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LeftUp  左键弹起">
+      <param name="Name" value="LeftUp">
+      <param name="Local" value="page_57.html">
+      <param name="Name" value="LeftUp">
+      <param name="Local" value="page_57.html">
+      <param name="Name" value="LeftUp">
+      <param name="Local" value="page_57.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LockInput　锁定外部输入">
+      <param name="Name" value="LockInput">
+      <param name="Local" value="page_78.html">
+      <param name="Name" value="LockInput">
+      <param name="Local" value="page_78.html">
+      <param name="Name" value="LockInput">
+      <param name="Local" value="page_78.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LockMove  禁止移动">
+      <param name="Name" value="LockMove">
+      <param name="Local" value="page_289.html">
+      <param name="Name" value="LockMove">
+      <param name="Local" value="page_289.html">
+      <param name="Name" value="LockMove">
+      <param name="Local" value="page_289.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="LockSize  禁止改变尺寸">
+      <param name="Name" value="LockSize">
+      <param name="Local" value="page_290.html">
+      <param name="Name" value="LockSize">
+      <param name="Local" value="page_290.html">
+      <param name="Name" value="LockSize">
+      <param name="Local" value="page_290.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MatchPicName  枚举图片">
+      <param name="Name" value="MatchPicName">
+      <param name="Local" value="page_126.html">
+      <param name="Name" value="MatchPicName">
+      <param name="Local" value="page_126.html">
+      <param name="Name" value="MatchPicName">
+      <param name="Local" value="page_126.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MiddleClick  中键点击">
+      <param name="Name" value="MiddleClick">
+      <param name="Local" value="page_64.html">
+      <param name="Name" value="MiddleClick">
+      <param name="Local" value="page_64.html">
+      <param name="Name" value="MiddleClick">
+      <param name="Local" value="page_64.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MoveR  鼠标相对移动">
+      <param name="Name" value="MoveR">
+      <param name="Local" value="page_58.html">
+      <param name="Name" value="MoveR">
+      <param name="Local" value="page_58.html">
+      <param name="Name" value="MoveR">
+      <param name="Local" value="page_58.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MoveTo  鼠标移至">
+      <param name="Name" value="MoveTo">
+      <param name="Local" value="page_59.html">
+      <param name="Name" value="MoveTo">
+      <param name="Local" value="page_59.html">
+      <param name="Name" value="MoveTo">
+      <param name="Local" value="page_59.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MoveToEx  鼠标范围移动">
+      <param name="Name" value="MoveToEx">
+      <param name="Local" value="page_60.html">
+      <param name="Name" value="MoveToEx">
+      <param name="Local" value="page_60.html">
+      <param name="Name" value="MoveToEx">
+      <param name="Local" value="page_60.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="MoveWindow  移动窗口">
+      <param name="Name" value="MoveWindow">
+      <param name="Local" value="page_109.html">
+      <param name="Name" value="MoveWindow">
+      <param name="Local" value="page_109.html">
+      <param name="Name" value="MoveWindow">
+      <param name="Local" value="page_109.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objClose   关闭内核对象">
+      <param name="Name" value="objClose">
+      <param name="Local" value="page_339.html">
+      <param name="Name" value="objClose">
+      <param name="Local" value="page_339.html">
+      <param name="Name" value="objClose">
+      <param name="Local" value="page_339.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objCopy  复制内核对象">
+      <param name="Name" value="objCopy">
+      <param name="Local" value="page_343.html">
+      <param name="Name" value="objCopy">
+      <param name="Local" value="page_343.html">
+      <param name="Name" value="objCopy">
+      <param name="Local" value="page_343.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objEnum  枚举内核对象">
+      <param name="Name" value="objEnum">
+      <param name="Local" value="page_338.html">
+      <param name="Name" value="objEnum">
+      <param name="Local" value="page_338.html">
+      <param name="Name" value="objEnum">
+      <param name="Local" value="page_338.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objFind  查找内核对象">
+      <param name="Name" value="objFind">
+      <param name="Local" value="page_342.html">
+      <param name="Name" value="objFind">
+      <param name="Local" value="page_342.html">
+      <param name="Name" value="objFind">
+      <param name="Local" value="page_342.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objGetNmae 取内核对象名">
+      <param name="Name" value="objGetNmae">
+      <param name="Local" value="page_340.html">
+      <param name="Name" value="objGetNmae">
+      <param name="Local" value="page_340.html">
+      <param name="Name" value="objGetNmae">
+      <param name="Local" value="page_340.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="objGetType  取内核对象类型名">
+      <param name="Name" value="objGetType">
+      <param name="Local" value="page_341.html">
+      <param name="Name" value="objGetType">
+      <param name="Local" value="page_341.html">
+      <param name="Name" value="objGetType">
+      <param name="Local" value="page_341.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="Ocr　识字">
+      <param name="Name" value="Ocr">
+      <param name="Local" value="page_40.html">
+      <param name="Name" value="Ocr">
+      <param name="Local" value="page_40.html">
+      <param name="Name" value="Ocr">
+      <param name="Local" value="page_40.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="OpenSynscreenshot 同步截图开关">
+      <param name="Name" value="OpenSynOpnegl">
+      <param name="Local" value="page_304.html">
+      <param name="Name" value="OpenSynOpnegl">
+      <param name="Local" value="page_304.html">
+      <param name="Name" value="OpenSynOpnegl">
+      <param name="Local" value="page_304.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="OpenViolentRedraw  开启暴力刷新">
+      <param name="Name" value="OpenViolentRedraw">
+      <param name="Local" value="page_316.html">
+      <param name="Name" value="OpenViolentRedraw">
+      <param name="Local" value="page_316.html">
+      <param name="Name" value="OpenViolentRedraw">
+      <param name="Local" value="page_316.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="PtAnAttach  防被调试器附加">
+      <param name="Name" value="PtAnAttach ??????????????">
+      <param name="Local" value="page_275.html">
+      <param name="Name" value="PtAnAttach ??????????????">
+      <param name="Local" value="page_275.html">
+      <param name="Name" value="PtAnAttach ??????????????">
+      <param name="Local" value="page_275.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="PtAnBreak   防调试器下断">
+      <param name="Name" value="PtAnBreak">
+      <param name="Local" value="page_276.html">
+      <param name="Name" value="PtAnBreak">
+      <param name="Local" value="page_276.html">
+      <param name="Name" value="PtAnBreak">
+      <param name="Local" value="page_276.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="PtAnDebug  防进程被调试">
+      <param name="Name" value="PtAnDebug">
+      <param name="Local" value="page_274.html">
+      <param name="Name" value="PtAnDebug">
+      <param name="Local" value="page_274.html">
+      <param name="Name" value="PtAnDebug">
+      <param name="Local" value="page_274.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="PtAnDebuggerRun  禁止调试器打开">
+      <param name="Name" value="PtAnDebuggerRun">
+      <param name="Local" value="page_277.html">
+      <param name="Name" value="PtAnDebuggerRun">
+      <param name="Local" value="page_277.html">
+      <param name="Name" value="PtAnDebuggerRun">
+      <param name="Local" value="page_277.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="QueryVirtualMemoryEx  取内存属性">
+      <param name="Name" value="QueryVirtualMemory">
+      <param name="Local" value="page_153.html">
+      <param name="Name" value="QueryVirtualMemory">
+      <param name="Local" value="page_153.html">
+      <param name="Name" value="QueryVirtualMemory">
+      <param name="Local" value="page_153.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="QueryVirtualMemorySize  取内存尺寸">
+      <param name="Name" value="QueryVirtualMemorySiz">
+      <param name="Local" value="page_311.html">
+      <param name="Name" value="QueryVirtualMemorySiz">
+      <param name="Local" value="page_311.html">
+      <param name="Name" value="QueryVirtualMemorySiz">
+      <param name="Local" value="page_311.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadByte  读字节">
+      <param name="Name" value="ReadByte">
+      <param name="Local" value="page_147.html">
+      <param name="Name" value="ReadByte">
+      <param name="Local" value="page_147.html">
+      <param name="Name" value="ReadByte">
+      <param name="Local" value="page_147.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadData  读数据">
+      <param name="Name" value="ReadData">
+      <param name="Local" value="page_214.html">
+      <param name="Name" value="ReadData">
+      <param name="Local" value="page_214.html">
+      <param name="Name" value="ReadData">
+      <param name="Local" value="page_214.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadDataEx  读数据2">
+      <param name="Name" value="ReadDataEx">
+      <param name="Local" value="page_215.html">
+      <param name="Name" value="ReadDataEx">
+      <param name="Local" value="page_215.html">
+      <param name="Name" value="ReadDataEx">
+      <param name="Local" value="page_215.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadInt  读整数">
+      <param name="Name" value="ReadInt">
+      <param name="Local" value="page_139.html">
+      <param name="Name" value="ReadInt">
+      <param name="Local" value="page_139.html">
+      <param name="Name" value="ReadInt">
+      <param name="Local" value="page_139.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadIntEx  读整数2">
+      <param name="Name" value="ReadIntEx">
+      <param name="Local" value="page_140.html">
+      <param name="Name" value="ReadIntEx">
+      <param name="Local" value="page_140.html">
+      <param name="Name" value="ReadIntEx">
+      <param name="Local" value="page_140.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadShort  读短整数">
+      <param name="Name" value="ReadShort">
+      <param name="Local" value="page_143.html">
+      <param name="Name" value="ReadShort">
+      <param name="Local" value="page_143.html">
+      <param name="Name" value="ReadShort">
+      <param name="Local" value="page_143.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadShortEx  读短整数2">
+      <param name="Name" value="ReadShortEx ????????2">
+      <param name="Local" value="page_144.html">
+      <param name="Name" value="ReadShortEx ????????2">
+      <param name="Local" value="page_144.html">
+      <param name="Name" value="ReadShortEx ????????2">
+      <param name="Local" value="page_144.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadString  读文本">
+      <param name="Name" value="ReadString">
+      <param name="Local" value="page_145.html">
+      <param name="Name" value="ReadString">
+      <param name="Local" value="page_145.html">
+      <param name="Name" value="ReadString">
+      <param name="Local" value="page_145.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadStringEx  读文本2">
+      <param name="Name" value="ReadStringEx">
+      <param name="Local" value="page_146.html">
+      <param name="Name" value="ReadStringEx">
+      <param name="Local" value="page_146.html">
+      <param name="Name" value="ReadStringEx">
+      <param name="Local" value="page_146.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadUniversal  读通用型">
+      <param name="Name" value="ReadFloat">
+      <param name="Local" value="page_148.html">
+      <param name="Name" value="ReadFloat">
+      <param name="Local" value="page_148.html">
+      <param name="Name" value="ReadFloat">
+      <param name="Local" value="page_148.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ReadUniversalEx  读通用型2">
+      <param name="Name" value="ReadDouble">
+      <param name="Local" value="page_149.html">
+      <param name="Name" value="ReadDouble">
+      <param name="Local" value="page_149.html">
+      <param name="Name" value="ReadDouble">
+      <param name="Local" value="page_149.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RegCom  注册COM组件">
+      <param name="Name" value="Regcom">
+      <param name="Local" value="page_45.html">
+      <param name="Name" value="Regcom">
+      <param name="Local" value="page_45.html">
+      <param name="Name" value="Regcom">
+      <param name="Local" value="page_45.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RightClick  右键点击">
+      <param name="Name" value="RightClick">
+      <param name="Local" value="page_61.html">
+      <param name="Name" value="RightClick">
+      <param name="Local" value="page_61.html">
+      <param name="Name" value="RightClick">
+      <param name="Local" value="page_61.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RightDown  右键按住">
+      <param name="Name" value="RightDown">
+      <param name="Local" value="page_62.html">
+      <param name="Name" value="RightDown">
+      <param name="Local" value="page_62.html">
+      <param name="Name" value="RightDown">
+      <param name="Local" value="page_62.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RightUp  右键弹起">
+      <param name="Name" value="RightUp">
+      <param name="Local" value="page_63.html">
+      <param name="Name" value="RightUp">
+      <param name="Local" value="page_63.html">
+      <param name="Name" value="RightUp">
+      <param name="Local" value="page_63.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RunApp  创建进程">
+      <param name="Name" value="RunApp">
+      <param name="Local" value="page_186.html">
+      <param name="Name" value="RunApp">
+      <param name="Local" value="page_186.html">
+      <param name="Name" value="RunApp">
+      <param name="Local" value="page_186.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="RunDos  执行命令行">
+      <param name="Name" value="RunDos">
+      <param name="Local" value="page_187.html">
+      <param name="Name" value="RunDos">
+      <param name="Local" value="page_187.html">
+      <param name="Name" value="RunDos">
+      <param name="Local" value="page_187.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBCreateBox  创建沙盘">
+      <param name="Name" value="SBCreateBox">
+      <param name="Local" value="page_297.html">
+      <param name="Name" value="SBCreateBox">
+      <param name="Local" value="page_297.html">
+      <param name="Name" value="SBCreateBox">
+      <param name="Local" value="page_297.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBCreateProcess  运行程序">
+      <param name="Name" value="SBCreateProcess">
+      <param name="Local" value="page_296.html">
+      <param name="Name" value="SBCreateProcess">
+      <param name="Local" value="page_296.html">
+      <param name="Name" value="SBCreateProcess">
+      <param name="Local" value="page_296.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBDeleteBox  删除沙盘">
+      <param name="Name" value="SBDeleteBox">
+      <param name="Local" value="page_298.html">
+      <param name="Name" value="SBDeleteBox">
+      <param name="Local" value="page_298.html">
+      <param name="Name" value="SBDeleteBox">
+      <param name="Local" value="page_298.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBDeleteSilent  清理缓存">
+      <param name="Name" value="SBDeleteSilent">
+      <param name="Local" value="page_301.html">
+      <param name="Name" value="SBDeleteSilent">
+      <param name="Local" value="page_301.html">
+      <param name="Name" value="SBDeleteSilent">
+      <param name="Local" value="page_301.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBEnumBox  枚举沙盘">
+      <param name="Name" value="SandBoxEnumBox">
+      <param name="Local" value="page_293.html">
+      <param name="Name" value="SandBoxEnumBox">
+      <param name="Local" value="page_293.html">
+      <param name="Name" value="SandBoxEnumBox">
+      <param name="Local" value="page_293.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBEnumEmptyBox  枚举空沙盘">
+      <param name="Name" value="SBEnumEmptyBox">
+      <param name="Local" value="page_295.html">
+      <param name="Name" value="SBEnumEmptyBox">
+      <param name="Local" value="page_295.html">
+      <param name="Name" value="SBEnumEmptyBox">
+      <param name="Local" value="page_295.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBEnumProcess  枚举进程">
+      <param name="Name" value="SBEnumProcess">
+      <param name="Local" value="page_300.html">
+      <param name="Name" value="SBEnumProcess">
+      <param name="Local" value="page_300.html">
+      <param name="Name" value="SBEnumProcess">
+      <param name="Local" value="page_300.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBFindEmptyBox  找空沙盘">
+      <param name="Name" value="SBFindEmptyBox">
+      <param name="Local" value="page_294.html">
+      <param name="Name" value="SBFindEmptyBox">
+      <param name="Local" value="page_294.html">
+      <param name="Name" value="SBFindEmptyBox">
+      <param name="Local" value="page_294.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SBStop  停止沙盘">
+      <param name="Name" value="SBStop">
+      <param name="Local" value="page_299.html">
+      <param name="Name" value="SBStop">
+      <param name="Local" value="page_299.html">
+      <param name="Name" value="SBStop">
+      <param name="Local" value="page_299.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ScreenToClient   屏幕坐标转窗口坐标">
+      <param name="Name" value="ScreenToClient">
+      <param name="Local" value="page_96.html">
+      <param name="Name" value="ScreenToClient">
+      <param name="Local" value="page_96.html">
+      <param name="Name" value="ScreenToClient">
+      <param name="Local" value="page_96.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SendString  发送文本">
+      <param name="Name" value="SendString">
+      <param name="Local" value="page_75.html">
+      <param name="Name" value="SendString">
+      <param name="Local" value="page_75.html">
+      <param name="Name" value="SendString">
+      <param name="Local" value="page_75.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetClipboard  置剪辑板文本">
+      <param name="Name" value="SetClipboard">
+      <param name="Local" value="page_183.html">
+      <param name="Name" value="SetClipboard">
+      <param name="Local" value="page_183.html">
+      <param name="Name" value="SetClipboard">
+      <param name="Local" value="page_183.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetDesktopTheme  置桌面主题">
+      <param name="Name" value="SetDesktopTheme">
+      <param name="Local" value="page_268.html">
+      <param name="Name" value="SetDesktopTheme">
+      <param name="Local" value="page_268.html">
+      <param name="Name" value="SetDesktopTheme">
+      <param name="Local" value="page_268.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetDict　置字库">
+      <param name="Name" value="SetDict">
+      <param name="Local" value="page_39.html">
+      <param name="Name" value="SetDict">
+      <param name="Local" value="page_39.html">
+      <param name="Name" value="SetDict">
+      <param name="Local" value="page_39.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetDisplayInput　置图像获取方式">
+      <param name="Name" value="SetDisplayInput">
+      <param name="Local" value="page_14.html">
+      <param name="Name" value="SetDisplayInput">
+      <param name="Local" value="page_14.html">
+      <param name="Name" value="SetDisplayInput">
+      <param name="Local" value="page_14.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetKeypadDelay  置按键间隔">
+      <param name="Name" value="SetKeypadDelay">
+      <param name="Local" value="page_67.html">
+      <param name="Name" value="SetKeypadDelay">
+      <param name="Local" value="page_67.html">
+      <param name="Name" value="SetKeypadDelay">
+      <param name="Local" value="page_67.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetMemoryProcess 置内存读写进程">
+      <param name="Name" value="SetMemoryProcess">
+      <param name="Local" value="page_136.html">
+      <param name="Name" value="SetMemoryProcess">
+      <param name="Local" value="page_136.html">
+      <param name="Name" value="SetMemoryProcess">
+      <param name="Local" value="page_136.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetMouseDelay  置鼠标点击间隔">
+      <param name="Name" value="SetMouseDelay">
+      <param name="Local" value="page_68.html">
+      <param name="Name" value="SetMouseDelay">
+      <param name="Local" value="page_68.html">
+      <param name="Name" value="SetMouseDelay">
+      <param name="Local" value="page_68.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetParent  窗口置父">
+      <param name="Name" value="SetParent">
+      <param name="Local" value="page_114.html">
+      <param name="Name" value="SetParent">
+      <param name="Local" value="page_114.html">
+      <param name="Name" value="SetParent">
+      <param name="Local" value="page_114.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetPath　置全局路径">
+      <param name="Name" value="">
+      <param name="Local" value="page_19.html">
+      <param name="Name" value="">
+      <param name="Local" value="page_19.html">
+      <param name="Name" value="">
+      <param name="Local" value="page_19.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetPicPwd  置图片密码">
+      <param name="Name" value="SetPicPwd">
+      <param name="Local" value="page_125.html">
+      <param name="Name" value="SetPicPwd">
+      <param name="Local" value="page_125.html">
+      <param name="Name" value="SetPicPwd">
+      <param name="Local" value="page_125.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetRandomDelay  置随机延时上限">
+      <param name="Name" value="SetRandomDelay">
+      <param name="Local" value="page_337.html">
+      <param name="Name" value="SetRandomDelay">
+      <param name="Local" value="page_337.html">
+      <param name="Name" value="SetRandomDelay">
+      <param name="Local" value="page_337.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetScreen  置分辨率">
+      <param name="Name" value="SetScreen">
+      <param name="Local" value="page_181.html">
+      <param name="Name" value="SetScreen">
+      <param name="Local" value="page_181.html">
+      <param name="Name" value="SetScreen">
+      <param name="Local" value="page_181.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetShowErrorMsg　错误开关">
+      <param name="Name" value="SetShowErrorMsg">
+      <param name="Local" value="page_88.html">
+      <param name="Name" value="SetShowErrorMsg">
+      <param name="Local" value="page_88.html">
+      <param name="Name" value="SetShowErrorMsg">
+      <param name="Local" value="page_88.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetSimMode  置前台模拟模式">
+      <param name="Name" value="SetSimMode">
+      <param name="Local" value="page_309.html">
+      <param name="Name" value="SetSimMode">
+      <param name="Local" value="page_309.html">
+      <param name="Name" value="SetSimMode">
+      <param name="Local" value="page_309.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetUAC  置UAC">
+      <param name="Name" value="SetUAC">
+      <param name="Local" value="page_182.html">
+      <param name="Name" value="SetUAC">
+      <param name="Local" value="page_182.html">
+      <param name="Name" value="SetUAC">
+      <param name="Local" value="page_182.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetUser  置自定义值">
+      <param name="Name" value="SetUser">
+      <param name="Local" value="page_269.html">
+      <param name="Name" value="SetUser">
+      <param name="Local" value="page_269.html">
+      <param name="Name" value="SetUser">
+      <param name="Local" value="page_269.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetUserTimeLimit  设置程序到期时间">
+      <param name="Name" value="SetUserTimeLimit">
+      <param name="Local" value="page_360.html">
+      <param name="Name" value="SetUserTimeLimit">
+      <param name="Local" value="page_360.html">
+      <param name="Name" value="SetUserTimeLimit">
+      <param name="Local" value="page_360.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowBorder  置窗口边框属性">
+      <param name="Name" value="SetWindowBorder">
+      <param name="Local" value="page_113.html">
+      <param name="Name" value="SetWindowBorder">
+      <param name="Local" value="page_113.html">
+      <param name="Name" value="SetWindowBorder">
+      <param name="Local" value="page_113.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowFlag  窗口置标记">
+      <param name="Name" value="SetWindowFlag">
+      <param name="Local" value="page_116.html">
+      <param name="Name" value="SetWindowFlag">
+      <param name="Local" value="page_116.html">
+      <param name="Name" value="SetWindowFlag">
+      <param name="Local" value="page_116.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowSize  置窗口宽高">
+      <param name="Name" value="SetWindowSize">
+      <param name="Local" value="page_110.html">
+      <param name="Name" value="SetWindowSize">
+      <param name="Local" value="page_110.html">
+      <param name="Name" value="SetWindowSize">
+      <param name="Local" value="page_110.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowState  置窗口状态">
+      <param name="Name" value="SetWindowState">
+      <param name="Local" value="page_111.html">
+      <param name="Name" value="SetWindowState">
+      <param name="Local" value="page_111.html">
+      <param name="Name" value="SetWindowState">
+      <param name="Local" value="page_111.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowText  置窗口标题">
+      <param name="Name" value="SetWindowText">
+      <param name="Local" value="page_107.html">
+      <param name="Name" value="SetWindowText">
+      <param name="Local" value="page_107.html">
+      <param name="Name" value="SetWindowText">
+      <param name="Local" value="page_107.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SetWindowTransparent  置窗口透明度">
+      <param name="Name" value="SetWindowTransparent">
+      <param name="Local" value="page_112.html">
+      <param name="Name" value="SetWindowTransparent">
+      <param name="Local" value="page_112.html">
+      <param name="Name" value="SetWindowTransparent">
+      <param name="Local" value="page_112.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SortPosDistance  距离排序">
+      <param name="Name" value="SortPosDistance">
+      <param name="Local" value="page_208.html">
+      <param name="Name" value="SortPosDistance">
+      <param name="Local" value="page_208.html">
+      <param name="Name" value="SortPosDistance">
+      <param name="Local" value="page_208.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="SwitchBindWindow　切换绑定窗口">
+      <param name="Name" value="SwitchBindWindow">
+      <param name="Local" value="page_70.html">
+      <param name="Name" value="SwitchBindWindow">
+      <param name="Local" value="page_70.html">
+      <param name="Name" value="SwitchBindWindow">
+      <param name="Local" value="page_70.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ToAddr  地址转换">
+      <param name="Name" value="ToAddr">
+      <param name="Local" value="page_137.html">
+      <param name="Name" value="ToAddr">
+      <param name="Local" value="page_137.html">
+      <param name="Name" value="ToAddr">
+      <param name="Local" value="page_137.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="UnBindWindow　解绑">
+      <param name="Name" value="UnBindWindow">
+      <param name="Local" value="page_11.html">
+      <param name="Name" value="UnBindWindow">
+      <param name="Local" value="page_11.html">
+      <param name="Name" value="UnBindWindow">
+      <param name="Local" value="page_11.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="UnRegCom 卸载COM组件">
+      <param name="Name" value="UnRegCom">
+      <param name="Local" value="page_46.html">
+      <param name="Name" value="UnRegCom">
+      <param name="Local" value="page_46.html">
+      <param name="Name" value="UnRegCom">
+      <param name="Local" value="page_46.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="UseDict　切换字库">
+      <param name="Name" value="UseDict">
+      <param name="Local" value="page_41.html">
+      <param name="Name" value="UseDict">
+      <param name="Local" value="page_41.html">
+      <param name="Name" value="UseDict">
+      <param name="Local" value="page_41.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="ver　版本号">
+      <param name="Name" value="ver">
+      <param name="Local" value="page_17.html">
+      <param name="Name" value="ver">
+      <param name="Local" value="page_17.html">
+      <param name="Name" value="ver">
+      <param name="Local" value="page_17.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="VirtualAllocEx 申请内存">
+      <param name="Name" value="VirtualAllocEx">
+      <param name="Local" value="page_150.html">
+      <param name="Name" value="VirtualAllocEx">
+      <param name="Local" value="page_150.html">
+      <param name="Name" value="VirtualAllocEx">
+      <param name="Local" value="page_150.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="VirtualFreeEx  释放内存">
+      <param name="Name" value="VirtualFreeEx">
+      <param name="Local" value="page_151.html">
+      <param name="Name" value="VirtualFreeEx">
+      <param name="Local" value="page_151.html">
+      <param name="Name" value="VirtualFreeEx">
+      <param name="Local" value="page_151.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="VirtualProtectEx  置内存属性">
+      <param name="Name" value="VirtualProtectEx">
+      <param name="Local" value="page_152.html">
+      <param name="Name" value="VirtualProtectEx">
+      <param name="Local" value="page_152.html">
+      <param name="Name" value="VirtualProtectEx">
+      <param name="Local" value="page_152.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WaitKey  等待按键">
+      <param name="Name" value="WaitKey">
+      <param name="Local" value="page_267.html">
+      <param name="Name" value="WaitKey">
+      <param name="Local" value="page_267.html">
+      <param name="Name" value="WaitKey">
+      <param name="Local" value="page_267.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WheelDown  滚轮下滚">
+      <param name="Name" value="WheelDown">
+      <param name="Local" value="page_65.html">
+      <param name="Name" value="WheelDown">
+      <param name="Local" value="page_65.html">
+      <param name="Name" value="WheelDown">
+      <param name="Local" value="page_65.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WheelUp  滚轮上滚">
+      <param name="Name" value="WheelUp">
+      <param name="Local" value="page_66.html">
+      <param name="Name" value="WheelUp">
+      <param name="Local" value="page_66.html">
+      <param name="Name" value="WheelUp">
+      <param name="Local" value="page_66.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteByte  写字节">
+      <param name="Name" value="WriteByte">
+      <param name="Local" value="page_158.html">
+      <param name="Name" value="WriteByte">
+      <param name="Local" value="page_158.html">
+      <param name="Name" value="WriteByte">
+      <param name="Local" value="page_158.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteData  写数据">
+      <param name="Name" value="WriteData">
+      <param name="Local" value="page_154.html">
+      <param name="Name" value="WriteData">
+      <param name="Local" value="page_154.html">
+      <param name="Name" value="WriteData">
+      <param name="Local" value="page_154.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteDouble 写双精度小数">
+      <param name="Name" value="WriteDouble">
+      <param name="Local" value="page_160.html">
+      <param name="Name" value="WriteDouble">
+      <param name="Local" value="page_160.html">
+      <param name="Name" value="WriteDouble">
+      <param name="Local" value="page_160.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteFloat 写小数">
+      <param name="Name" value="WriteFloat">
+      <param name="Local" value="page_159.html">
+      <param name="Name" value="WriteFloat">
+      <param name="Local" value="page_159.html">
+      <param name="Name" value="WriteFloat">
+      <param name="Local" value="page_159.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteInt 写整数">
+      <param name="Name" value="WriteInt">
+      <param name="Local" value="page_155.html">
+      <param name="Name" value="WriteInt">
+      <param name="Local" value="page_155.html">
+      <param name="Name" value="WriteInt">
+      <param name="Local" value="page_155.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteShort  写短整数">
+      <param name="Name" value="WriteShort">
+      <param name="Local" value="page_157.html">
+      <param name="Name" value="WriteShort">
+      <param name="Local" value="page_157.html">
+      <param name="Name" value="WriteShort">
+      <param name="Local" value="page_157.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteString  写文本">
+      <param name="Name" value="WriteString">
+      <param name="Local" value="page_308.html">
+      <param name="Name" value="WriteString">
+      <param name="Local" value="page_308.html">
+      <param name="Name" value="WriteString">
+      <param name="Local" value="page_308.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteUniversal  写通用型">
+      <param name="Name" value="WriteLong">
+      <param name="Local" value="page_156.html">
+      <param name="Name" value="WriteLong">
+      <param name="Local" value="page_156.html">
+      <param name="Name" value="WriteLong">
+      <param name="Local" value="page_156.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="WriteUniversalEx  写通用型2">
+      <param name="Name" value="WriteUniversalEx">
+      <param name="Local" value="page_313.html">
+      <param name="Name" value="WriteUniversalEx">
+      <param name="Local" value="page_313.html">
+      <param name="Name" value="WriteUniversalEx">
+      <param name="Local" value="page_313.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="x　横向坐标">
+      <param name="Name" value="??????????x">
+      <param name="Local" value="page_85.html">
+      <param name="Name" value="??????????x">
+      <param name="Local" value="page_85.html">
+      <param name="Name" value="??????????x">
+      <param name="Local" value="page_85.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="y　纵向坐标">
+      <param name="Name" value="??????????y">
+      <param name="Local" value="page_86.html">
+      <param name="Name" value="??????????y">
+      <param name="Local" value="page_86.html">
+      <param name="Name" value="??????????y">
+      <param name="Local" value="page_86.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="一个标准的按键精灵注册插件和绑定窗口的例子">
+      <param name="Name" value="??????????????????????????????????">
+      <param name="Local" value="page_8.html">
+      <param name="Name" value="??????????????????????????????????">
+      <param name="Local" value="page_8.html">
+      <param name="Name" value="??????????????????????????????????">
+      <param name="Local" value="page_8.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="为什么OPENGL截图会是黑的">
+      <param name="Name" value="??????OPENGL??????????">
+      <param name="Local" value="page_272.html">
+      <param name="Name" value="??????OPENGL??????????">
+      <param name="Local" value="page_272.html">
+      <param name="Name" value="??????OPENGL??????????">
+      <param name="Local" value="page_272.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="保护盾">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_273.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_273.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_273.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="修改记录">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_134.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_134.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_134.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="关于最小化截图">
+      <param name="Name" value="??????????????">
+      <param name="Local" value="page_213.html">
+      <param name="Name" value="??????????????">
+      <param name="Local" value="page_213.html">
+      <param name="Name" value="??????????????">
+      <param name="Local" value="page_213.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="内存读写">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_135.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_135.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_135.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="后台设置">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_6.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_6.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_6.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="哪些命令会修改目标进程中的内存数据">
+      <param name="Name" value="????????????????????????????">
+      <param name="Local" value="page_271.html">
+      <param name="Name" value="????????????????????????????">
+      <param name="Local" value="page_271.html">
+      <param name="Name" value="????????????????????????????">
+      <param name="Local" value="page_271.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="图色">
+      <param name="Name" value="????">
+      <param name="Local" value="page_20.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_20.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_20.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="基本">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_7.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_7.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_7.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="如何配置沙盘才可以后台绑定">
+      <param name="Name" value="??????????????????????????">
+      <param name="Local" value="page_278.html">
+      <param name="Name" value="??????????????????????????">
+      <param name="Local" value="page_278.html">
+      <param name="Name" value="??????????????????????????">
+      <param name="Local" value="page_278.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="工具条">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_217.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_217.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_217.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="常见问题">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_5.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_5.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_5.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="扩展插件(按键专用)">
+      <param name="Name" value="????????????????">
+      <param name="Local" value="page_44.html">
+      <param name="Name" value="????????????????">
+      <param name="Local" value="page_44.html">
+      <param name="Name" value="????????????????">
+      <param name="Local" value="page_44.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="文件">
+      <param name="Name" value="????">
+      <param name="Local" value="page_319.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_319.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_319.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="文字识别">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_38.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_38.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_38.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="文本输入">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_73.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_73.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_73.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="杂项">
+      <param name="Name" value="????">
+      <param name="Local" value="page_287.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_287.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_287.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="汇编">
+      <param name="Name" value="????">
+      <param name="Local" value="page_162.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_162.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_162.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="沙盘操作">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_292.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_292.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_292.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="窗口操作">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_80.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_80.html">
+      <param name="Name" value="????????">
+      <param name="Local" value="page_80.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="算法">
+      <param name="Name" value="????">
+      <param name="Local" value="page_206.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_206.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_206.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="系统">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_168.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_168.html">
+      <param name="Name" value="??????">
+      <param name="Local" value="page_168.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="网络">
+      <param name="Name" value="????">
+      <param name="Local" value="page_328.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_328.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_328.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="键盘鼠标">
+      <param name="Name" value="????">
+      <param name="Local" value="page_49.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_49.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_49.html">
+      </OBJECT></LI>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Keyword" value="首页">
+      <param name="Name" value="????">
+      <param name="Local" value="page_367.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_367.html">
+      <param name="Name" value="????">
+      <param name="Local" value="page_367.html">
+      </OBJECT></LI>
+</UL></BODY></HTML>

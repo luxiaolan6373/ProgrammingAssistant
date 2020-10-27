@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>EnableRealMouse</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>EnableRealMouse</H1></DIV></DIV>
+<DIV id=nstext><BR><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">鼠标动作模拟真实操作<SPAN 
+lang=EN-US>,</SPAN>带移动轨迹<SPAN lang=EN-US>,</SPAN>以及点击延时随机<SPAN lang=EN-US>. 
+<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN 
+class=GramE>int</SPAN>&nbsp;<SPAN class=SpellE>EnableRealMouse</SPAN>(<SPAN 
+class=SpellE>enable,mousedelay,mousestep</SPAN>)<o:p></o:p></SPAN></P>
+<P style="MARGIN-BOTTOM: 13.5pt"><SPAN class=style11><STRONG><FONT 
+color=#0000ff><SPAN style="FONT-SIZE: 13.5pt">参数定义<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></SPAN></P>
+<P style="MARGIN-BOTTOM: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>enable </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: 0 </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">关闭模拟<SPAN lang=EN-US><BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>1 </SPAN>开启模拟</SPAN></P>
+<P style="MARGIN-BOTTOM: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>m<SPAN class=SpellE>ousedelay</SPAN> </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN lang=EN-US>: 
+</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt">单位是毫秒<SPAN lang=EN-US>. 
+</SPAN>表示在模拟鼠标移动轨迹时<SPAN lang=EN-US>,</SPAN>每移动一次的时间间隔<SPAN 
+lang=EN-US>.</SPAN>这个值越大<SPAN lang=EN-US>,</SPAN>鼠标移动越慢<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="MARGIN-BOTTOM: 13.5pt"><SPAN class=SpellE><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>Mousestep</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US> </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN lang=EN-US>: 
+</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt">表示在模拟鼠标移动轨迹时<SPAN 
+lang=EN-US>,</SPAN>每移动一次的距离<SPAN lang=EN-US>. </SPAN>这个值越大，鼠标移动<SPAN 
+class=GramE>越快速</SPAN><SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>0: 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN lang=EN-US><BR>1: </SPAN>成功<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR><SPAN 
+class=SpellE>lw.EnableRealMouse</SPAN> 1<SPAN 
+class=GramE>,20,30</SPAN><o:p></o:p></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注<SPAN lang=EN-US>: 
+</SPAN>此接口同样对<SPAN class=SpellE><SPAN lang=EN-US>LeftClick</SPAN></SPAN><SPAN 
+lang=EN-US> <SPAN class=SpellE>RightClick</SPAN> <SPAN 
+class=SpellE>MiddleClick</SPAN> <SPAN 
+class=SpellE>LeftDoubleClick</SPAN></SPAN>起作用。具体表现是鼠标按下和弹起的间隔会在<SPAN 
+lang=EN-US><BR></SPAN>当前设定延时的基础上<SPAN lang=EN-US>,</SPAN>上下随机浮动<SPAN 
+lang=EN-US>50%. </SPAN>假如设定的鼠标延时是<SPAN lang=EN-US>100,</SPAN>那么这个延时可能就是<SPAN 
+lang=EN-US>50-150</SPAN>之间的一个值<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">设定延时的函数是<SPAN lang=EN-US> 
+<SPAN class=SpellE>SetMouseDelay</SPAN><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p>&nbsp;</o:p></SPAN></P><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p>
+<P><FONT color=#ff0000>注意,在没有调用&nbsp; binwindow 
+绑定窗口之前,所有的键盘鼠标命令都无效!!!</FONT></P></o:p></SPAN>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

@@ -1,0 +1,500 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="一个标准的插件注册和绑定的例子.files/filelist.xml">
+<title>无标题文档</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="chmetcnv"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>User</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Revision>393</o:Revision>
+  <o:TotalTime>171</o:TotalTime>
+  <o:Created>2010-05-26T09:40:00Z</o:Created>
+  <o:LastSaved>2020-07-27T10:22:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>413</o:Words>
+  <o:Characters>2355</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>19</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2763</o:CharactersWithSpaces>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:13.5pt'>这里只以按键<span
+lang=EN-US>8</span>作为例子<span lang=EN-US>,</span>其它语言都类似。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'>// </span><span
+style='mso-bidi-font-size:13.5pt'>首先</span><span style='font-size:13.5pt'>打包<span
+lang=EN-US>dm.dll</span>和<span lang=EN-US>RegDll.dll</span>到附件<span lang=EN-US>,</span>当然如果你还有其它资源<span
+lang=EN-US>(</span>字库，图片等<span lang=EN-US>)</span>也可以一并打包</span><span
+lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'>// </span><span
+style='mso-bidi-font-size:13.5pt'>这个<span lang=EN-US>need_ver</span>作为本脚本需要使用的插件版本<span
+lang=EN-US>. </span>如果要换插件时，记得更改这个值<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'>need_ver
+= &quot;7.2031&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'>// </span><span
+style='mso-bidi-font-size:13.5pt'>插件需要用到<span lang=EN-US>atl</span>系统库<span
+lang=EN-US>,</span>有些<span lang=EN-US>XP</span>精简系统会把<span lang=EN-US>atl.dll</span>精简掉<span
+lang=EN-US>. </span>为了防止注册失败，这里手动注册一下<span lang=EN-US>atl.<span class=GramE>dll</span><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:13.5pt'>set</span></span><span
+lang=EN-US style='font-size:13.5pt'> ws=createobject(&quot;Wscript.Shell&quot;)<br>
+ws.run &quot;regsvr32 atl.dll /s&quot;<br>
+set ws=nothing</span><span lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt;
+color:#FF6600'>// </span><span style='mso-bidi-font-size:13.5pt;color:#FF6600'>释放附件<span
+lang=EN-US>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:13.5pt'>// </span><span
+style='mso-bidi-font-size:13.5pt'>这里选择<span lang=EN-US>c</span>盘的<span
+lang=EN-US>test&shy;_game</span>作为插件的基本目录 也就是<span lang=EN-US>SetPath</span>对应的目录。所以所有资源都释放在此目录<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>PutAttachment
+&quot;c:\test_game&quot;,&quot;*.*&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>这里要用到<span lang=EN-US>RegDll</span>来注册插件，所以必须释放到<span
+lang=EN-US>Plugin. </span>但是切记不能把<span lang=EN-US>dm.dll</span>释放到<span
+lang=EN-US>Plugin.</span>那会导致插件失效<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>PutAttachment
+&quot;.\Plugin<span class=GramE>&quot; ,</span>&quot;RegDll.dll&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt;color:#FF6600'>// </span><span
+style='font-size:13.5pt;color:#FF6600'>插件注册开始<span lang=EN-US>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>下面开始注册插件<span lang=EN-US>,</span>先尝试用<span lang=EN-US>RegDll</span>来注册<span
+lang=EN-US>.</span>这里必须使用绝对路径。以免有别人把<span lang=EN-US>dm.dll</span>释放在系统目录<span
+lang=EN-US>.</span>造成版本错误<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>Call <span
+class=GramE>Plugin.RegDll.Reg(</span>&quot;c:\test_game\dm.dll&quot;) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>这里判断是否注册成功<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:13.5pt'>set</span></span><span
+lang=EN-US style='font-size:13.5pt'> dm = createobject(&quot;dm.dmsoft&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:13.5pt'>ver</span></span><span
+lang=EN-US style='font-size:13.5pt'> = dm.Ver()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:13.5pt'>if</span></span><span
+lang=EN-US style='font-size:13.5pt'> ver &lt;&gt; need_ver then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'> </span>// </span><span
+style='font-size:13.5pt'>先释放先前创建的<span lang=EN-US>dm<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'> </span><span
+class=GramE>set</span> dm = nothing<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>// </span><span style='font-size:
+13.5pt'>再尝试用<span lang=EN-US>regsvr32 </span>来注册<span lang=EN-US>. </span>这里必须使用绝对路径。以免有别人把<span
+lang=EN-US>dm.dll</span>释放在系统目录<span lang=EN-US>.</span>造成版本错误<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt'><span class=GramE><span
+lang=EN-US style='font-size:13.5pt'>set</span></span><span lang=EN-US
+style='font-size:13.5pt'> ws=createobject(&quot;Wscript.Shell&quot;)<br>
+ws.run &quot;regsvr<st1:chmetcnv UnitName="C" SourceValue="32" HasSpace="True"
+Negative="False" NumberType="1" TCSC="0" w:st="on">32 c</st1:chmetcnv>:\test_game\dm.dll
+/s&quot;<br>
+set ws=nothing<br>
+Delay 1500<span style='mso-tab-count:1'>&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
+style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
+style='font-size:13.5pt'>// </span><span style='font-size:13.5pt'>再判断插件是否注册成功<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd'><span
+lang=EN-US style='font-size:13.5pt'>set dm =
+createobject(&quot;dm.dmsoft&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:13.5pt;mso-char-indent-count:1.0'><span
+lang=EN-US style='font-size:13.5pt'>ver = dm.Ver()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd'><span
+lang=EN-US style='font-size:13.5pt'>if ver &lt;&gt; need_ver then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd;
+text-indent:27.0pt'><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>这时，已经确认插件注册失败了。 弹出一些调试信息，以供分析<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd;
+text-indent:27.0pt'><span lang=EN-US style='font-size:13.5pt'>messagebox &quot;</span><span
+style='font-size:13.5pt'>插件版本错误<span lang=EN-US>,</span>当前使用的版本是<span
+lang=EN-US>:&quot;&amp;ver&amp;&quot;,</span>插件所在目录是<span lang=EN-US>:&quot;&amp;dm.GetBasePath()<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd;
+text-indent:27.0pt'><span lang=EN-US style='font-size:13.5pt'>messagebox &quot;</span><span
+style='font-size:13.5pt'>请关闭程序<span lang=EN-US>,</span>重新打开本程序再尝试<span
+lang=EN-US>&quot;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:12.0pt;mso-para-margin-left:1.0gd'><span
+lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>endscript<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp; </span>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt;color:#FF6600'>// </span><span
+style='font-size:13.5pt;color:#FF6600'>插件注册结束<span lang=EN-US>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt;color:#FF6600'>// </span><span
+style='font-size:13.5pt;color:#FF6600'>收费注册开始<span lang=EN-US>,</span>简单游作者也必须要加这一段<span
+lang=EN-US>. </span>不会重复扣费<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// ok,</span><span
+style='font-size:13.5pt'>这里已经确认插件注册成功，并且创建了对象<span lang=EN-US>,</span>下面开始注册收费服务<span
+lang=EN-US>.<br>
+// </span>当然这里也可以使用高级的<span lang=EN-US>RegEx</span>函数<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>dm_ret =
+dm.Reg(&quot;abcdefg&quot;,&quot;0001&quot;) // abcdefg</span><span
+style='font-size:13.5pt'>是您的注册码<span lang=EN-US>. </span>在大漠插件网站后台可以直接获取<span
+lang=EN-US>.<span style='color:fuchsia'><o:p></o:p></span></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>if dm_ret &lt;&gt;
+1 then<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>messagebox &quot;</span><span
+style='font-size:13.5pt'>注册失败<span lang=EN-US>,</span>返回值是<span lang=EN-US>:&quot;&amp;dm_ret<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>endscript<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt;color:#FF6600'>// </span><span
+style='font-size:13.5pt;color:#FF6600'>收费注册结束<span lang=EN-US>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>//</span><span
+style='font-size:13.5pt'>这里设置插件基本目录<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>dm.SetPath
+&quot;c:\test_game&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>获取句柄<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>hwnd =
+dm.GetMousePointWindow()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>绑定<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>dm_ret =
+dm.BindWindow(hwnd,&quot;dx&quot;,&quot;dx&quot;,&quot;dx&quot;,0)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>检测绑定返回值<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>if dm_ret = 0 then<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>last_error = dm.GetLastError()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:20.25pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:13.5pt'>// </span><span style='font-size:13.5pt'>如果是<span
+lang=EN-US>WIN7 WIN8 VISTA WIN2008</span>系统<span lang=EN-US>,</span>检测当前系统是否有开启<span
+lang=EN-US>UAC<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>if dm.GetOsType() = 3 or
+dm.GetOsType() = 4 or dm.GetOsType() = 5 then<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:20.25pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>// </span><span style='font-size:13.5pt'>有开启<span
+lang=EN-US>UAC</span>的话，尝试关闭<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'>if dm.CheckUAC() = 1 then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp; </span>if
+dm.SetUAC(0) = 1 then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp; </span>// </span><span style='font-size:13.5pt'>关闭<span
+lang=EN-US>UAC</span>之后，必须重启系统才可以生效<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>messagebox &quot;</span><span style='font-size:13.5pt'>已经关闭系统<span
+lang=EN-US>UAC</span>设置，必须重启系统才可以生效。点击确定重启系统<span lang=EN-US>&quot;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>dm.ExitOs 2<br>
+<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Delay 2000<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>endscript<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:47.8pt;mso-char-indent-count:3.54'><span
+lang=EN-US style='font-size:13.5pt'>end if<br>
+<span style='mso-tab-count:1'>&nbsp;&nbsp; </span>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>// </span><span style='font-size:
+13.5pt'>具体错误码的含义，可以参考函数<span lang=EN-US>GetLastError</span>的说明<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>messagebox &quot;</span><span
+style='font-size:13.5pt'>绑定失败，错误码是<span lang=EN-US>:&quot;&amp;last_error<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>messagebox &quot;</span>如果确定关闭了<span
+lang=EN-US>UAC,</span>很可能是系统的防火墙拦截插件，请暂时关闭<span lang=EN-US>360</span>等安全防火墙再尝试<span
+lang=EN-US>&quot;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>endscript<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>end if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>下面就是脚本部分了 省略<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>下面这是脚本结束时执行的部分<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>Sub OnScriptExit()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>dm.UnBindWindow<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>set dm = nothing<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>End Sub<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>线程结束时调用<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>Sub OnThreadExit()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span>dm.UnBindWindow<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>set dm = nothing<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>End Sub<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>// </span><span
+style='font-size:13.5pt'>结束<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin-left:13.55pt;mso-para-margin-left:1.13gd'><span
+style='font-size:22.0pt;color:fuchsia'>另外特别要注意，不要把<span lang=EN-US>dm.dll</span>释放到<span
+lang=EN-US>Plugin</span>目录，那样会导致插件在<span lang=EN-US><br>
+</span>更新版本时出现注册失败的情况。特别是在简单游平台<span lang=EN-US>.</span>建议释放到<span lang=EN-US>C</span>盘的<span
+lang=EN-US><br>
+</span>某个目录比如<span lang=EN-US>Test</span>目录等<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt;color:fuchsia'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>另外<span lang=EN-US>,</span>别的高级语言如何调用<span
+lang=EN-US>dm.dll,</span>请百度<span lang=EN-US>XXXX</span>语言如何调用<span lang=EN-US>Active
+X </span>对象<span lang=EN-US>. <o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>目前经过测试的语言可以正常调用的有<span lang=EN-US>vc6
+vb6 delphi </span>易<span lang=EN-US>,</span>别的语言想必也不会有问题<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt;color:red'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>从<span lang=EN-US>2.1118B</span>版本之后，大漠插件将禁止释放到<span
+lang=EN-US>Plugin</span>目录，以避免一系列升级产生的<span lang=EN-US>BUG</span>！<span
+lang=EN-US><br>
+</span>同时，也禁止用<span lang=EN-US>Plugin</span>方式来调用插件，那个方式也是非常不安全的<span
+lang=EN-US>.<br>
+</span>请大家严格按照<span lang=EN-US>vbs</span>的语法来使用插件<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt;color:red'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>如果是多线程使用大漠插件，必须每个线程都要创建一个<span
+lang=EN-US>dm</span>对象<span lang=EN-US>.</span>每个对象不可以同时在多个线程内被调用<span
+lang=EN-US>.</span>也就是说每个对象是多线程不安全的<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>注册过程脚本开始时，执行一次就行了，没必要每个线程都执行<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>FindColorBlockEx2</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.8016</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>FindColorBlockEx</H1></DIV></DIV>
+<DIV id=nstext>
+<DIV class=Section1>
+<P class=style1><FONT size=4><FONT color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:</SPAN></STRONG></FONT></FONT></P>
+<P><FONT size=4>查找指定区域内的所有颜色块。</FONT></P>
+<P><SPAN class=style11><STRONG><FONT color=#0000ff><FONT size=4>函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></FONT></STRONG></SPAN><SPAN lang=EN-US><BR><BR><FONT 
+size=4>string FindColorBlockEx2(x1, y1, x2, y2, w,h,color, 
+sim)</FONT></SPAN></P>
+<P><SPAN class=style11><STRONG><FONT color=#0000ff><FONT size=4>参数定义<SPAN 
+lang=EN-US>:</SPAN></FONT></FONT></STRONG></SPAN><SPAN lang=EN-US><BR><BR><FONT 
+size=4>x1 </FONT></SPAN><FONT size=4><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的左上<SPAN lang=EN-US>X</SPAN>坐标</FONT><SPAN 
+lang=EN-US><BR><FONT size=4>y1 </FONT></SPAN><FONT size=4><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的左上<SPAN lang=EN-US>Y</SPAN>坐标</FONT><SPAN 
+lang=EN-US><BR><FONT size=4>x2 </FONT></SPAN><FONT size=4><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的右下<SPAN lang=EN-US>X</SPAN>坐标</FONT><SPAN 
+lang=EN-US><BR><FONT size=4>y2 </FONT></SPAN><FONT size=4><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的右下<SPAN lang=EN-US>Y</SPAN>坐标</FONT></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>w <SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:要在多大的一块矩形区域中统计颜色，这里设置矩形宽度。</SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US>h&nbsp; <SPAN style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:要在多大的一块矩形区域中统计颜色，这里设置矩形高度。</SPAN></SPAN></SPAN><SPAN 
+lang=EN-US><BR><FONT size=4>color </FONT></SPAN><FONT size=4><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN><SPAN 
+lang=EN-US>:</SPAN>欲统计的颜色，格式为"颜色-偏色,颜色出现次数下限,颜色出现次数上限|颜色-偏色,颜色出现次数下限,颜色出现次数上限"，如“ffffff-000000,10,20|f0f0f0-000000,10,20”.注意，这里只支持RGB颜色.另外，颜色信息的条数不能超出10个，多出的将会被舍弃。<BR></FONT><SPAN 
+lang=EN-US><FONT size=4>sim&nbsp; 小数型 </FONT></SPAN><FONT size=4><SPAN 
+lang=EN-US>:</SPAN>相似度<SPAN lang=EN-US>,</SPAN>取值范围</FONT><FONT size=4><SPAN 
+lang=EN-US>0.1-1.0</SPAN></FONT></P><FONT size=4><SPAN 
+lang=EN-US></SPAN></FONT></DIV>
+<DIV class=Section1><FONT size=4><SPAN lang=EN-US>
+<P><BR></SPAN></FONT><FONT size=4><SPAN class=style11><STRONG><FONT 
+color=#0000ff>返回值<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN><SPAN 
+lang=EN-US> </SPAN></FONT></P>
+<P><SPAN style="FONT-SIZE: 13.5pt; COLOR: gray"><FONT size=4>字符串<SPAN 
+lang=EN-US>:</SPAN></FONT></SPAN><SPAN lang=EN-US><BR></SPAN><FONT size=4><FONT 
+color=#000000>返回的是所有找到的坐标格式如下:"idx,x,y|idx,x,y..|idx,x,y"，（<SPAN 
+style="COLOR: fuchsia">由于内存限制<SPAN lang=EN-US>,</SPAN>返回的颜色数量最多为<SPAN 
+lang=EN-US>1800</SPAN>个左右<SPAN lang=EN-US>)</SPAN></SPAN></FONT></FONT></P>
+<P><STRONG><FONT color=#0000ff><FONT size=4><SPAN class=style11>示例<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN lang=EN-US><A 
+href="mk:@MSITStore:E:\tool\按键插件\大漠插件\6.1550\大漠接口说明.chm::/图色/FindPic.htm"></A></SPAN></FONT></FONT></STRONG></P>
+<P><SPAN lang=EN-US><BR><FONT size=4>s = 
+lw.FindColorBlockEx2(0,0,2000,2000,47,48,,"ff0000,10,20|abce00,10,20",1.0)<BR></FONT></SPAN></P></DIV>
+<DIV class=Section1>
+<HR>
+</DIV></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A 
+href="乐玩插件COM版接口说明" 
+target=_blank><FONT color=#0066cc>乐玩网络科技工作室</FONT></A>. All Rights Reserved. 
+</P></DIV></BODY></HTML>

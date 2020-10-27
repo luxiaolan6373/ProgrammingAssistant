@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>MatchPicName</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.30</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>MatchPicName</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#0000ff>函数简介<SPAN 
+lang=EN-US>:<?xml:namespace prefix = o ns = 
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">根据通配符获取文件集合<SPAN lang=EN-US>. 
+</SPAN>方便用于<SPAN lang=EN-US>FindPic</SPAN>和<SPAN 
+lang=EN-US>FindPicEx<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>string 
+MatchPicName(pic_name)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>pic_name </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>: </SPAN><SPAN style="FONT-SIZE: 13.5pt">文件名比如<SPAN 
+lang=EN-US>"1.bmp|2.bmp|3.bmp" </SPAN>等<SPAN lang=EN-US>,</SPAN>可以使用通配符<SPAN 
+lang=EN-US>,</SPAN>比如<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>"*.bmp" </SPAN><SPAN style="FONT-SIZE: 13.5pt">这个对应了所有的<SPAN 
+lang=EN-US>bmp</SPAN>文件<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>"a?c*.bmp" </SPAN><SPAN style="FONT-SIZE: 13.5pt">这个代表了所有第一个字母是<SPAN 
+lang=EN-US>a </SPAN>第三个字母是<SPAN lang=EN-US>c </SPAN>第二个字母任意的所有<SPAN 
+lang=EN-US>bmp</SPAN>文件<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>"abc???.bmp|1.bmp|aa??.bmp" </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">可以这样任意组合<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt">字符串<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">返回的是通配符对应的文件集合，每个图片以<SPAN 
+lang=EN-US>|</SPAN>分割<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>PutAttachment 
+"c:\test","*.bmp"<BR>dm_ret = lw.SetPath("c:\test")<o:p></o:p></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>all_pic = "abc*.bmp"<BR>pic_name = 
+lw.MatchPicName(all_pic)<o:p></o:p></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p>&nbsp;</o:p></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>// </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">比如<SPAN lang=EN-US>c:\test</SPAN>目录下有<SPAN 
+lang=EN-US>abc001.bmp abc002.bmp abc003.bmp<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>// </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">那么<SPAN lang=EN-US>pic_name </SPAN>的值为<SPAN 
+lang=EN-US>abc001.bmp|abc002.bmp|abc003.bmp<o:p></o:p></SPAN></SPAN></P>
+<P>
+<HR>
+</P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

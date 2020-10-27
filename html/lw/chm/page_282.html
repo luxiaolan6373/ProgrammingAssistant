@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>CmpPic</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.797</TD></TR></TBODY></TABLE><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG></STRONG></FONT></SPAN></DIV></DIV>
+<DIV>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>在绑定的窗口的指定点上（x,y）截取一张与提供的待对比图片等尺寸的图像，然后与提供的待对比图片做相似度对比，返回两张图片的相似度，返回值是一个0到100之间的整数，100表示完全一样，0表示完全不一样。</FONT></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>函数原型<SPAN lang=EN-US>:</SPAN></FONT></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR>int&nbsp;&nbsp;CmpPic(x,y,pic)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>x </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>:截取</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">区域的左上<SPAN lang=EN-US>X</SPAN>坐标<SPAN lang=EN-US><BR>y 
+</SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:截取</SPAN>区域的左上<SPAN lang=EN-US>Y</SPAN>坐标<SPAN 
+lang=EN-US><BR></SPAN><SPAN lang=EN-US>pic </SPAN><SPAN 
+style="COLOR: gray">字符串</SPAN><SPAN lang=EN-US>:待对比图片</SPAN><SPAN 
+lang=EN-US>,只能是单张图片，比如</SPAN><SPAN 
+lang=EN-US>"test.bmp"，也可以是缓区中的图片，如“10000”</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><BR>&nbsp;</P></SPAN></SPAN>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN></FONT></STRONG></P>
+<P><FONT color=#0000ff><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN 
+style="COLOR: maroon">整形数</SPAN></SPAN></SPAN></SPAN></FONT></P>
+<P><FONT color=#0000ff><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN 
+style="COLOR: maroon"></SPAN></SPAN></SPAN></SPAN></FONT>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#000000 
+size=4>返回两张图片的相似度，返回值是一个0到100之间的整数，100表示完全一样，0表示完全不一样。</FONT></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>ret = 
+lw.cmppic(0,0,"test.bmp")</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></P></DIV></SPAN>
+<P>
+<P><FONT color=#ff0000 size=4><STRONG>&nbsp;&nbsp; 注意</STRONG></FONT></P>
+<P><FONT color=#ff0000 size=4><STRONG>&nbsp; 
+1，如果是缓冲区中的图像数据，不支持加密图像。</STRONG></FONT></P>
+<P><FONT color=#ff0000 size=4><STRONG>&nbsp; 
+2，这里的相似算法与找图的不一样！</STRONG></FONT></P>
+<P><STRONG><FONT color=#ff0000 size=4>&nbsp; 
+3，目前不会对透明图做判断，如果有这个需求再找我吧。</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=4>&nbsp; 
+3，这个函数的算法对杂点和光线的鲁棒性较好（如果图片中有杂点，或者光线不一样相似度下降比较慢），但是，如果图片尺寸出现偏移，那么相似度会急剧下降。如，在同一个窗口上，在0，0点截一张图，再到1，1点截一张图，再对比这两张图的相似度，可能会非常低。</FONT></STRONG></P>
+<P><STRONG><FONT color=#ff0000 size=4></FONT></STRONG>&nbsp;</P>
+<P>
+<DIV>
+<HR>
+</DIV>
+<P></P>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

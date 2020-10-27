@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>IniDeleteSection</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.16385"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.805</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>IniDeleteSection</H1></DIV></DIV>
+<DIV id=nstext>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#000000></FONT></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>删除指定配置文件中的指定节。</FONT></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR>int&nbsp;IniDeleteSection(file,section)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><STRONG><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></FONT></STRONG></SPAN>&nbsp;</P>
+<P><SPAN class=style11><STRONG><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN 
+lang=EN-US>:</SPAN></SPAN></FONT></STRONG></SPAN></P><SPAN class=style11><FONT 
+color=#0000ff><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P><FONT size=4><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>file </FONT></SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><FONT color=#000000>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+文件名，指定配置文件的名称，通常以.ini作为文件名后缀。</FONT></SPAN></FONT></P>
+<P><FONT size=4><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></FONT></SPAN></SPAN></FONT></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>section </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:&nbsp; 欲删除的节的节名称。</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>返回值<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR></SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>0 : 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN lang=EN-US><BR>1 : </SPAN>成功<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>示例<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>// </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">绝对路径<SPAN 
+lang=EN-US><BR>ret=lw.IniDeleteSection("c:\test_game\cfg.ini",&nbsp;"mSection")</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><BR>// </SPAN>相对路径<SPAN 
+lang=EN-US><BR>ret=lw.SetPath 
+("c:\test_game")<BR>ret=lw.IniDeleteSection("cfg.ini",&nbsp;"mSection")</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN></P><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#008000>-----------------------------------------------------------------------------------------------</FONT></SPAN></SPAN></P>
+<P><FONT color=#008000 size=4>INI文件结构示例：</FONT></P>
+<P><FONT size=4><FONT 
+color=#008000>//Section＝节名称,用来表示一个段落。<BR>//key=配置项,用来表示一个参数名。<BR>//value=用来存储一个值。</FONT><BR>[Section1]</FONT></P>
+<P><FONT size=4>Key1＝value1</FONT></P>
+<P><FONT size=4>Key2＝value2</FONT></P>
+<P><FONT size=4>...</FONT></P>
+<P><FONT size=4>[Section2]</FONT></P>
+<P><FONT size=4>Key1＝value1</FONT></P>
+<P><FONT size=4>Key2＝value2</FONT></P>
+<P><FONT size=4>...</FONT></P>
+<P><FONT size=4>
+<P><FONT size=4></FONT></P></FONT></SPAN></SPAN><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注<SPAN lang=EN-US> : 
+</SPAN>此函数是多线程安全的<SPAN lang=EN-US>. </SPAN>多线程同时读写同个文件不会造成文件错乱<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN> 
+<P></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p>&nbsp;</o:p></SPAN></P></DIV>
+<DIV id=nstext>
+<HR>
+</DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

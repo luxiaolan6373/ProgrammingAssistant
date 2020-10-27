@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>和大漠插件的异同</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1><FONT size=3>和大漠插件的异同</FONT></H1></DIV></DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4>COM版实现了大漠插件的绝大部分功能，语法和命令名字也几乎一样，但少数命令的调用方式会有所差异。</FONT></DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4>1，找图，找色，找字命令没有intx,inty两个变参指针参数，用来接收返回的左上角坐标，而要在调用相关命令后，再用 
+GetX()，GetY,GetIdx 等方法方法来接收上次找图，找色，找字命令时，返回的坐标和序号。</FONT></DIV>
+<DIV><FONT size=4>&nbsp;<FONT color=#000080>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+color=#0000ff>示例：</FONT></FONT></DIV>
+<DIV><FONT size=4>&nbsp;&nbsp;&nbsp;&nbsp; ret = 
+lw.FindPic(0,0,2000,2000,"1.bmp|2.bmp|3.bmp","000000",0.9,0)<BR>&nbsp;&nbsp;&nbsp; 
+If&nbsp;lw.GetX() &gt;= 0 and lw.GetY()&gt;= 0 Then<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>MessageBox 
+"</FONT><SPAN style="FONT-SIZE: 13.5pt"><FONT size=4>找到</FONT><SPAN 
+lang=EN-US><FONT size=4>"<BR>&nbsp;&nbsp;&nbsp; End 
+If<o:p></o:p></FONT></SPAN></SPAN></DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4></FONT>&nbsp;</DIV>
+<DIV><FONT size=4>2，返回的序号是从1开始，而非0.</FONT></DIV>
+<DIV><FONT size=4>3，其它差异请看具体说明。</FONT></DIV>
+<DIV><BR>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>
+<HR>
+</DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

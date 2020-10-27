@@ -1,0 +1,1842 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="EasyCHM.exe  www.zipghost.com">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ExWindow Styles" value="0x200">
+	<param name="Window Styles" value="0x800025">
+	<param name="Font" value="MS Sans Serif,9,0">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Foobar">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CreateFoobarCustom">
+			<param name="Local" value="Foobar/CreateFoobarCustom.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CreateFoobarEllipse">
+			<param name="Local" value="Foobar/CreateFoobarEllipse.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CreateFoobarRect">
+			<param name="Local" value="Foobar/CreateFoobarRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CreateFoobarRoundRect">
+			<param name="Local" value="Foobar/CreateFoobarRoundRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarClearText">
+			<param name="Local" value="Foobar/FoobarClearText.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarClose">
+			<param name="Local" value="Foobar/FoobarClose.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarDrawLine">
+			<param name="Local" value="Foobar/FoobarDrawLine.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarDrawPic">
+			<param name="Local" value="Foobar/FoobarDrawPic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarDrawText">
+			<param name="Local" value="Foobar/FoobarDrawText.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarFillRect">
+			<param name="Local" value="Foobar/FoobarFillRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarLock">
+			<param name="Local" value="Foobar/FoobarLock.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarPrintText">
+			<param name="Local" value="Foobar/FoobarPrintText.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarSetFont">
+			<param name="Local" value="Foobar/FoobarSetFont.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarSetSave">
+			<param name="Local" value="Foobar/FoobarSetSave.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarSetTrans">
+			<param name="Local" value="Foobar/FoobarSetTrans.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarStartGif">
+			<param name="Local" value="Foobar/FoobarStartGif.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarStopGif">
+			<param name="Local" value="Foobar/FoobarStopGif.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarTextLineGap">
+			<param name="Local" value="Foobar/FoobarTextLineGap.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarTextPrintDir">
+			<param name="Local" value="Foobar/FoobarTextPrintDir.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarTextRect">
+			<param name="Local" value="Foobar/FoobarTextRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarUnlock">
+			<param name="Local" value="Foobar/FoobarUnlock.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FoobarUpdate">
+			<param name="Local" value="Foobar/FoobarUpdate.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="常见问题">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="64位系统如何加载驱动">
+			<param name="Local" value="常见问题/64位系统如何加载驱动.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LoadPic和FreePic什么时候调用">
+			<param name="Local" value="常见问题/LoadPic和FreePic什么时候调用.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Regsvr32出现的常见错误">
+			<param name="Local" value="常见问题/Regsvr32出现的常见错误.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VBS调用规范">
+			<param name="Local" value="常见问题/VBS调用规范.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="按键多线程调用插件">
+			<param name="Local" value="常见问题/按键多线程调用插件.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="本机文字识别正常,别的机器为何不正常">
+			<param name="Local" value="常见问题/本机文字识别正常,别的机器为何不正常.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="部分64位系统无法运行vbs的解决办法">
+			<param name="Local" value="常见问题/部分64位系统无法运行vbs的解决办法.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="插件接口生效范围">
+			<param name="Local" value="常见问题/插件接口生效范围.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="插件释放到Plugin目录会有什么问题">
+			<param name="Local" value="常见问题/插件释放到Plugin目录会有什么问题.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="出现vbs被禁用的解决办法">
+			<param name="Local" value="常见问题/出现vbs被禁用的解决办法.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="出现坐标越界的解决办法">
+			<param name="Local" value="常见问题/出现坐标越界的解决办法.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="创建对象失败了怎么办">
+			<param name="Local" value="常见问题/创建对象失败了怎么办.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="对于边缘模糊的文字怎么识别">
+			<param name="Local" value="常见问题/对于边缘模糊的文字怎么识别.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="后台绑定会对哪些接口有影响">
+			<param name="Local" value="常见问题/后台绑定会对哪些接口有影响.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="免责声明">
+			<param name="Local" value="常见问题/免责声明.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="目前插件收费功能列表">
+			<param name="Local" value="常见问题/目前插件收费功能列表.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何保证注册码的安全">
+			<param name="Local" value="常见问题/如何保证注册码的安全.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何不注册dm.dll到系统而使用插件">
+			<param name="Local" value="常见问题/如何不注册dm.dll到系统而使用插件.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何可以后台识别鼠标特征码">
+			<param name="Local" value="常见问题/如何可以后台识别鼠标特征码.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何配置沙盘才可以后台绑定">
+			<param name="Local" value="常见问题/如何配置沙盘才可以后台绑定.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何前台切换多开">
+			<param name="Local" value="常见问题/如何前台切换多开.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何使用本插件">
+			<param name="Local" value="常见问题/如何使用本插件.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何使用后台识别">
+			<param name="Local" value="常见问题/如何使用后台识别.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何使用绝对路径来设置字库">
+			<param name="Local" value="常见问题/如何使用绝对路径来设置字库.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何使用相对路径来设置字库路径">
+			<param name="Local" value="常见问题/如何使用相对路径来设置字库路径.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何手动注册插件到系统">
+			<param name="Local" value="常见问题/如何手动注册插件到系统.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何修改dm.dll的对象名(dm.dmsoft)">
+			<param name="Local" value="常见问题/如何修改dm.dll的对象名(dm.dmsoft).htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何在单脚本内操作多窗口">
+			<param name="Local" value="常见问题/如何在单脚本内操作多窗口.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何在多线程下使用">
+			<param name="Local" value="常见问题/如何在多线程下使用.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何知道我的后台模式">
+			<param name="Local" value="常见问题/如何知道我的后台模式.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="收费功能资费事宜">
+			<param name="Local" value="常见问题/收费功能资费事宜.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为何不建议用Plugin方式调用插件">
+			<param name="Local" value="常见问题/为何不建议用Plugin方式调用插件.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么不能和别的后台插件混用">
+			<param name="Local" value="常见问题/为什么不能和别的后台插件混用.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么插件无法升级">
+			<param name="Local" value="常见问题/为什么插件无法升级.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么会有错误提示(创建HMemDC失败)">
+			<param name="Local" value="常见问题/为什么会有错误提示(创建HMemDC失败).htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么机器码是空的">
+			<param name="Local" value="常见问题/为什么机器码是空的.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么模糊识别的速度很慢">
+			<param name="Local" value="常见问题/为什么模糊识别的速度很慢.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么一绑定窗口就崩溃">
+			<param name="Local" value="常见问题/为什么一绑定窗口就崩溃.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="为什么有时候按键和鼠标会点击无效">
+			<param name="Local" value="常见问题/为什么有时候按键和鼠标会点击无效.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="一个标准的插件注册和绑定的例子">
+			<param name="Local" value="常见问题/一个标准的插件注册和绑定的例子.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="窗口">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ClientToScreen">
+			<param name="Local" value="窗口/ClientToScreen.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumProcess">
+			<param name="Local" value="窗口/EnumProcess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumWindow">
+			<param name="Local" value="窗口/EnumWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumWindowByProcess">
+			<param name="Local" value="窗口/EnumWindowByProcess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumWindowByProcessId">
+			<param name="Local" value="窗口/EnumWindowByProcessId.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumWindowSuper">
+			<param name="Local" value="窗口/EnumWindowSuper.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindWindow">
+			<param name="Local" value="窗口/FindWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindWindowByProcess">
+			<param name="Local" value="窗口/FindWindowByProcess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindWindowByProcessId">
+			<param name="Local" value="窗口/FindWindowByProcessId.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindWindowEx">
+			<param name="Local" value="窗口/FindWindowEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindWindowSuper">
+			<param name="Local" value="窗口/FindWindowSuper.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetClientRect">
+			<param name="Local" value="窗口/GetClientRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetClientSize">
+			<param name="Local" value="窗口/GetClientSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetForegroundFocus">
+			<param name="Local" value="窗口/GetForegroundFocus.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetForegroundWindow">
+			<param name="Local" value="窗口/GetForegroundWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetMousePointWindow">
+			<param name="Local" value="窗口/GetMousePointWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetPointWindow">
+			<param name="Local" value="窗口/GetPointWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetProcessInfo">
+			<param name="Local" value="窗口/GetProcessInfo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetSpecialWindow">
+			<param name="Local" value="窗口/GetSpecialWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindow">
+			<param name="Local" value="窗口/GetWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowClass">
+			<param name="Local" value="窗口/GetWindowClass.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowProcessId">
+			<param name="Local" value="窗口/GetWindowProcessId.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowProcessPath">
+			<param name="Local" value="窗口/GetWindowProcessPath.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowRect">
+			<param name="Local" value="窗口/GetWindowRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowState">
+			<param name="Local" value="窗口/GetWindowState.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWindowTitle">
+			<param name="Local" value="窗口/GetWindowTitle.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MoveWindow">
+			<param name="Local" value="窗口/MoveWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ScreenToClient">
+			<param name="Local" value="窗口/ScreenToClient.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SendPaste">
+			<param name="Local" value="窗口/SendPaste.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SendString">
+			<param name="Local" value="窗口/SendString.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SendString2">
+			<param name="Local" value="窗口/SendString2.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SendStringIme">
+			<param name="Local" value="窗口/SendStringIme.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SendStringIme2">
+			<param name="Local" value="窗口/SendStringIme2.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetClientSize">
+			<param name="Local" value="窗口/SetClientSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWindowSize">
+			<param name="Local" value="窗口/SetWindowSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWindowState">
+			<param name="Local" value="窗口/SetWindowState.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWindowText">
+			<param name="Local" value="窗口/SetWindowText.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWindowTransparent">
+			<param name="Local" value="窗口/SetWindowTransparent.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="答题">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqCancel">
+			<param name="Local" value="答题/FaqCancel.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqCapture">
+			<param name="Local" value="答题/FaqCapture.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqCaptureFromFile">
+			<param name="Local" value="答题/FaqCaptureFromFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqCaptureString">
+			<param name="Local" value="答题/FaqCaptureString.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqFetch">
+			<param name="Local" value="答题/FaqFetch.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqGetSize">
+			<param name="Local" value="答题/FaqGetSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqIsPosted">
+			<param name="Local" value="答题/FaqIsPosted.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqPost">
+			<param name="Local" value="答题/FaqPost.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FaqSend">
+			<param name="Local" value="答题/FaqSend.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="答题接口详细描述(C语言)">
+			<param name="Local" value="答题/答题接口详细描述(C语言).htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="防护盾">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DmGuard">
+			<param name="Local" value="防护盾/DmGuard.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DmGuardParams">
+			<param name="Local" value="防护盾/DmGuardParams.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="UnLoadDriver">
+			<param name="Local" value="防护盾/UnLoadDriver.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="后台设置">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="BindWindow">
+			<param name="Local" value="后台设置/BindWindow.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="BindWindowEx">
+			<param name="Local" value="后台设置/BindWindowEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DownCpu">
+			<param name="Local" value="后台设置/DownCpu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableBind">
+			<param name="Local" value="后台设置/EnableBind.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableFakeActive">
+			<param name="Local" value="后台设置/EnableFakeActive.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableIme">
+			<param name="Local" value="后台设置/EnableIme.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableKeypadMsg">
+			<param name="Local" value="后台设置/EnableKeypadMsg.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableKeypadPatch">
+			<param name="Local" value="后台设置/EnableKeypadPatch.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableKeypadSync">
+			<param name="Local" value="后台设置/EnableKeypadSync.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableMouseMsg">
+			<param name="Local" value="后台设置/EnableMouseMsg.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableMouseSync">
+			<param name="Local" value="后台设置/EnableMouseSync.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableRealKeypad">
+			<param name="Local" value="后台设置/EnableRealKeypad.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableRealMouse">
+			<param name="Local" value="后台设置/EnableRealMouse.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableSpeedDx">
+			<param name="Local" value="后台设置/EnableSpeedDx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ForceUnBindWindow">
+			<param name="Local" value="后台设置/ForceUnBindWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetBindWindow">
+			<param name="Local" value="后台设置/GetBindWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetFps">
+			<param name="Local" value="后台设置/GetFps.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="HackSpeed">
+			<param name="Local" value="后台设置/HackSpeed.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsBind">
+			<param name="Local" value="后台设置/IsBind.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LockDisplay">
+			<param name="Local" value="后台设置/LockDisplay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LockInput">
+			<param name="Local" value="后台设置/LockInput.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LockMouseRect">
+			<param name="Local" value="后台设置/LockMouseRect.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetAero">
+			<param name="Local" value="后台设置/SetAero.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDisplayDelay">
+			<param name="Local" value="后台设置/SetDisplayDelay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDisplayRefreshDelay">
+			<param name="Local" value="后台设置/SetDisplayRefreshDelay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SwitchBindWindow">
+			<param name="Local" value="后台设置/SwitchBindWindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="UnBindWindow">
+			<param name="Local" value="后台设置/UnBindWindow.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="汇编">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AsmAdd">
+			<param name="Local" value="汇编/AsmAdd.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AsmCall">
+			<param name="Local" value="汇编/AsmCall.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AsmCallEx">
+			<param name="Local" value="汇编/AsmCallEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AsmClear">
+			<param name="Local" value="汇编/AsmClear.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AsmSetTimeout">
+			<param name="Local" value="汇编/AsmSetTimeout.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Assemble">
+			<param name="Local" value="汇编/Assemble.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DisAssemble">
+			<param name="Local" value="汇编/DisAssemble.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="基本设置">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnablePicCache">
+			<param name="Local" value="基本设置/EnablePicCache.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetBasePath">
+			<param name="Local" value="基本设置/GetBasePath.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDmCount">
+			<param name="Local" value="基本设置/GetDmCount.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetID">
+			<param name="Local" value="基本设置/GetID.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetLastError">
+			<param name="Local" value="基本设置/GetLastError.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetPath">
+			<param name="Local" value="基本设置/GetPath.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Reg">
+			<param name="Local" value="基本设置/Reg.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RegEx">
+			<param name="Local" value="基本设置/RegEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RegExNoMac">
+			<param name="Local" value="基本设置/RegExNoMac.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RegNoMac">
+			<param name="Local" value="基本设置/RegNoMac.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDisplayInput">
+			<param name="Local" value="基本设置/SetDisplayInput.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetEnumWindowDelay">
+			<param name="Local" value="基本设置/SetEnumWindowDelay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetPath">
+			<param name="Local" value="基本设置/SetPath.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetShowErrorMsg">
+			<param name="Local" value="基本设置/SetShowErrorMsg.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SpeedNormalGraphic">
+			<param name="Local" value="基本设置/SpeedNormalGraphic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ver">
+			<param name="Local" value="基本设置/Ver.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="函数调用约定">
+			<param name="Local" value="基本设置/函数调用约定.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="键鼠">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableMouseAccuracy">
+			<param name="Local" value="键鼠/EnableMouseAccuracy.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCursorPos">
+			<param name="Local" value="键鼠/GetCursorPos.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCursorShape">
+			<param name="Local" value="键鼠/GetCursorShape.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCursorShapeEx">
+			<param name="Local" value="键鼠/GetCursorShapeEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCursorSpot">
+			<param name="Local" value="键鼠/GetCursorSpot.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetKeyState">
+			<param name="Local" value="键鼠/GetKeyState.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetMouseSpeed">
+			<param name="Local" value="键鼠/GetMouseSpeed.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyDown">
+			<param name="Local" value="键鼠/KeyDown.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyDownChar">
+			<param name="Local" value="键鼠/KeyDownChar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyPress">
+			<param name="Local" value="键鼠/KeyPress.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyPressChar">
+			<param name="Local" value="键鼠/KeyPressChar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyPressStr">
+			<param name="Local" value="键鼠/KeyPressStr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyUp">
+			<param name="Local" value="键鼠/KeyUp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="KeyUpChar">
+			<param name="Local" value="键鼠/KeyUpChar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LeftClick">
+			<param name="Local" value="键鼠/LeftClick.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LeftDoubleClick">
+			<param name="Local" value="键鼠/LeftDoubleClick.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LeftDown">
+			<param name="Local" value="键鼠/LeftDown.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LeftUp">
+			<param name="Local" value="键鼠/LeftUp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MiddleClick">
+			<param name="Local" value="键鼠/MiddleClick.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MiddleDown">
+			<param name="Local" value="键鼠/MiddleDown.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MiddleUp">
+			<param name="Local" value="键鼠/MiddleUp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MoveR">
+			<param name="Local" value="键鼠/MoveR.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MoveTo">
+			<param name="Local" value="键鼠/MoveTo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MoveToEx">
+			<param name="Local" value="键鼠/MoveToEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RightClick">
+			<param name="Local" value="键鼠/RightClick.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RightDown">
+			<param name="Local" value="键鼠/RightDown.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RightUp">
+			<param name="Local" value="键鼠/RightUp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetKeypadDelay">
+			<param name="Local" value="键鼠/SetKeypadDelay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMouseDelay">
+			<param name="Local" value="键鼠/SetMouseDelay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMouseSpeed">
+			<param name="Local" value="键鼠/SetMouseSpeed.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetSimMode">
+			<param name="Local" value="键鼠/SetSimMode.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WaitKey">
+			<param name="Local" value="键鼠/WaitKey.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WheelDown">
+			<param name="Local" value="键鼠/WheelDown.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WheelUp">
+			<param name="Local" value="键鼠/WheelUp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="键码对应表">
+			<param name="Local" value="键鼠/键码对应表.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="内存">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DoubleToData">
+			<param name="Local" value="内存/DoubleToData.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindData">
+			<param name="Local" value="内存/FindData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindDataEx">
+			<param name="Local" value="内存/FindDataEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindDouble">
+			<param name="Local" value="内存/FindDouble.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindDoubleEx">
+			<param name="Local" value="内存/FindDoubleEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindFloat">
+			<param name="Local" value="内存/FindFloat.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindFloatEx">
+			<param name="Local" value="内存/FindFloatEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindInt">
+			<param name="Local" value="内存/FindInt.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindIntEx">
+			<param name="Local" value="内存/FindIntEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindString">
+			<param name="Local" value="内存/FindString.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStringEx">
+			<param name="Local" value="内存/FindStringEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FloatToData">
+			<param name="Local" value="内存/FloatToData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FreeProcessMemory">
+			<param name="Local" value="内存/FreeProcessMemory.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCommandLine">
+			<param name="Local" value="内存/GetCommandLine.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetModuleBaseAddr">
+			<param name="Local" value="内存/GetModuleBaseAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetModuleSize">
+			<param name="Local" value="内存/GetModuleSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetRemoteApiAddress">
+			<param name="Local" value="内存/GetRemoteApiAddress.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Int64ToInt32">
+			<param name="Local" value="内存/Int64ToInt32.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IntToData">
+			<param name="Local" value="内存/IntToData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="OpenProcess">
+			<param name="Local" value="内存/OpenProcess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadData">
+			<param name="Local" value="内存/ReadData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadDataAddr">
+			<param name="Local" value="内存/ReadDataAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadDataAddrToBin">
+			<param name="Local" value="内存/ReadDataAddrToBin.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadDataToBin">
+			<param name="Local" value="内存/ReadDataToBin.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadDouble">
+			<param name="Local" value="内存/ReadDouble.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadDoubleAddr">
+			<param name="Local" value="内存/ReadDoubleAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadFloat">
+			<param name="Local" value="内存/ReadFloat.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadFloatAddr">
+			<param name="Local" value="内存/ReadFloatAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadInt">
+			<param name="Local" value="内存/ReadInt.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadIntAddr">
+			<param name="Local" value="内存/ReadIntAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadString">
+			<param name="Local" value="内存/ReadString.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadStringAddr">
+			<param name="Local" value="内存/ReadStringAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMemoryFindResultToFile">
+			<param name="Local" value="内存/SetMemoryFindResultToFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMemoryHwndAsProcessId">
+			<param name="Local" value="内存/SetMemoryHwndAsProcessId.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetParam64ToPointer">
+			<param name="Local" value="内存/SetParam64ToPointer.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="StringToData">
+			<param name="Local" value="内存/StringToData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="TerminateProcess">
+			<param name="Local" value="内存/TerminateProcess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VirtualAllocEx">
+			<param name="Local" value="内存/VirtualAllocEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VirtualFreeEx">
+			<param name="Local" value="内存/VirtualFreeEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VirtualProtectEx">
+			<param name="Local" value="内存/VirtualProtectEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VirtualQueryEx">
+			<param name="Local" value="内存/VirtualQueryEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteData">
+			<param name="Local" value="内存/WriteData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteDataAddr">
+			<param name="Local" value="内存/WriteDataAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteDataAddrFromBin">
+			<param name="Local" value="内存/WriteDataAddrFromBin.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteDataFromBin">
+			<param name="Local" value="内存/WriteDataFromBin.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteDouble">
+			<param name="Local" value="内存/WriteDouble.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteDoubleAddr">
+			<param name="Local" value="内存/WriteDoubleAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteFloat">
+			<param name="Local" value="内存/WriteFloat.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteFloatAddr">
+			<param name="Local" value="内存/WriteFloatAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteInt">
+			<param name="Local" value="内存/WriteInt.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteIntAddr">
+			<param name="Local" value="内存/WriteIntAddr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteString">
+			<param name="Local" value="内存/WriteString.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteStringAddr">
+			<param name="Local" value="内存/WriteStringAddr.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="算法">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ExcludePos">
+			<param name="Local" value="算法/ExcludePos.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindNearestPos">
+			<param name="Local" value="算法/FindNearestPos.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SortPosDistance">
+			<param name="Local" value="算法/SortPosDistance.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="图色">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AppendPicAddr">
+			<param name="Local" value="图色/AppendPicAddr.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="BGR2RGB">
+			<param name="Local" value="图色/BGR2RGB.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Capture">
+			<param name="Local" value="图色/Capture.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CaptureGif">
+			<param name="Local" value="图色/CaptureGif.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CaptureJpg">
+			<param name="Local" value="图色/CaptureJpg.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CapturePng">
+			<param name="Local" value="图色/CapturePng.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CapturePre">
+			<param name="Local" value="图色/CapturePre.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CmpColor">
+			<param name="Local" value="图色/CmpColor.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableDisplayDebug">
+			<param name="Local" value="图色/EnableDisplayDebug.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableFindPicMultithread">
+			<param name="Local" value="图色/EnableFindPicMultithread.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableGetColorByCapture">
+			<param name="Local" value="图色/EnableGetColorByCapture.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindColor">
+			<param name="Local" value="图色/FindColor.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindColorBlock">
+			<param name="Local" value="图色/FindColorBlock.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindColorBlockEx">
+			<param name="Local" value="图色/FindColorBlockEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindColorE">
+			<param name="Local" value="图色/FindColorE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindColorEx">
+			<param name="Local" value="图色/FindColorEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindMulColor">
+			<param name="Local" value="图色/FindMulColor.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindMultiColor">
+			<param name="Local" value="图色/FindMultiColor.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindMultiColorE">
+			<param name="Local" value="图色/FindMultiColorE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindMultiColorEx">
+			<param name="Local" value="图色/FindMultiColorEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPic">
+			<param name="Local" value="图色/FindPic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicE">
+			<param name="Local" value="图色/FindPicE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicEx">
+			<param name="Local" value="图色/FindPicEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicExS">
+			<param name="Local" value="图色/FindPicExS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicMem">
+			<param name="Local" value="图色/FindPicMem.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicMemE">
+			<param name="Local" value="图色/FindPicMemE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicMemEx">
+			<param name="Local" value="图色/FindPicMemEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindPicS">
+			<param name="Local" value="图色/FindPicS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindShape">
+			<param name="Local" value="图色/FindShape.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindShapeE">
+			<param name="Local" value="图色/FindShapeE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindShapeEx">
+			<param name="Local" value="图色/FindShapeEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FreePic">
+			<param name="Local" value="图色/FreePic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetAveHSV">
+			<param name="Local" value="图色/GetAveHSV.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetAveRGB">
+			<param name="Local" value="图色/GetAveRGB.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetColor">
+			<param name="Local" value="图色/GetColor.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetColorBGR">
+			<param name="Local" value="图色/GetColorBGR.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetColorHSV">
+			<param name="Local" value="图色/GetColorHSV.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetColorNum">
+			<param name="Local" value="图色/GetColorNum.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetPicSize">
+			<param name="Local" value="图色/GetPicSize.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetScreenData">
+			<param name="Local" value="图色/GetScreenData.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetScreenDataBmp">
+			<param name="Local" value="图色/GetScreenDataBmp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ImageToBmp">
+			<param name="Local" value="图色/ImageToBmp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsDisplayDead">
+			<param name="Local" value="图色/IsDisplayDead.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LoadPic">
+			<param name="Local" value="图色/LoadPic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LoadPicByte">
+			<param name="Local" value="图色/LoadPicByte.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MatchPicName">
+			<param name="Local" value="图色/MatchPicName.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RGB2BGR">
+			<param name="Local" value="图色/RGB2BGR.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetExcludeRegion">
+			<param name="Local" value="图色/SetExcludeRegion.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetPicPwd">
+			<param name="Local" value="图色/SetPicPwd.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="文件">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CopyFile">
+			<param name="Local" value="文件/CopyFile.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CreateFolder">
+			<param name="Local" value="文件/CreateFolder.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DecodeFile">
+			<param name="Local" value="文件/DecodeFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DeleteFile">
+			<param name="Local" value="文件/DeleteFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DeleteFolder">
+			<param name="Local" value="文件/DeleteFolder.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DeleteIni">
+			<param name="Local" value="文件/DeleteIni.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DeleteIniPwd">
+			<param name="Local" value="文件/DeleteIniPwd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DownloadFile">
+			<param name="Local" value="文件/DownloadFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EncodeFile">
+			<param name="Local" value="文件/EncodeFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumIniKey">
+			<param name="Local" value="文件/EnumIniKey.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumIniKeyPwd">
+			<param name="Local" value="文件/EnumIniKeyPwd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumIniSection">
+			<param name="Local" value="文件/EnumIniSection.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnumIniSectionPwd">
+			<param name="Local" value="文件/EnumIniSectionPwd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetFileLength">
+			<param name="Local" value="文件/GetFileLength.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetRealPath">
+			<param name="Local" value="文件/GetRealPath.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsFileExist">
+			<param name="Local" value="文件/IsFileExist.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsFolderExist">
+			<param name="Local" value="文件/IsFolderExist.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MoveFile">
+			<param name="Local" value="文件/MoveFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadFile">
+			<param name="Local" value="文件/ReadFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadIni">
+			<param name="Local" value="文件/ReadIni.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReadIniPwd">
+			<param name="Local" value="文件/ReadIniPwd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SelectDirectory">
+			<param name="Local" value="文件/SelectDirectory.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SelectFile">
+			<param name="Local" value="文件/SelectFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteFile">
+			<param name="Local" value="文件/WriteFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteIni">
+			<param name="Local" value="文件/WriteIni.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WriteIniPwd">
+			<param name="Local" value="文件/WriteIniPwd.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="文字识别">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AddDict">
+			<param name="Local" value="文字识别/AddDict.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ClearDict">
+			<param name="Local" value="文字识别/ClearDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableShareDict">
+			<param name="Local" value="文字识别/EnableShareDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FetchWord">
+			<param name="Local" value="文字识别/FetchWord.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStr">
+			<param name="Local" value="文字识别/FindStr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrE">
+			<param name="Local" value="文字识别/FindStrE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrEx">
+			<param name="Local" value="文字识别/FindStrEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrExS">
+			<param name="Local" value="文字识别/FindStrExS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrFast">
+			<param name="Local" value="文字识别/FindStrFast.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrFastE">
+			<param name="Local" value="文字识别/FindStrFastE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrFastEx">
+			<param name="Local" value="文字识别/FindStrFastEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrFastExS">
+			<param name="Local" value="文字识别/FindStrFastExS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrFastS">
+			<param name="Local" value="文字识别/FindStrFastS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrS">
+			<param name="Local" value="文字识别/FindStrS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrWithFont">
+			<param name="Local" value="文字识别/FindStrWithFont.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrWithFontE">
+			<param name="Local" value="文字识别/FindStrWithFontE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindStrWithFontEx">
+			<param name="Local" value="文字识别/FindStrWithFontEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDict">
+			<param name="Local" value="文字识别/GetDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDictCount">
+			<param name="Local" value="文字识别/GetDictCount.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDictInfo">
+			<param name="Local" value="文字识别/GetDictInfo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetNowDict">
+			<param name="Local" value="文字识别/GetNowDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetResultCount">
+			<param name="Local" value="文字识别/GetResultCount.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetResultPos">
+			<param name="Local" value="文字识别/GetResultPos.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWordResultCount">
+			<param name="Local" value="文字识别/GetWordResultCount.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWordResultPos">
+			<param name="Local" value="文字识别/GetWordResultPos.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWordResultStr">
+			<param name="Local" value="文字识别/GetWordResultStr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWords">
+			<param name="Local" value="文字识别/GetWords.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetWordsNoDict">
+			<param name="Local" value="文字识别/GetWordsNoDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ocr">
+			<param name="Local" value="文字识别/Ocr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="OcrEx">
+			<param name="Local" value="文字识别/OcrEx.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="OcrExOne">
+			<param name="Local" value="文字识别/OcrExOne.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="OcrInFile">
+			<param name="Local" value="文字识别/OcrInFile.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SaveDict">
+			<param name="Local" value="文字识别/SaveDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetColGapNoDict">
+			<param name="Local" value="文字识别/SetColGapNoDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDict">
+			<param name="Local" value="文字识别/SetDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDictMem">
+			<param name="Local" value="文字识别/SetDictMem.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDictPwd">
+			<param name="Local" value="文字识别/SetDictPwd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetExactOcr">
+			<param name="Local" value="文字识别/SetExactOcr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMinColGap">
+			<param name="Local" value="文字识别/SetMinColGap.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetMinRowGap">
+			<param name="Local" value="文字识别/SetMinRowGap.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetRowGapNoDict">
+			<param name="Local" value="文字识别/SetRowGapNoDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWordGap">
+			<param name="Local" value="文字识别/SetWordGap.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWordGapNoDict">
+			<param name="Local" value="文字识别/SetWordGapNoDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWordLineHeight">
+			<param name="Local" value="文字识别/SetWordLineHeight.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetWordLineHeightNoDict">
+			<param name="Local" value="文字识别/SetWordLineHeightNoDict.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="UseDict">
+			<param name="Local" value="文字识别/UseDict.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="系统">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Beep">
+			<param name="Local" value="系统/Beep.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CheckFontSmooth">
+			<param name="Local" value="系统/CheckFontSmooth.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CheckUAC">
+			<param name="Local" value="系统/CheckUAC.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Delay">
+			<param name="Local" value="系统/Delay.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Delays">
+			<param name="Local" value="系统/Delays.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DisableCloseDisplayAndSleep">
+			<param name="Local" value="系统/DisableCloseDisplayAndSleep.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DisableFontSmooth">
+			<param name="Local" value="系统/DisableFontSmooth.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DisablePowerSave">
+			<param name="Local" value="系统/DisablePowerSave.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DisableScreenSave">
+			<param name="Local" value="系统/DisableScreenSave.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnableFontSmooth">
+			<param name="Local" value="系统/EnableFontSmooth.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ExitOs">
+			<param name="Local" value="系统/ExitOs.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetClipboard">
+			<param name="Local" value="系统/GetClipboard.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCpuType">
+			<param name="Local" value="系统/GetCpuType.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetCpuUsage">
+			<param name="Local" value="系统/GetCpuUsage.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDir">
+			<param name="Local" value="系统/GetDir.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDiskModel">
+			<param name="Local" value="系统/GetDiskModel.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDiskReversion">
+			<param name="Local" value="系统/GetDiskReversion.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDiskSerial">
+			<param name="Local" value="系统/GetDiskSerial.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDisplayInfo">
+			<param name="Local" value="系统/GetDisplayInfo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetDPI">
+			<param name="Local" value="系统/GetDPI.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetLocale">
+			<param name="Local" value="系统/GetLocale.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetMachineCode">
+			<param name="Local" value="系统/GetMachineCode.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetMachineCodeNoMac">
+			<param name="Local" value="系统/GetMachineCodeNoMac.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetMemoryUsage">
+			<param name="Local" value="系统/GetMemoryUsage.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetNetTime">
+			<param name="Local" value="系统/GetNetTime.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetNetTimeByIp">
+			<param name="Local" value="系统/GetNetTimeByIp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetNetTimeSafe">
+			<param name="Local" value="系统/GetNetTimeSafe.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetOsBuildNumber">
+			<param name="Local" value="系统/GetOsBuildNumber.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetOsType">
+			<param name="Local" value="系统/GetOsType.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetScreenDepth">
+			<param name="Local" value="系统/GetScreenDepth.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetScreenHeight">
+			<param name="Local" value="系统/GetScreenHeight.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetScreenWidth">
+			<param name="Local" value="系统/GetScreenWidth.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetTime">
+			<param name="Local" value="系统/GetTime.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Is64Bit">
+			<param name="Local" value="系统/Is64Bit.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsSurrpotVt">
+			<param name="Local" value="系统/IsSurrpotVt.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Play">
+			<param name="Local" value="系统/Play.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RunApp">
+			<param name="Local" value="系统/RunApp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetClipboard">
+			<param name="Local" value="系统/SetClipboard.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetDisplayAcceler">
+			<param name="Local" value="系统/SetDisplayAcceler.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetLocale">
+			<param name="Local" value="系统/SetLocale.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetScreen">
+			<param name="Local" value="系统/SetScreen.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetUAC">
+			<param name="Local" value="系统/SetUAC.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ShowTaskBarIcon">
+			<param name="Local" value="系统/ShowTaskBarIcon.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Stop">
+			<param name="Local" value="系统/Stop.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="杂项">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ActiveInputMethod">
+			<param name="Local" value="杂项/ActiveInputMethod.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CheckInputMethod">
+			<param name="Local" value="杂项/CheckInputMethod.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EnterCri">
+			<param name="Local" value="杂项/EnterCri.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ExecuteCmd">
+			<param name="Local" value="杂项/ExecuteCmd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FindInputMethod">
+			<param name="Local" value="杂项/FindInputMethod.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="InitCri">
+			<param name="Local" value="杂项/InitCri.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="LeaveCri">
+			<param name="Local" value="杂项/LeaveCri.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ReleaseRef">
+			<param name="Local" value="杂项/ReleaseRef.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SetExitThread">
+			<param name="Local" value="杂项/SetExitThread.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

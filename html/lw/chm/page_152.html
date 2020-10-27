@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>VirtualProtectEx</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>VirtualProtectEx</H1></DIV></DIV>
+<DIV><BR></DIV>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#0000ff>&nbsp; 
+<STRONG>函数简介<SPAN lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">&nbsp; 修改指定进程中,指定内存地址的读写属性.</SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>&nbsp; 函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR><SPAN class=GramE>&nbsp; int</SPAN>&nbsp;<SPAN 
+class=SpellE>VirtualProtectEx</SPAN>(<SPAN 
+class=SpellE>addr,size,protect</SPAN>)</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P class=style1>&nbsp;<STRONG><FONT color=#0000ff size=4> 
+参数定义</FONT></STRONG><SPAN lang=EN-US><STRONG><FONT color=#0000ff 
+size=4>:</FONT></STRONG></SPAN></P>
+<P class=style1><SPAN lang=EN-US></SPAN><SPAN class=SpellE><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>&nbsp; addr</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US> </SPAN><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN></B><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">需要修改的地址<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>&nbsp; size </SPAN><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN></B><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">需要修改的地址大小<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>&nbsp; type </SPAN><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN></B><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">修改的地址读写属性类型，取值如下<SPAN lang=EN-US>:<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>0或者64 : </SPAN>可读可写可执行.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>1 : </SPAN>禁止读写和运行(禁址一切访问)</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2:只读</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+16:可执行,禁止读写.</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;32:可执行,可读,不可写.</SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp; 返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">&nbsp; 整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>&nbsp; 成功返回该地址原来的内存属性,失败返回-1</FONT></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp; 示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P>
+<P><FONT size=4><SPAN class=SpellE>&nbsp; old_protect</SPAN> = lw.<SPAN 
+class=SpellE>VirtualProtectEx(</SPAN>12345,5)</FONT></P>
+<P><FONT size=4></FONT><BR>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#ff0000>&nbsp; 
+注意,在读写之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P>
+<DIV>
+<HR>
+</DIV>
+<P></P>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></DIV></BODY></HTML>

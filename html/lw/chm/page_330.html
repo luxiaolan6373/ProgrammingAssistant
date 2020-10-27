@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>DLConnect</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.8062</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>DLConnect</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P><FONT size=4><FONT color=#0000ff><STRONG><SPAN 
+style="FONT-SIZE: 13.5pt">函数简介<SPAN lang=EN-US>:<o:p></o:p></SPAN></SPAN> 
+</STRONG></FONT></FONT></P>
+<DIV class=Section1>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#000000><A 
+id=FunctionDescription class=textBox 
+target=_blank>调用本地宽带连接进行ASDL或VPN拨号</A></FONT></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"></SPAN></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><BR><SPAN class=GramE><SPAN 
+class=GramE>string</SPAN>&nbsp;&nbsp;DLConnect(ConnectName,userName,Pwd,url,timeout)</SPAN></SPAN></P><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt">
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN></FONT></STRONG></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></FONT></STRONG>ConnectName&nbsp; 
+<FONT color=#808080><SPAN style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN>： 
+</FONT>&nbsp;欲进行拨号的连接名。</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></FONT></STRONG>userName&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp; &nbsp;<FONT color=#808080><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN>：</FONT>&nbsp; 拨号时调用的账号</P>
+<P>Pwd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#808080><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN>：</FONT>&nbsp; 拨号时调用的密码</P>
+<P>url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#808080><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN>：</FONT>&nbsp;&nbsp; 
+远程主机域名或者IP，<FONT color=#ff0000>默认为一个空文本</FONT>，ASDL拨号不需要这个。</P>
+<P>timeout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+color=#800000>整数型</FONT><SPAN style="FONT-SIZE: 13.5pt; COLOR: gray"><SPAN 
+lang=EN-US>:</SPAN></SPAN><FONT color=#c0c0c0>：</FONT><FONT color=#ff0000><FONT 
+color=#000000>拨号超时</FONT>，默认为60000（一分钟）。</FONT><FONT 
+color=#000000>－1表示一直连直到连接成功或者失败为止，其它值表示到时间立即返回。</FONT></P></SPAN></DIV>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></FONT></STRONG></SPAN>&nbsp;</P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></FONT></STRONG></SPAN>&nbsp;</P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US>返回值:</SPAN></SPAN></SPAN></FONT></STRONG></SPAN></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray"><FONT color=#800000><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: gray">字符串</SPAN></FONT></SPAN></SPAN></SPAN></SPAN></SPAN></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">成功返回一个空文本，失败返回错误原因，格式为 
+错误代码：错误描述。</SPAN></SPAN></SPAN></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></SPAN>&nbsp;</P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt">示例<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">&nbsp;ret = lw.<SPAN 
+class=SpellE><FONT 
+size=4>DLConnect</FONT></SPAN>(“07221234567”，“myname”,"pwd")</SPAN></P>
+<P></SPAN>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

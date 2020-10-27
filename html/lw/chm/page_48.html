@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office" xmlns:st1 = 
+"urn:schemas-microsoft-com:office:smarttags"><HEAD><TITLE>FindStrFastEx</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>FindStrFastEx</H1></DIV></DIV>
+<DIV id=nstext><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#0000ff>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt">在屏幕范围<SPAN 
+lang=EN-US>(x1,y1,x2,y2)</SPAN>内<SPAN lang=EN-US>,</SPAN>查找<SPAN 
+lang=EN-US>string(</SPAN>可以是任意字符串的组合<SPAN lang=EN-US>),</SPAN>并返回符合<SPAN 
+lang=EN-US>color_format</SPAN>的所有坐标位置<SPAN lang=EN-US>,</SPAN>相似度<SPAN 
+lang=EN-US>sim</SPAN>同<SPAN lang=EN-US>Ocr</SPAN>接口描述<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>(</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">多色<SPAN lang=EN-US>,</SPAN>差色查找类似于<SPAN 
+lang=EN-US>Ocr</SPAN>接口<SPAN lang=EN-US>,</SPAN>不再重述<SPAN 
+lang=EN-US>)</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN>&nbsp;</P>
+<P class=style1><FONT color=#0000ff size=4><STRONG>函数原型</STRONG></FONT><FONT 
+size=4><SPAN lang=EN-US><FONT 
+color=#0000ff><STRONG>:<BR><BR></STRONG></FONT></SPAN><SPAN class=GramE><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US>string</SPAN></SPAN><SPAN 
+style="COLOR: windowtext; FONT-WEIGHT: normal; mso-bidi-font-weight: bold" 
+lang=EN-US> 
+FindStrFastEx(x1,y1,x2,y2,string,color_format,sim,isbackcolor)</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>x1 </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>:</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">区域的左上<SPAN lang=EN-US>X</SPAN>坐标<SPAN 
+lang=EN-US><BR>y1 </SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的左上<SPAN lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>x2 
+</SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>X</SPAN>坐标<SPAN lang=EN-US><BR>y2 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>string </SPAN><SPAN 
+style="COLOR: gray">字符串</SPAN><SPAN lang=EN-US>:</SPAN><SPAN 
+class=GramE>待查找</SPAN>的字符串<SPAN lang=EN-US>, </SPAN>可以是字符串组合，比如<SPAN 
+lang=EN-US>"</SPAN>长安<SPAN lang=EN-US>|</SPAN>洛阳<SPAN 
+lang=EN-US>|</SPAN>大雁塔<SPAN lang=EN-US>",</SPAN>中间用<SPAN 
+lang=EN-US>"|"</SPAN>来分割字符串<SPAN lang=EN-US><BR><SPAN lang=EN-US><SPAN 
+class=SpellE>color_format <SPAN style="COLOR: gray">字符串</SPAN><SPAN 
+lang=EN-US>:</SPAN>颜色格式串,有两种格式：</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN class=SpellE><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1，直接写RGB色加-RGB色偏，如“9f2e3f-030303|2d3f2f-000000"，支持多个。</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2，#后面加数值，如“#128”，表示采用灰度阀值二值化，值的取值范围为-6到510，只能设置1个。<SPAN 
+style="FONT-SIZE: 13.5pt">具体可用工具测试。</SPAN></P>
+<P></SPAN></SPAN></SPAN></SPAN></SPAN><SPAN lang=EN-US>sim </SPAN><SPAN 
+style="COLOR: #339966"><SPAN style="COLOR: #339966">小数型</SPAN></SPAN><SPAN 
+lang=EN-US>:</SPAN>相似度<SPAN lang=EN-US>,</SPAN>取值范围<SPAN 
+lang=EN-US>0.1-1.0　<FONT color=#ff0000>　默认值为0.95</FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000>isbackcolor<FONT color=#800000> 
+整数型</FONT>:是否背景色　1=color</FONT><FONT 
+color=#000000>_format　提供的颜色为背景色,0=color_format　提供的颜色为文字的颜色.</FONT><FONT 
+color=#ff0000>　默认值为0</FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><STRONG><FONT 
+color=#0000ff><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt">返回值<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt">字符串<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">返回所有找到的坐标集合<SPAN 
+lang=EN-US>,</SPAN>格式如下<SPAN 
+lang=EN-US>:<BR>"id,x0,y0|id,x1,y1|......|id,xn,yn"<BR></SPAN>比如<SPAN 
+lang=EN-US>"1,100,20|2,30,40" </SPAN>表示找到了两个<SPAN lang=EN-US>,</SPAN>第一个<SPAN 
+lang=EN-US>,</SPAN>对应的是序号为<SPAN lang=EN-US>1</SPAN>的字符串<SPAN 
+lang=EN-US>,</SPAN>坐标是<SPAN lang=EN-US>(100,20),</SPAN>第二个是序号为<SPAN 
+lang=EN-US>2</SPAN>的字符串<SPAN lang=EN-US>,</SPAN>坐标<SPAN 
+lang=EN-US>(30,40)<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN><STRONG><FONT 
+color=#0000ff><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt">示例<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>ret = 
+lw.FindStrFastEx(0,0,2000,2000,"</SPAN><SPAN style="FONT-SIZE: 13.5pt">长安<SPAN 
+lang=EN-US>|</SPAN>洛阳<SPAN lang=EN-US>","<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="9" 
+UnitName="F">9f</st1:chmetcnv>2e<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="3" 
+UnitName="F">3f</st1:chmetcnv>-000000",1.0)<BR>If len(ret) &gt; 0 Then<BR><SPAN 
+style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>ss = split(ret,"|")<BR><SPAN 
+style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>index = 0<BR><SPAN 
+style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>count = UBound(ss) + 1<BR><SPAN 
+style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>Do While index &lt; count<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>TracePrint 
+ss(index)<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>sss = split(ss(index),",")<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>id = 
+int(sss(0))<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>x = int(sss(1))<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>y = 
+int(sss(2))<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>lw.MoveTo x,y<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>Delay 
+1000<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>index = index+1<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; 
+</SPAN>Loop<BR>End If<BR 
+style="mso-special-character: line-break"></SPAN></SPAN></P><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN></DIV>
+<DIV><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注<SPAN lang=EN-US>: 
+</SPAN>此函数比<SPAN lang=EN-US>FindStrEx</SPAN>要快很多，尤其是在字库很大时，或者模糊识别时，效果非常明显。<SPAN 
+lang=EN-US><BR></SPAN>推荐使用此函数。<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt">另外由于此函数是只识别待查找的字符，所以可能会有如下情况出现问题。<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">比如 字库中有<SPAN 
+lang=EN-US>"</SPAN>张和三<SPAN lang=EN-US>" </SPAN>一共<SPAN 
+lang=EN-US>3</SPAN>个字符数据，然后待识别区域里是<SPAN lang=EN-US>"</SPAN>张和三<SPAN 
+lang=EN-US>",</SPAN>如果用<SPAN lang=EN-US>FindStrEx</SPAN>查找<SPAN 
+lang=EN-US><BR>"</SPAN>张三<SPAN lang=EN-US>"</SPAN>肯定是找不到的，但是用<SPAN 
+lang=EN-US>FindStrFastEx</SPAN>却可以找到，因为<SPAN lang=EN-US>"</SPAN>和<SPAN 
+lang=EN-US>"</SPAN>这个字符没有列入查找计划中<SPAN 
+lang=EN-US><BR></SPAN>所以，在使用此函数时，也要特别注意这一点。<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P></SPAN></SPAN><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN></DIV>
+<DIV><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US>
+<P>
+<HR>
+
+<P></P>
+<DIV class=footer>
+<P><FONT size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=#000000>Copyright 
+&copy;2016</FONT> </FONT><A href="乐玩插件COM版接口说明" target=_blank><FONT 
+size=3>乐玩网络科技工作室</FONT></A><FONT size=3>. <FONT color=#000000>All Rights 
+Reserved. </FONT></FONT></P></DIV><o:p></o:p></SPAN></SPAN></DIV></BODY></HTML>

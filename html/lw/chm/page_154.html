@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>WriteData</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>WriteData</H1></DIV></DIV>
+<DIV id=nstext><BR><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt">对指定地址写入二进制数据</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR>int&nbsp;WriteData(addr,data)<o:p></o:p></SPAN></P></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>参数定义</STRONG></FONT><SPAN lang=EN-US><FONT 
+color=#0000ff><STRONG>:<BR></STRONG></FONT></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>addr&nbsp; </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt"><FONT 
+color=#800000>整形数</FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>: 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">地址<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>data&nbsp;&nbsp; </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>: </SPAN><SPAN style="FONT-SIZE: 13.5pt">二进制数据，以字符串形式描述，比如<SPAN 
+lang=EN-US>"12 34 56 78 90 ab cd"<o:p></o:p></SPAN></SPAN></P>
+<P><BR>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>0 : 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>1 : </SPAN><SPAN style="FONT-SIZE: 13.5pt">成功<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P></SPAN></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN>&nbsp;</P><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>ret = lw.WriteData(123456 ,"12 34 
+56 78 90 ab cd")</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN></o:p></SPAN></SPAN></DIV>
+<DIV><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在读写之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P>
+<P></SPAN></o:p></SPAN></SPAN>
+<HR>
+
+<P></P>
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

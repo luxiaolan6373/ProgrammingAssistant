@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>GetProcAddress</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.800</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>GetProcAddress</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><FONT size=4>获取目标进程中某个公开的函数地址。</FONT></P>
+<P>&nbsp;</P>
+<P><FONT size=4><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff>函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR>int GetProcAddress(ProcName,ModuleName)</SPAN></FONT></P>
+<P><FONT size=4><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></FONT>&nbsp;</P>
+<P><FONT size=4><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></FONT>&nbsp;</P><FONT size=4><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><FONT 
+color=#0000ff><STRONG>参数定义</STRONG></FONT><SPAN lang=EN-US><FONT 
+color=#0000ff><STRONG>:<BR></STRONG></FONT></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>ProcName&nbsp;</SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt"><FONT 
+color=#808080>字符串</FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:要获取地址的API函数的名字。</SPAN></o:p></SPAN></SPAN></P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></o:p></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p><SPAN style="FONT-SIZE: 13.5pt">ModuleName&nbsp;<SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt"><FONT 
+color=#808080>字符串</FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:&nbsp;函数所在库文件名。</SPAN></SPAN></o:p></SPAN></SPAN></P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></SPAN></o:p></SPAN></SPAN>&nbsp;</P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR>成功返回一个大于0的值。失败返回0。</SPAN></P><SPAN style="FONT-SIZE: 13.5pt">
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>示例<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></P></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>ret = 
+lw.GetProcAddress("aaaa","b.dll" )</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN>&nbsp;</P><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在读写之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P></SPAN></SPAN>
+<P></SPAN></SPAN></SPAN></o:p></SPAN></SPAN></SPAN></FONT></P>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

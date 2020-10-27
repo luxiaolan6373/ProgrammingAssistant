@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office" xmlns:st1 = 
+"urn:schemas-microsoft-com:office:smarttags"><HEAD><TITLE>FindStr</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27111</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>FindStr</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<DIV class=Section1><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">在屏幕范围<SPAN 
+lang=EN-US>(x1,y1,x2,y2)</SPAN>内<SPAN lang=EN-US>,</SPAN>查找<SPAN 
+lang=EN-US>string(</SPAN>可以是任意<SPAN class=GramE>个</SPAN>字符串的组合<SPAN 
+lang=EN-US>),</SPAN>并返回符合<SPAN class=SpellE><SPAN 
+lang=EN-US>color_format</SPAN></SPAN>的坐标位置<SPAN lang=EN-US>,</SPAN>相似度<SPAN 
+class=SpellE><SPAN lang=EN-US>sim</SPAN></SPAN>同<SPAN class=SpellE><SPAN 
+lang=EN-US>Ocr</SPAN></SPAN>接口描述<SPAN lang=EN-US>. <FONT 
+color=#ff0000>此方法会设置　x,y,idx</FONT></SPAN></SPAN></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">(</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">多色<SPAN lang=EN-US>,</SPAN>差色查找类似于<SPAN 
+class=SpellE><SPAN lang=EN-US>Ocr</SPAN></SPAN>接口<SPAN 
+lang=EN-US>,</SPAN>不再重述<SPAN lang=EN-US>)<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><BR><BR><SPAN 
+class=GramE>int</SPAN>&nbsp;<SPAN 
+class=SpellE>FindStr</SPAN>(x1,y1,x2,y2,string,color_format,sim,isbackcolor)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><BR><BR>x1 </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt">:</SPAN><SPAN style="FONT-SIZE: 13.5pt">区域的左上<SPAN 
+lang=EN-US>X</SPAN>坐标<SPAN lang=EN-US><BR>y1 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的左上<SPAN 
+lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>x2 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>X</SPAN>坐标<SPAN lang=EN-US><BR>y2 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>string </SPAN><SPAN 
+style="COLOR: gray">字符串</SPAN><SPAN lang=EN-US>:</SPAN><SPAN 
+class=GramE>待查找</SPAN>的字符串<SPAN lang=EN-US>,</SPAN>可以是字符串组合，比如<SPAN 
+lang=EN-US>"</SPAN>长安<SPAN lang=EN-US>|</SPAN>洛阳<SPAN 
+lang=EN-US>|</SPAN>大雁塔<SPAN lang=EN-US>",</SPAN>中间用<SPAN 
+lang=EN-US>"|"</SPAN>来分割字符串<SPAN lang=EN-US><BR></SPAN><SPAN lang=EN-US><SPAN 
+class=SpellE>color_format <SPAN style="COLOR: gray">字符串</SPAN><SPAN 
+lang=EN-US>:</SPAN>颜色格式串,有两种格式：</SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN class=SpellE><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1，直接写RGB色加-RGB色偏，如“9f2e3f-030303|2d3f2f-000000"，支持多个。</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2，#后面加数值，如“#128”，表示采用灰度阀值二值化，值的取值范围为-6到510，只能设置1个。<SPAN 
+style="FONT-SIZE: 13.5pt">具体可用工具测试。</SPAN></P></SPAN></SPAN></SPAN></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+class=SpellE>sim</SPAN> </SPAN><SPAN style="COLOR: #339966"><SPAN 
+style="COLOR: #339966">小数型</SPAN></SPAN><SPAN lang=EN-US>:</SPAN>相似度<SPAN 
+lang=EN-US>,</SPAN>取值范围<SPAN lang=EN-US>0.1-1.0　<FONT 
+color=#ff0000>此参数的缺省值为0.95<BR></FONT></SPAN></SPAN><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#000000>isbackcolor 
+<FONT color=#800000>整数型</FONT>:是否背景色,<STRONG>为1表示</STRONG></FONT><FONT 
+color=#000000><SPAN class=SpellE>color_format</SPAN> 
+所提供的颜色为背景色,否则表示提供的为文字颜色.</FONT><FONT 
+color=#ff0000>此参数的缺省值为0</FONT></SPAN></SPAN></FONT></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><BR></SPAN></P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>找到返回1,没找到返回0</FONT></SPAN></SPAN></STRONG></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN></FONT></STRONG><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">&nbsp;</P>
+<P><FONT color=#ff0000>TC例子：</FONT></P>
+<P><SPAN class=SpellE>ret</SPAN> = <SPAN class=SpellE>lw.<SPAN 
+class=SpellE>FindStr</SPAN></SPAN>(0,0,2000,2000,"</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">长安|洛阳<SPAN lang=EN-US>","<st1:chmetcnv UnitName="F" 
+SourceValue="9" HasSpace="False" Negative="False" NumberType="1" TCSC="0" 
+w:st="on">9f</st1:chmetcnv>2e<st1:chmetcnv UnitName="F" SourceValue="3" 
+HasSpace="False" Negative="False" NumberType="1" TCSC="0" 
+w:st="on">3f</st1:chmetcnv>-000000",1.0)<BR>If&nbsp;<SPAN 
+class=SpellE>ret=1</SPAN> Then<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+class=SpellE>lw.MoveTo(</SPAN>lw.x(),lw.y())</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>End If</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN>&nbsp;</P>
+<P><FONT color=#ff0000>按键例子：</FONT></P>
+<P><SPAN class=SpellE>ret</SPAN> = <SPAN class=SpellE>lw.F<SPAN 
+class=SpellE>FindStr</SPAN></SPAN>(0,0,2000,2000,"<SPAN 
+style="FONT-SIZE: 13.5pt">长安|洛阳<SPAN lang=EN-US>","<st1:chmetcnv UnitName="F" 
+SourceValue="9" HasSpace="False" Negative="False" NumberType="1" TCSC="0" 
+w:st="on">9f</st1:chmetcnv>2e<st1:chmetcnv UnitName="F" SourceValue="3" 
+HasSpace="False" Negative="False" NumberType="1" TCSC="0" 
+w:st="on">3f</st1:chmetcnv>-000000",1.0)<BR>If&nbsp;<SPAN 
+class=SpellE>ret=1</SPAN> Then<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+class=SpellE>lw.MoveTo </SPAN>lw.x,lw.y</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>End 
+If</SPAN></SPAN></P></o:p></SPAN></SPAN>
+<P></SPAN>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></P><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: fuchsia">注<SPAN lang=EN-US>: 
+</SPAN>此函数的原理是先<SPAN class=SpellE><SPAN 
+lang=EN-US>Ocr</SPAN></SPAN>识别，然后再查找。所以速度比<SPAN class=SpellE><SPAN 
+lang=EN-US>FindStrFast</SPAN></SPAN>要慢，尤其是在字库<SPAN 
+lang=EN-US><BR></SPAN>很大时。<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN> 
+<P></P>
+<P><SPAN style="FONT-SIZE: 13.5pt; COLOR: fuchsia">一般字库字符数量小于<SPAN 
+lang=EN-US>100</SPAN>左右，用<SPAN class=SpellE><SPAN 
+lang=EN-US>FindStr</SPAN></SPAN>要快一些<SPAN lang=EN-US>,</SPAN>否则用<SPAN 
+class=SpellE><SPAN lang=EN-US>FindStrFast</SPAN></SPAN><SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P></DIV>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

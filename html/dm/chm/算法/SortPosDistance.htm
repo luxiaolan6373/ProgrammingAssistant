@@ -1,0 +1,252 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="SortPosDistance.files/filelist.xml">
+<title>无标题文档</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>User</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Revision>67</o:Revision>
+  <o:TotalTime>27</o:TotalTime>
+  <o:Created>2010-05-26T10:51:00Z</o:Created>
+  <o:LastSaved>2014-06-03T04:18:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>162</o:Words>
+  <o:Characters>929</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>7</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1089</o:CharactersWithSpaces>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>120</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.style1, li.style1, div.style1
+	{mso-style-name:style1;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	color:blue;
+	font-weight:bold;}
+span.style11
+	{mso-style-name:style11;
+	color:blue;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p class=style1><span style='font-size:13.5pt'>函数简介<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt'>根据部分<span lang=EN-US>Ex</span>接口的返回值，然后对所有坐标根据对指定坐标的距离<span
+lang=EN-US>(</span>或者指定<span lang=EN-US>X</span>或者<span lang=EN-US>Y)</span>进行从小到大的排序<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span class=style11><span style='font-size:13.5pt'>函数原型<span lang=EN-US>:</span></span></span><span
+lang=EN-US style='font-size:13.5pt'><br>
+<br>
+<span class=GramE>string</span> <span class=SpellE>SortPosDistance</span>(<span
+class=SpellE>all_pos,type,x,y</span>)<o:p></o:p></span></p>
+
+<p><span class=style11><span style='font-size:13.5pt'>参数定义<span lang=EN-US>:</span></span></span><span
+lang=EN-US style='font-size:13.5pt'><br>
+<br>
+<span class=SpellE>all_pos</span> </span><span style='font-size:13.5pt;
+color:gray'>字符串</span><span lang=EN-US style='font-size:13.5pt'>: </span><span
+style='font-size:13.5pt'>坐标描述串。<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span></span>一般是<span class=SpellE><span
+lang=EN-US>FindStrEx,FindStrFastEx,FindStrWithFontEx</span></span><span
+lang=EN-US>,</span></span><span lang=EN-US> <span class=SpellE>FindColorEx</span>,</span><span
+lang=EN-US style='font-size:13.5pt'> <span class=SpellE>FindMultiColorEx</span>,</span><span
+style='font-size:13.5pt'>和<span class=SpellE><span lang=EN-US>FindPicEx</span></span>的返回值<span
+lang=EN-US>.<br>
+type </span><span style='color:maroon'>整形数</span><span lang=EN-US>:<span
+style='mso-spacerun:yes'>&nbsp; </span></span>取值为<span lang=EN-US>0</span>或者<span
+lang=EN-US>1<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>如果<span class=SpellE><span lang=EN-US>all_pos</span></span>的内容是由<span
+class=SpellE><span lang=EN-US>FindPicEx,FindStrEx,FindStrFastEx,FindStrWithFontEx</span></span>返回，那么取值为<span
+lang=EN-US>0<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>如果<span class=SpellE><span lang=EN-US>all_pos</span></span>的内容是由</span><span
+class=SpellE><span lang=EN-US>FindColorEx</span></span><span lang=EN-US>,</span><span
+lang=EN-US style='font-size:13.5pt'> FindMultiColorEx,FindColorBlockEx</span><span
+style='font-size:13.5pt'>返回，那么取值为<span lang=EN-US>1<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>如果<span class=SpellE><span lang=EN-US>all_pos</span></span>的内容是由</span><span
+class=SpellE><span lang=EN-US>OcrEx</span></span><span style='font-size:13.5pt'>返回，那么取值为<span
+lang=EN-US>2<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp; </span></span><span style='font-size:13.5pt'>如果<span
+class=SpellE><span lang=EN-US>all_pos</span></span>的内容是由</span><span
+class=SpellE><span lang=EN-US>FindPicExS,FindStrExS,FindStrFastExS</span></span><span
+style='font-size:13.5pt'>返回，那么取值为<span lang=EN-US>3<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'>x </span><span style='font-size:
+13.5pt;color:maroon'>整形数</span><span lang=EN-US style='font-size:13.5pt'>: </span><span
+style='font-size:13.5pt'>横坐标<span lang=EN-US> <br>
+y </span><span style='color:maroon'>整形数</span><span lang=EN-US>: </span>纵坐标<span
+lang=EN-US><br>
+<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:fuchsia'>注意<span lang=EN-US>:</span>如果<span
+lang=EN-US>x</span>为<span lang=EN-US>65535</span>并且<span lang=EN-US>y</span>为<span
+lang=EN-US>0</span>时，那么排序的结果是仅仅对<span lang=EN-US>x</span>坐标进行排序<span
+lang=EN-US>,</span>如果<span lang=EN-US>y</span>为<span lang=EN-US>65535</span>并且<span
+lang=EN-US>x</span>为<span lang=EN-US>0</span>时，那么排序的结果是仅仅对<span lang=EN-US>y</span>坐标进行排序<span
+lang=EN-US>.</span></span><span lang=EN-US><o:p></o:p></span></span></p>
+
+<p><span class=style11><span style='font-size:13.5pt'>返回值<span lang=EN-US>:</span></span></span><span
+lang=EN-US style='font-size:13.5pt'><br>
+<br>
+</span><span style='font-size:13.5pt;color:gray'>字符串<span lang=EN-US>:</span></span><span
+lang=EN-US style='font-size:13.5pt'><br>
+</span><span style='font-size:13.5pt'>返回的格式和<span lang=EN-US>type</span>指定的格式一致<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span class=style11><span style='font-size:13.5pt'>示例<span lang=EN-US>:</span></span></span><span
+lang=EN-US style='font-size:13.5pt'><o:p></o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'>ret = <span class=SpellE>dm.FindColorEx</span>(0,0,2000,2000,&quot;aaaaaa-000000&quot;,1.0,0)<br>
+ret = <span class=SpellE>dm.SortPosDistance</span>(ret,1,100,100)<br>
+<span class=SpellE>TracePrint</span> ret<o:p></o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'>ret = <span class=SpellE>dm.FindPicEx</span>(0,0,2000,2000,&quot;a.bmp&quot;,&quot;000000&quot;,1.0,0)<br>
+ret = <span class=SpellE>dm.SortPosDistance</span>(ret,0,65535,0)<br>
+<span class=SpellE>TracePrint</span> ret<o:p></o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'>ret = <span class=SpellE>dm.OcrEx</span>(0,0,2000,2000,&quot;ffffff&quot;,1.0)<br>
+ret = <span class=SpellE>dm.SortPosDistance</span>(ret,2,65535,0)<br>
+<span class=SpellE>TracePrint</span> ret<o:p></o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'>ret = <span class=SpellE>dm.FindPicExS</span>(0,0,2000,2000,&quot;test.bmp|test2.bmp&quot;,&quot;020202&quot;,1.0,0)
+<br>
+ret = <span class=SpellE>dm.SortPosDistance</span>(ret,3,65535,0)<br>
+<span class=SpellE>TracePrint</span> ret<o:p></o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

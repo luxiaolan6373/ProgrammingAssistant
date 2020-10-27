@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>ReadIni</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.16385"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.805</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>IniRead</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<DIV class=Section1>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>读取指定配置文件中指定项目的文本内容。</FONT></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>string 
+IniRead(file,section,key,<SPAN class=style11><SPAN lang=EN-US><o:p><FONT 
+size=4>Default</FONT></o:p></SPAN></SPAN>)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><STRONG><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN 
+lang=EN-US>:</SPAN></SPAN></FONT></STRONG></SPAN></P>
+<P><SPAN class=style11><FONT color=#0000ff><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><FONT color=#000000>file 
+</FONT></SPAN><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><FONT 
+color=#000000><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>:&nbsp;&nbsp; 
+文件名，指定配置文件的名称，通常以.ini作为文件名后缀。</SPAN></FONT></SPAN></SPAN></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>section </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:&nbsp;&nbsp; 节名称，</SPAN><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">指定</SPAN>欲读入配置项所处节的名称。</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>key </SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:&nbsp;&nbsp; 配置项，<SPAN 
+style="FONT-SIZE: 13.5pt">指定欲写入配置项所处项目名称。</SPAN></SPAN></P>
+<P style="MARGIN-RIGHT: 0px" dir=ltr><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN 
+style="WIDOWS: 1; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 28px; DISPLAY: inline !important; FONT: 14px/24px arial, 宋体, sans-serif; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(51,51,51); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px"></SPAN></SPAN></SPAN><SPAN 
+class=style11><SPAN lang=EN-US><o:p><FONT size=4>Default <SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:&nbsp;&nbsp; 默认文本，<SPAN 
+style="WIDOWS: 1; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 28px; DISPLAY: inline !important; FONT: 14px/24px arial, 宋体, sans-serif; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(51,51,51); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px"><FONT 
+size=4>指定的条目没有找到时返回的默认值</FONT>。</SPAN><FONT 
+color=#ff0000>可空，默认为一个空文本。</FONT></SPAN></FONT></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>返回值<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR></SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串<SPAN lang=EN-US>:</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">字符串形式表达的读取到的内容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>示例<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>// </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">绝对路径<SPAN lang=EN-US><BR>ret&nbsp;= 
+lw.IniRead("c:\test_game\cfg.ini"，“m<FONT 
+size=4>Section</FONT>","mkey")<BR><BR>// </SPAN>相对路径<SPAN 
+lang=EN-US><BR>ret=lw.SetPath ("c:\test_game")<BR>Text = 
+lw.IniRead("cfg.ini","m<FONT size=4>Section</FONT>","mkey")</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注<SPAN lang=EN-US> : 
+</SPAN>此函数是多线程安全的<SPAN lang=EN-US>. </SPAN>多线程同时读写同个文件不会造成文件错乱<SPAN 
+lang=EN-US>.</SPAN></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#008000>-----------------------------------------------------------------------------------------------</FONT></SPAN></SPAN></P>
+<P><FONT color=#008000 size=4>INI文件结构示例：</FONT></P>
+<P><FONT size=4><FONT 
+color=#008000>//Section＝节名称,用来表示一个段落。<BR>//key=配置项,用来表示一个参数名。<BR>//value=用来存储一个值。</FONT><BR>[Section1]</FONT></P>
+<P><FONT size=4>Key1＝value1</FONT></P>
+<P><FONT size=4>Key2＝value2</FONT></P>
+<P><FONT size=4>...</FONT></P>
+<P><FONT size=4>[Section2]</FONT></P>
+<P><FONT size=4>Key1＝value1</FONT></P>
+<P><FONT size=4>Key2＝value2</FONT></P>
+<P><FONT size=4>...<BR></FONT></P></DIV></DIV>
+<DIV><SPAN 
+style="WIDOWS: 1; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 28px; DISPLAY: inline !important; FONT: 14px/24px arial, sans-serif; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(51,51,51); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px"></SPAN>&nbsp;</DIV>
+<DIV>
+<HR>
+</DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

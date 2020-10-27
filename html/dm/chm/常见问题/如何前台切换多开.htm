@@ -1,0 +1,341 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="如何前台切换多开.files/filelist.xml">
+<title>无标题文档</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>User</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Revision>70</o:Revision>
+  <o:TotalTime>43</o:TotalTime>
+  <o:Created>2010-05-26T10:49:00Z</o:Created>
+  <o:LastSaved>2013-05-17T08:47:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>196</o:Words>
+  <o:Characters>1122</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>9</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1316</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>经常有人问我这个问题，现在特别把这个方法说一下。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>比如有<span lang=EN-US>3</span>个窗口，分别对应三个线程，分别控制窗口脚本。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>那如何解决<span lang=EN-US>3</span>个窗口图色，键鼠操作的冲突呢<span
+lang=EN-US>? </span>下面就是一个完整的前台切换<span lang=EN-US>3</span>开模版<span lang=EN-US>.
+</span>用按键精灵的语法描述<span lang=EN-US>,</span>其他语言类似<span lang=EN-US>. <o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>主要是利用<span lang=EN-US>4.1320</span>版本之后<span
+lang=EN-US>EnterCri</span>和<span lang=EN-US>LeaveCri</span>来实现<span lang=EN-US>.(</span>类似<span
+lang=EN-US>E</span>语言许可证的概念<span lang=EN-US>)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>//</span><span
+style='font-size:13.5pt'>之前插件的释放和注册部分省略<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>Set dm =
+createobject(&quot;dm.dmsoft&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'>dm_ret =
+dm.Reg(&quot;</span><span style='font-size:13.5pt'>你的注册码<span lang=EN-US>&quot;,&quot;&quot;)<br>
+if dm_ret &lt;&gt; 1 then<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><span lang=EN-US
+style='font-size:13.5pt'>messagebox &quot;</span><span style='font-size:13.5pt'>注册失败<span
+lang=EN-US>:&quot;&amp;dm_ret<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><span lang=EN-US
+style='font-size:13.5pt'>endscript<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>end if</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>hwnds = dm.EnumWindow(0,&quot;QQ</span>三国<span
+lang=EN-US>&quot;,&quot;&quot;,1+4+8+16)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>hwnds = split(hwnds,&quot;,&quot;)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>if ubound(hwnds) &lt;&gt; 2 then</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>messagebox
+&quot;</span>没发现<span lang=EN-US>3</span>个窗口<span lang=EN-US>&quot;</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>endscript</span></p>
+
+<p class=MsoNormal><span lang=EN-US>end if</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>// </span>这里初始化临界区</p>
+
+<p class=MsoNormal><span lang=EN-US>dm.InitCri</span></p>
+
+<p class=MsoNormal><span lang=EN-US>// </span>分别开启<span lang=EN-US>3</span>个线程控制每个窗口</p>
+
+<p class=MsoNormal><span lang=EN-US>BeginThread entry(clng(hwnds(0))<br>
+BeginThread entry(clng(hwnds(1))</span></p>
+
+<p class=MsoNormal><span lang=EN-US>BeginThread entry(clng(hwnds(2))</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>do</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>delay
+1000</span></p>
+
+<p class=MsoNormal><span lang=EN-US>loop</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>endscript</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>sub entry(hwnd)</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>TracePrint
+&quot;</span>句柄<span lang=EN-US>:&quot;&amp;hwnd</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>set dm =
+createobject(&quot;dm.dmsoft&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>dm_ret =
+dm.BindWindow(hwnd,&quot;normal&quot;,&quot;normal&quot;,&quot;normal&quot;,0)</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>do</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>Call </span>接任务<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>Call </span>打怪<span
+lang=EN-US>()</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>Call </span>交任务<span
+lang=EN-US>()</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>loop</span></p>
+
+<p class=MsoNormal><span lang=EN-US>end sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub</span>接任务<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>// </span>激活和取消激活必须成对调用<span
+lang=EN-US>. </span>否则脚本会卡死</p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>激活窗口<span
+lang=EN-US>() </span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>//<span
+style='mso-spacerun:yes'>&nbsp; </span></span>这里就是接任务代码<span lang=EN-US>.</span>这里只是一个例子，实际中不可能整个接任务代码都被保护起来<span
+lang=EN-US>,</span>那样太低效了<span lang=EN-US>.</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>取消激活窗口<span
+lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US>End Sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub </span>打怪<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>//
+</span>激活和取消激活必须成对调用<span lang=EN-US>. </span>否则脚本会卡死</p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>激活窗口<span
+lang=EN-US>() </span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>//<span
+style='mso-spacerun:yes'>&nbsp; </span></span>这里就是打怪代码</p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>取消激活窗口<span
+lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US>End Sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub </span>交任务<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>//
+</span>激活和取消激活必须成对调用<span lang=EN-US>. </span>否则脚本会卡死</p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>激活窗口<span
+lang=EN-US>() </span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>//<span
+style='mso-spacerun:yes'>&nbsp; </span></span>这里就是交任务代码</p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>call </span>取消激活窗口<span
+lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US>End Sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub </span>激活窗口<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>do </span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp; </span>if dm.EnterCri() = 1 then</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>exit
+do</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp; </span>end if</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>delay 100</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>loop</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0'><span
+lang=EN-US>dm.SetWindowState hwnd,12</span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US>delay 500</span></p>
+
+<p class=MsoNormal><span lang=EN-US>End Sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub </span>取消激活窗口<span lang=EN-US>()</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>dm.LeaveCri</span></p>
+
+<p class=MsoNormal><span lang=EN-US>End Sub</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sub OnThreadExit()</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>dm.UnBindWindow</span></p>
+
+<p class=MsoNormal><span lang=EN-US>end Sub</span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>activity</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.761</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>AdbRunApp</H1></DIV></DIV>
+<DIV id=nstext>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">启动应用</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff>函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><SPAN class=GramE>int&nbsp;</SPAN>&nbsp;<SPAN 
+class=SpellE>AdbRunApp</SPAN>(package,activity) </SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN></o:p></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN><FONT color=#000000 
+size=4>&nbsp;package</FONT> <SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><FONT 
+color=#808080>字符串</FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>: 
+app的包名</SPAN></P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN></o:p></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN><FONT color=#000000 
+size=4>&nbsp;activity</FONT> <SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt"><FONT 
+color=#808080>字符串</FONT></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>: 
+app的类名</SPAN></P>
+<P></SPAN><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff><FONT size=4>返回值<SPAN 
+lang=EN-US>:</SPAN></FONT></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN lang=EN-US>&nbsp; 
+</SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000></FONT></SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000>成功返回1,失败返回0.</FONT></SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000></FONT></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN class=SpellE><SPAN class=GramE><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>ret</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>&nbsp;= <SPAN class=SpellE>lw.<SPAN class=SpellE><SPAN 
+class=SpellE>AdbRunApp</SPAN></SPAN></SPAN>("com.tencent.mm","com.tencent.mm.ui.LauncherUI")</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#ff0000>包名,类名可在网上搜索包名,类名查看器查看.</FONT></SPAN></P>
+<HR>
+</DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

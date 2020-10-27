@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>KeyPressStr</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>KeyPressStr</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<DIV class=Section1><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">根据指定的字符串序列，依次按顺序按下其中的字符<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN class=GramE>int</SPAN> 
+KeyPressStr(key_str,delay)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR></SPAN><FONT size=4><SPAN 
+lang=EN-US>key_str<B style="mso-bidi-font-weight: normal"> </B></SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt">字符串</SPAN><B 
+style="mso-bidi-font-weight: normal"><SPAN lang=EN-US>: 
+</SPAN></B>需要按下的字符串序列<SPAN lang=EN-US>. </SPAN>比如<SPAN 
+lang=EN-US>"1234","abcd","7389,1462"</SPAN>等<SPAN lang=EN-US>.</SPAN></FONT></P>
+<P><FONT size=4><SPAN lang=EN-US>delay </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN lang=EN-US>: 
+</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt">每按下一个按键，需要延时多久<SPAN lang=EN-US>. 
+</SPAN>单位毫秒<SPAN lang=EN-US>.</SPAN>这个值越大，按的速度越慢。<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR>0:</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN 
+lang=EN-US><BR>1:</SPAN>成功<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>lw.KeyPressStr "123,456"<SPAN 
+class=GramE>,20</SPAN><o:p></o:p></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注<SPAN lang=EN-US>: 
+</SPAN>在某些情况下，<SPAN lang=EN-US>SendString</SPAN>和<SPAN 
+lang=EN-US>SendString2</SPAN>都无法输入文字时，可以考虑用这个来输入<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN 
+style="COLOR: fuchsia; FONT-SIZE: 13.5pt">但这个接口只支持标英文大小写字母,数字,和半角字符.</SPAN> 
+<P>&nbsp;
+<P><FONT color=#ff0000 size=4>注意,在没有调用&nbsp; binwindow 
+绑定窗口之前,所有的键盘鼠标命令都无效!!!</FONT></P>
+<HR>
+
+<P></P></DIV></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

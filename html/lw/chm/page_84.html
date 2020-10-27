@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>GetWindow</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.30</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>GetWindow</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">获取给定窗口相关的窗口句柄<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>int &nbsp;GetWindow(hwnd,flag) 
+<o:p></o:p></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>hwnd </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">窗口句柄<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>flag </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">取值定义如下<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>0 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">获取源窗口的父窗口　如果该窗口没有父窗口,则返回0</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>1 : <SPAN 
+style="FONT-SIZE: 13.5pt">获取源窗口的</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">获取第一个儿子窗口<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>2 :&nbsp;<SPAN 
+style="FONT-SIZE: 13.5pt">获取</SPAN>源窗口的第一个兄弟窗口</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>3 : </SPAN><SPAN style="FONT-SIZE: 13.5pt">预留</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>4 : <SPAN style="FONT-SIZE: 13.5pt">获取</SPAN>源窗口的</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">下一个兄弟窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>5 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">获取</SPAN>源窗口的上一个兄弟窗口<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>6 : <SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">获取</SPAN>源窗口的</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">拥有者窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>7 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt">获取</SPAN>源窗口的</SPAN>顶层窗口,如果该窗口本身就是顶级窗口,则返回其自身.</SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">返回整型表示的窗口句柄<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>own_hwnd = 
+lw.GetWindow(hwnd,6)<o:p></o:p></SPAN></P>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

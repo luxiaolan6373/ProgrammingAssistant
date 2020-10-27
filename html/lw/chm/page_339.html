@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>objClose</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.810</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>objClose</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><FONT size=4>关闭指定进程中的内核对象</FONT></P>
+<P>&nbsp;</P>
+<P><FONT size=4><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff>函数原型<SPAN 
+lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><BR>int&nbsp;&nbsp;objClose(handle)</SPAN></FONT></P>
+<P><FONT size=4><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></FONT>&nbsp;</P>
+<P><FONT size=4><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><FONT 
+color=#0000ff><STRONG>参数定义</STRONG></FONT><SPAN lang=EN-US><FONT 
+color=#0000ff><STRONG>:<BR></STRONG></FONT></SPAN></o:p></SPAN></SPAN></P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt">handle </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数<FONT 
+color=#000000>：欲关闭对象的对象句柄。</FONT></SPAN></o:p></SPAN></SPAN></P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></o:p></SPAN></SPAN>&nbsp;</P>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></SPAN></o:p></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"><FONT color=#c0c0c0><SPAN 
+style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><BR></SPAN></FONT></SPAN></P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">成功返回1，失败返回0.</P></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>示例<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+lang=EN-US style="FONT-SIZE: 13.5pt"><o:p></o:p></SPAN></P></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">ret = 
+lw.objClose(1234)</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"></SPAN></P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt">
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN lang=EN-US style="FONT-SIZE: 13.5pt"></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在调用一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></o:p></SPAN></SPAN></SPAN></FONT> 
+
+<P>
+<P><FONT color=#ff0000 size=4>内核对象包括 同步事件，互斥体，管道等。</FONT> 
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

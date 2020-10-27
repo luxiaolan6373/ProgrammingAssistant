@@ -1,0 +1,520 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="如何在多线程下使用.files/filelist.xml">
+<title>无标题文档</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>User</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Revision>161</o:Revision>
+  <o:TotalTime>102</o:TotalTime>
+  <o:Created>2010-05-26T09:40:00Z</o:Created>
+  <o:LastSaved>2017-10-01T12:10:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>296</o:Words>
+  <o:Characters>1690</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1983</o:CharactersWithSpaces>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:579095059;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-609869738 -750484198 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:73.3pt;
+	mso-level-number-position:left;
+	margin-left:73.3pt;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:1058669490;
+	mso-list-type:hybrid;
+	mso-list-template-ids:386555314 1822081730 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:1787118451;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-960869838 -889017880 -1075417114 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-text:%2;
+	mso-level-tab-stop:93.0pt;
+	mso-level-number-position:left;
+	margin-left:93.0pt;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:2146502548;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1434483692 -1878998826 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:74.25pt;
+	mso-level-number-position:left;
+	margin-left:74.25pt;
+	text-indent:-20.25pt;}
+@list l3:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p><span style='font-size:13.5pt'>多线程下使用插件是一个很复杂的问题<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt;color:blue'>一般来说使用多线程的目的，有<span lang=EN-US>2</span>种目的。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt;color:fuchsia'>情况<span lang=EN-US>1 </span></span><span
+style='font-size:13.5pt;color:blue'>用多个线程控制多个窗口的脚本运行<span lang=EN-US>(</span>最常见的情况，通常用于多开<span
+lang=EN-US>).<o:p></o:p></span></span></p>
+
+<p><span style='font-size:13.5pt;color:fuchsia'>情况<span lang=EN-US>2 </span></span><span
+style='font-size:13.5pt;color:blue'>用多个线程控制同一个窗口的脚本运行<span lang=EN-US>(</span>通常用于监控信息，比如验证信息，或其他一些突发性的情况<span
+lang=EN-US>).<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt'>下面就对上面列出的各种情况，讲解如何在这些情况下，使用大漠插件<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p><span class=GramE><span style='font-size:13.5pt;color:red'>一</span></span><span
+lang=EN-US style='font-size:13.5pt;color:red'><span
+style='mso-spacerun:yes'>&nbsp; </span></span><span style='font-size:13.5pt;
+color:red'>按键的多线程<span lang=EN-US> (<a href="按键多线程调用插件.htm"><span lang=EN-US><span
+lang=EN-US>示例代码可以参考这里</span></span></a>)<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span style='font-size:
+13.5pt;color:fuchsia'>情况<span lang=EN-US>1<o:p></o:p></span></span></p>
+
+<p style='margin-left:74.25pt;text-indent:-20.25pt;mso-list:l3 level1 lfo2;
+tab-stops:list 74.25pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>这种情况是最常见的情况，用大漠插件不用特别注意什么，每个窗口对应绑定一个大漠对象即可<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p style='margin-left:74.25pt;text-indent:-20.25pt;mso-list:l3 level1 lfo2;
+tab-stops:list 74.25pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>这种情况下用多线程，其实和按键的重复多开一样的效果。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='text-indent:21.0pt'><span style='font-size:13.5pt;color:fuchsia'>情况<span
+lang=EN-US>2<o:p></o:p></span></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;
+tab-stops:list 72.0pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>这种情况就比较特殊了。要支持这种情况，必须使用插件<span
+lang=EN-US>(2.1117</span>之后的版本<span lang=EN-US>).<o:p></o:p></span></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;
+tab-stops:list 72.0pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>每个线程中，还是创建一个大漠对象，并绑定同一个窗口<span
+lang=EN-US>. <br>
+</span><span style='color:purple'>另外，特别要注意，绑定<span class=GramE>的同个窗口</span>的绑定模式必须完全一样。<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>第一个绑定的大漠对象<span
+class=GramE>称做</span>主绑定，<span lang=EN-US><br>
+</span>后面的都叫做副绑定，副绑定不用解绑也可以，但是一旦主绑定接绑，那么所有的绑定都会失效<span lang=EN-US>.</span></span><span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin-left:54.0pt'><span lang=EN-US style='font-size:13.5pt'>3. </span><span
+style='font-size:13.5pt'>这种模式下，还有个问题要注意，因为毕竟是多线程，<span class=GramE>键鼠的</span>操作都是异步的，那么很可能<span
+class=GramE>出现键鼠</span><span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>在多个线程<span
+class=GramE>中冲突</span>的可能，这个问题没法解决，多线程势必会有这样的问题。只能建议少在子线程中<span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span class=GramE>做键鼠</span>的操作<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p style='margin-left:54.0pt'><span lang=EN-US style='font-size:13.5pt'>4. </span><span
+style='font-size:13.5pt'>另外要注意的是，子线程的绑定操作一定要在主线程之后，也就是说<span class=SpellE><span
+lang=EN-US>BeginThread</span></span>的调用一定要在主<span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>线程的<span
+class=SpellE><span lang=EN-US>BindWindow</span></span>或者<span class=SpellE><span
+lang=EN-US>BindWindowEx</span></span>之后进行<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p style='margin-left:54.0pt'><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt;color:red'>二<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span></span>其他高级语言的多线程<span lang=EN-US> (</span>高级语言模版大漠插件网站有下载<span
+lang=EN-US>)<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>首先，要注意的是，大漠插件是支持<span lang=EN-US>com</span>的<span
+lang=EN-US>STA</span>和<span lang=EN-US>MTA</span>线程模型，高级语言中使用大漠插件，建议使用<span
+lang=EN-US>MTA</span>模型。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span style='font-size:
+13.5pt'>这样效率最高<span lang=EN-US>. </span>当然，<span lang=EN-US>STA</span>也可以，但会限制插件的函数调用都在一个线程套间内，会影响效率<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt;color:fuchsia'>情况<span lang=EN-US>1<o:p></o:p></span></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo6;
+tab-stops:list 72.0pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>这种情况是最常见的情况，用大漠插件不用特别注意什么，每个窗口对应绑定一个大漠对象即可<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p style='text-indent:21.0pt'><span style='font-size:13.5pt;color:fuchsia'>情况<span
+lang=EN-US>2<o:p></o:p></span></span></p>
+
+<p style='margin-left:73.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo8;
+tab-stops:list 73.3pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>这种情况就比较特殊了。要支持这种情况，必须使用插件<span
+lang=EN-US>(2.1117</span>之后的版本<span lang=EN-US>).<o:p></o:p></span></span></p>
+
+<p style='margin-left:73.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo8;
+tab-stops:list 73.3pt'><![if !supportLists]><span lang=EN-US style='font-size:
+13.5pt'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt'>每个线程中，还是创建一个大漠对象，并绑定同一个窗口<span
+lang=EN-US>. <br>
+</span><span style='color:purple'>另外，特别要注意，绑定<span class=GramE>的同个窗口</span>的绑定模式必须完全一样。<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>第一个绑定的大漠对象<span
+class=GramE>称做</span>主绑定，<span lang=EN-US><br>
+</span>后面的都叫做副绑定，副绑定不用解绑也可以，但是一旦主绑定接绑，那么所有的绑定都会失效<span lang=EN-US>..</span></span><span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin-left:54.0pt'><span lang=EN-US style='font-size:13.5pt'>3. </span><span
+style='font-size:13.5pt'>这种模式下，还有个问题要注意，因为毕竟是多线程，<span class=GramE>键鼠的</span>操作都是异步的，那么很可能<span
+class=GramE>出现键鼠</span><span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>在多个线程<span
+class=GramE>中冲突</span>的可能，这个问题没法解决，多线程势必会有这样的问题。只能建议少在子线程中<span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span class=GramE>做键鼠</span>的操作<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p style='margin-left:54.0pt'><span lang=EN-US style='font-size:13.5pt'>4. </span><span
+style='font-size:13.5pt;color:fuchsia'>另外，子线程在绑定时，一定要<span class=GramE>等到主</span>线程绑定结束之后，再执行绑定，<span
+lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>否则会引发不可预知的异常<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p style='margin-left:33.75pt;text-indent:-33.75pt;mso-char-indent-count:-2.5'><span
+lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>比如<span class=SpellE><span lang=EN-US>vc</span></span>如何设置当前线程模型为<span
+lang=EN-US>MTA,</span>只要在线程开始调用<span class=SpellE><span lang=EN-US>CoInitializeEx</span></span><span
+lang=EN-US>(NULL,0)</span>一次即可<span lang=EN-US>. <br>
+</span>其他语言可能略有不同<span lang=EN-US>.<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></span></p>
+
+<p style='margin-left:33.75pt;text-indent:-33.75pt;mso-char-indent-count:-2.5'><span
+lang=EN-US style='font-size:13.5pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:13.5pt'>下面是一个按键<span lang=EN-US>8</span>，使用大漠多线程的一个例子<span
+lang=EN-US>,</span>必须使用大漠插件<span lang=EN-US>v2.1129</span>之后的版本<span
+lang=EN-US><br>
+Set dm = <span class=SpellE>createobject</span>(&quot;<span class=SpellE>dm.dmsoft</span>&quot;)<br>
+<span class=SpellE>TracePrint</span> <span class=SpellE>dm.Ver</span>()<br>
+<br>
+<span class=SpellE>DimEnv</span> <span class=SpellE>hwnd</span><br>
+<br>
+<span class=SpellE>hwnd</span> = <span class=SpellE>dm.GetMousePointWindow</span>()<br>
+<br>
+// </span>主绑定一定要先绑定，后启动线程<span lang=EN-US><br>
+<span class=SpellE>dm_ret</span> = <span class=SpellE>dm.BindWindow</span>(hwnd,&quot;dx&quot;,&quot;dx&quot;,&quot;dx&quot;,0)<br>
+<br>
+<span class=SpellE>TracePrint</span> <span class=SpellE>dm_ret</span><br>
+<br>
+// </span>开启<span lang=EN-US>3</span>个线程<span lang=EN-US><br>
+<span class=SpellE>BeginThread</span> </span>线程函数<span lang=EN-US>()<br>
+<span class=SpellE>BeginThread</span> </span>线程函数<span lang=EN-US>()<br>
+<span class=SpellE>BeginThread</span> </span>线程函数<span lang=EN-US>()<br>
+<br>
+Do<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>// </span>这里做主线程的事情<span
+lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>Delay 1000<br>
+Loop<br>
+<br>
+Sub <span class=SpellE>OnScriptExit</span>()<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>// </span>这句只会在主线程结束时被调用到<span
+lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span class=SpellE>dm_ret</span>
+= <span class=SpellE>dm.UnBindWindow</span>()<br>
+End Sub<br>
+<br>
+Sub </span>线程函数<span lang=EN-US>()<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>Set dm = <span
+class=SpellE>createobject</span>(&quot;<span class=SpellE>dm.dmsoft</span>&quot;)<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span class=SpellE>dm_ret</span>
+= <span class=SpellE>dm.BindWindow</span>(hwnd,&quot;dx&quot;,&quot;dx&quot;,&quot;dx&quot;,0)<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span class=SpellE>TracePrint</span>
+&quot;</span>线程绑定结果<span lang=EN-US>:&quot;&amp;<span class=SpellE>dm_ret</span><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>Do<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>// </span>这里做线程里需要做的事情<span lang=EN-US><br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Delay 1000<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>Loop<br>
+End Sub<o:p></o:p></span></span></p>
+
+<p style='margin-left:21.0pt'><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><span lang=EN-US style='font-size:13.5pt;color:fuchsia'><o:p>&nbsp;</o:p></span></p>
+
+<p><span style='font-size:13.5pt;color:fuchsia'>注意，<span class=SpellE><span
+lang=EN-US>mta</span></span>版本的<span lang=EN-US>COM</span>组件初始化，必须使用<span
+class=SpellE><span lang=EN-US>CoInitializeEx</span></span>函数，参数必须是两个<span
+lang=EN-US>0<br>
+<span class=SpellE>sta</span></span>版本的<span lang=EN-US>COM</span>组件初始化，必须使用<span
+class=SpellE><span lang=EN-US>CoInitialize</span></span>函数，参数是一个<span
+lang=EN-US>0.<br>
+</span>每个线程开头，都必须要初始化<span lang=EN-US>COM,</span>否则函数调用会异常<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+</div>
+
+</body>
+
+</html>

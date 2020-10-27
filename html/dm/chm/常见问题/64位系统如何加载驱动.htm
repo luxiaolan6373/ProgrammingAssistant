@@ -1,0 +1,580 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="64位系统如何加载驱动.files/filelist.xml">
+<link rel=Edit-Time-Data href="64位系统如何加载驱动.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>无标题文档</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>User</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Revision>36</o:Revision>
+  <o:TotalTime>32</o:TotalTime>
+  <o:Created>2010-05-26T10:49:00Z</o:Created>
+  <o:LastSaved>2017-05-15T12:32:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>212</o:Words>
+  <o:Characters>1211</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1421</o:CharactersWithSpaces>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Simsun;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:91055530;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1158222228 1204683274 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:30.0pt;
+	mso-level-number-position:left;
+	margin-left:30.0pt;
+	text-indent:-30.0pt;
+	mso-ansi-font-size:24.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	mso-ansi-font-weight:bold;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="5122"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>从<span lang=EN-US>6.1538</span>开始，插件已经支持<span
+lang=EN-US>64</span>位驱动加载<span lang=EN-US>.(</span>不包括<span lang=EN-US>WIN7SP1</span>之前的系统<span
+lang=EN-US>)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>如果<span lang=EN-US>WIN7 SP1,</span>还必需打补丁<span
+lang=EN-US>KB3033929.WIN8</span>之后的系统不需要打补丁<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.5pt'>如果是<span lang=EN-US>WIN10
+1607</span>之后的系统出现加载<span lang=EN-US>-3</span>的错误，则需要关闭<span lang=EN-US>BIOS</span>中的<span
+lang=EN-US>secure boot. </span>具体如下图<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:13.5pt;text-align:center'><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>关闭</span></b><span class=SpellE><b><span lang=EN-US
+style='font-size:36.0pt;font-family:Simsun;color:black'>SecureBoot</span></b></span><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>图文教程稿</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'><br>
+(<span class=SpellE>SecureBoot</span></span></b><b><span style='font-size:36.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>也叫</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>&quot;</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>安全启动</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>&quot;,</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>请按步骤操作</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>)</span></b><span
+lang=EN-US style='font-size:13.5pt;font-family:Simsun;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:13.5pt;font-family:Simsun;
+color:black'><br style='orphans: auto;text-align:start;widows: auto;-webkit-text-stroke-width: 0px;
+word-spacing:0px'>
+</span><span class=GramE><span style='orphans: auto;text-align:start;
+widows: auto;-webkit-text-stroke-width: 0px;word-spacing:0px'><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>一</span></span></b></span><b><span lang=EN-US
+style='font-size:36.0pt;font-family:Simsun;color:black'>.</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>关机重新开机</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>,</span></b><b><span style='font-size:36.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>进入</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>BIOS<br>
+<br>
+</span></b><b><span lang=EN-US style='font-size:13.5pt;font-family:Simsun;
+color:black'><br>
+</span></b><b><span style='font-size:36.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>重<span class=GramE>启电脑</span>后一起</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>&quot;</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>不断地</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>按</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>&quot;F1</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>键</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>和</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>&quot;F2</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>键</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>还有键盘右下角的</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>&quot;Del</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>键</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>即可进入</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>.<br>
+(</span></b><b><span style='font-size:36.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>笔记本不用按</span></b><b><span lang=EN-US
+style='font-size:36.0pt;font-family:Simsun;color:black'>Del</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>键</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>,</span></b><b><span style='font-size:36.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>小部分电脑是其他按键进入</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>BIOS,</span></b><span
+class=GramE><b><span style='font-size:36.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>需咨询</span></b></span><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>笔记本售后询问</span></b><b><span lang=EN-US style='font-size:
+36.0pt;font-family:Simsun;color:black'>.)<br>
+<br>
+<br>
+&nbsp; &nbsp; &nbsp;</span></b><b><span style='font-size:36.0pt;mso-ascii-font-family:
+Simsun;mso-hansi-font-family:Simsun;color:black'>进入</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>BIOS</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>后一般如下图所示</span></b><b><span lang=EN-US style='font-size:
+36.0pt;font-family:Simsun;color:black'>:(</span></b><b><span style='font-size:
+36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>大致和下图一样</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>)<br>
+<br>
+</span></b><b><span lang=EN-US style='font-size:13.5pt;font-family:Simsun;
+color:black'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" alt="" style='width:495pt;
+ height:495pt'>
+ <v:imagedata src="64位系统如何加载驱动.files/image001.jpg" o:href="http://www.yxswz.com/images/sbjc3.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=660 height=660
+src="64位系统如何加载驱动.files/image002.jpg" style='height:672px;width:741px' v:shapes="_x0000_i1025"><![endif]><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></b><b><span style='font-size:36.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>二</span></b><b><span lang=EN-US
+style='font-size:36.0pt;font-family:Simsun;color:black'>.</span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>找到</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'> Secure Boot </span></b><b><span
+style='font-size:36.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>选项</span></b><b><span lang=EN-US style='font-size:36.0pt;
+font-family:Simsun;color:black'>,</span></b><b><span style='font-size:36.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>并关闭它</span></b><b><span
+lang=EN-US style='font-size:36.0pt;font-family:Simsun;color:black'>.</span></b><b><span
+lang=EN-US style='font-size:13.5pt;font-family:Simsun;color:black'><br>
+<br>
+<br>
+<br>
+&nbsp; &nbsp; &nbsp;</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:
+Simsun;mso-hansi-font-family:Simsun;color:black'>按键盘上下左右键选择各个导航夹</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>,</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>一般在</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:red'>Security </span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:red'>或者</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:red'> Boot</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>&quot;</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>导航夹内可以找到</span></b><span class=apple-converted-space><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>&nbsp;</span></b></span><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:red'>Secure Boot</span></b><span
+class=apple-converted-space><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>&nbsp;</span></b></span><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>选项</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>.</span></b><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>如下图所示</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>.</span></b><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Simsun;color:black'><br>
+<br>
+<br>
+<br>
+</span></b><b><span lang=EN-US style='font-size:13.5pt;font-family:Simsun;
+color:black'><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ alt="" style='width:534pt;height:464.25pt'>
+ <v:imagedata src="64位系统如何加载驱动.files/image003.jpg" o:href="http://www.yxswz.com/images/sbjc4.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=712 height=619
+src="64位系统如何加载驱动.files/image003.jpg" style='height:619px;width:712px' v:shapes="_x0000_i1026"><![endif]><br>
+<br>
+<br>
+<br>
+</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>后边的</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>&quot;</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:red'>Enabled</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>&quot;</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>表示</span></b><span class=SpellE><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>SecureBoot</span></b></span><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>是开启的状态</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>,</span></b><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>我们按键盘下键跳到这个选项</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>,</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>按回车键弹出如下图</span></b><b><span lang=EN-US style='font-size:
+24.0pt;font-family:Simsun;color:black'>:<br>
+<br>
+<br>
+<br>
+</span></b><b><span lang=EN-US style='font-size:13.5pt;font-family:Simsun;
+color:black'><br>
+<!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75" alt=""
+ style='width:551.25pt;height:520.5pt'>
+ <v:imagedata src="64位系统如何加载驱动.files/image004.jpg" o:href="http://www.yxswz.com/images/sbjc5.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=735 height=694
+src="64位系统如何加载驱动.files/image004.jpg" style='height:694px;width:735px' v:shapes="_x0000_i1027"><![endif]><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>再按键盘上下键</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>,</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>选中</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>&quot;</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:red'>Disabled</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>&quot;,</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>意思是关闭</span></b><span class=SpellE><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>SecureBoot</span></b></span><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>.</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>选中后按回车键</span></b><b><span lang=EN-US style='font-size:
+24.0pt;font-family:Simsun;color:black'>.</span></b><b><span style='font-size:
+24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:red'>然后按</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:red'>&quot;F10&quot;</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:red'>键并按回车键确认则保存</span></b><b><span lang=EN-US style='font-size:
+24.0pt;font-family:Simsun;color:red'>BIOS</span></b><b><span style='font-size:
+24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:red'>配置</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:red'>.</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'><br>
+</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>之后会重启计算机</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>.<br>
+<br>
+</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>这里需要注意</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>:</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>有些</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>BIOS</span></b><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>中的</span></b><span
+class=SpellE><b><span lang=EN-US style='font-size:24.0pt;font-family:Simsun;
+color:black'>secureboot</span></b></span><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>选项是灰色的</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>,</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>这时需要删除所有</span></b><span class=SpellE><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>secureboot</span></b></span><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>相关</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>KEY</span></b><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>或密钥</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>,<span
+class=SpellE>SecureBoot</span></span></b><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>就会自动关闭了</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>.<span
+class=apple-converted-space>&nbsp;</span><br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>另外，如果你的</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>secure boot</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>中的</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>disabled</span></b><b><span style='font-size:
+24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>是灰色的，则尝试以下办法之一</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:"Times New Roman";mso-bidi-font-family:
+宋体;color:black'>.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:24.0pt;font-family:
+"Times New Roman";mso-bidi-font-family:宋体;color:black'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:30.0pt;text-indent:-30.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 30.0pt'><![if !supportLists]><b><span lang=EN-US
+style='font-size:24.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";color:black'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><b><span style='font-size:24.0pt;mso-ascii-font-family:
+Simsun;mso-hansi-font-family:Simsun;color:black'>在</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>Security</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>中选择</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>Set Supervisor Password</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>，按回车键设置密码。</span></b><b><span lang=EN-US style='font-size:
+24.0pt;font-family:Simsun;color:black'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+line-height:18.75pt;background:white'><span lang=EN-US style='font-size:10.5pt;
+font-family:Simsun;color:#6E6E6E'><!--[if gte vml 1]><v:shape id="_x0000_i1028"
+ type="#_x0000_t75" alt="BIOS下Secure Boot灰色无法更改解决方法2" style='width:431.25pt;
+ height:269.25pt'>
+ <v:imagedata src="64位系统如何加载驱动.files/image005.jpg" o:href="http://img.xitongcheng.com/upload/image/20160127/20160127161328_61659.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=575 height=359
+src="64位系统如何加载驱动.files/image006.jpg" style='max-width: 700px;border-bottom-width:
+0px;border-left-width:0px;border-right-width:0px;border-top-width:0px;
+display:block;margin-bottom:0px;margin-left:auto;margin-right:auto;margin-top:
+0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;
+text-align:center;vertical-align:middle' alt="BIOS下Secure Boot灰色无法更改解决方法2"
+align=middle v:shapes="_x0000_i1028"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+line-height:18.75pt;background:white'><span lang=EN-US style='font-size:10.5pt;
+font-family:Simsun;color:#6E6E6E'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:24.0pt;font-family:
+Simsun;color:black'>2. </span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:
+Simsun;mso-hansi-font-family:Simsun;color:black'>找到</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>OS Optimized
+Defaults</span></b><b><span style='font-size:24.0pt;mso-ascii-font-family:Simsun;
+mso-hansi-font-family:Simsun;color:black'>，设置成</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'>Disabled</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>或</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>Other OS</span></b><b><span style='font-size:
+24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>；</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+line-height:18.75pt;background:white'><span lang=EN-US style='font-size:10.5pt;
+font-family:Simsun;color:#6E6E6E'><!--[if gte vml 1]><v:shape id="_x0000_i1029"
+ type="#_x0000_t75" alt="BIOS下Secure Boot灰色无法更改解决方法1" style='width:408pt;
+ height:189pt'>
+ <v:imagedata src="64位系统如何加载驱动.files/image007.jpg" o:href="http://img.xitongcheng.com/upload/image/20160127/20160127161315_67274.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=544 height=252
+src="64位系统如何加载驱动.files/image007.jpg" style='max-width: 700px;border-bottom-width:
+0px;border-left-width:0px;border-right-width:0px;border-top-width:0px;
+display:block;margin-bottom:0px;margin-left:auto;margin-right:auto;margin-top:
+0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;
+text-align:center;vertical-align:middle' alt="BIOS下Secure Boot灰色无法更改解决方法1"
+align=middle v:shapes="_x0000_i1029"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+line-height:18.75pt;background:white'><span lang=EN-US style='font-size:10.5pt;
+font-family:Simsun;color:#6E6E6E'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+mso-line-height-alt:18.75pt;background:white'><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>之后，再尝试设置</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>secure boot</span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:black'>为</span></b><b><span lang=EN-US style='font-size:24.0pt;
+font-family:Simsun;color:black'>disabled</span></b><b><span style='font-size:
+24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:black'>即可</span></b><b><span
+lang=EN-US style='font-size:24.0pt;font-family:Simsun;color:black'>.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+mso-line-height-alt:18.75pt;background:white'><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+mso-line-height-alt:18.75pt;background:white'><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:black'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+mso-line-height-alt:18.75pt;background:white'><b><span style='font-size:24.0pt;
+mso-ascii-font-family:Simsun;mso-hansi-font-family:Simsun;color:red'>另外还需要特别注意的是，如果你的系统开启了快速启动，以上设置不会立刻生效，需要你先关闭快速启动，然后再重启系统才可以生效。</span></b><b><span
+style='font-size:24.0pt;font-family:Simsun;color:red'> </span></b><b><span
+style='font-size:24.0pt;mso-ascii-font-family:Simsun;mso-hansi-font-family:
+Simsun;color:red'>生效后，再开启快速启动即可。如何关闭快速启动，请自行百度即可</span></b><b><span lang=EN-US
+style='font-size:24.0pt;font-family:Simsun;color:red'>.</span></b><span
+lang=EN-US style='font-size:10.5pt;font-family:Simsun;color:red'><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:24.0pt;font-family:
+Simsun;color:black'><br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></span></b></p>
+
+</div>
+
+</body>
+
+</html>

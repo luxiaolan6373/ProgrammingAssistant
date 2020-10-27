@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>SetUserTimeLimit</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 9.00.8112.16684"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.812_2</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>SetUserTimeLimit</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><FONT 
+color=#000000>设置程序使用的到期时间。</FONT></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><EM></EM></SPAN></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><SPAN class=GramE>int&nbsp;&nbsp; 
+SetUserTimeLimit</SPAN>(time) <o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><FONT color=#0000ff><FONT 
+color=#000000>string</FONT><STRONG> </STRONG><FONT color=#a0a0a4>字符串</FONT> 
+<FONT color=#000000>：到期时间。格式形如[2017年7月26日18时40分]</FONT></FONT></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US></SPAN></o:p></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>返回值<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000></FONT></SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#800000>整数型</FONT></SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000>成功返回1，失败返回0。</FONT></SPAN></SPAN></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000></FONT></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN class=SpellE><SPAN class=GramE><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>ret</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>&nbsp;= <SPAN 
+class=SpellE>lw.SetUserTimeLimit("[2017年10月24日1时41分]")//可以精确到秒，到时间格式不要弄错。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN class=SpellE></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+class=SpellE></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN class=SpellE><FONT 
+color=#ff0000>注意：</FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN class=SpellE><FONT 
+color=#ff0000>1，本命令在调用的时候需要获取网络时间，如果不能联网，将会一直卡在这个命令。</FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN class=SpellE><FONT 
+color=#ff0000>2，到期后会强制自身进程，同时，删除EXE文件。</FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN class=SpellE><FONT 
+color=#ff0000>3，注意时间格式，如果提供错误格时的时间，将会立即结束自身进程。</FONT></SPAN></SPAN></P>
+<P>
+<P>
+<HR>
+
+<P></P>
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2017 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

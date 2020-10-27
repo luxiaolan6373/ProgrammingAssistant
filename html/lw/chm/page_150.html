@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>VirtualAllocEx</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.53</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>VirtualAllocEx</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT color=#0000ff>参数定义</FONT><SPAN 
+lang=EN-US><FONT color=#0000ff>:<BR></FONT></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">在指定进程中分配一段内存,<FONT 
+color=#000000>用此函数分配的内存，必须用<SPAN lang=EN-US>VirtualFreeEx</SPAN>来释放<SPAN 
+lang=EN-US>,</SPAN>以免目标进程内存泄漏<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN><BR></FONT></P></SPAN>
+<P><SPAN style="FONT-SIZE: 13.5pt">int&nbsp;VirtualAllocEx(size)</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><o:p><FONT 
+color=#0000ff></FONT></o:p></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><o:p><FONT color=#0000ff>参数定义</FONT><SPAN 
+lang=EN-US><FONT color=#0000ff>:<BR></FONT></SPAN></o:p></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>size 
+</SPAN><B style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN></B><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">需要分配的内存大小<SPAN lang=EN-US>.</SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN>&nbsp;</P><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><o:p>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>返回值<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></P></o:p></SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">成功返回分配的地址，失败返回0<SPAN 
+lang=EN-US>.</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>addr = 
+lw.VirtualAllocEx(4)</SPAN></SPAN></SPAN></P><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>
+<P><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#ff0000>注意,在操作之前一定要保证该对象使用过&nbsp;<SPAN class=SpellE>SetMemoryProcess<SPAN 
+class=SpellE>命令设置过读取的目标进程.参见(</SPAN></SPAN><A 
+href="mk:@MSITStore:E:\lwcomex\乐玩插件v7.52\乐玩插件接口说明v7.52.chm::/SetMemoryProcess.html">SetMemoryProcess.html</A>)<SPAN 
+class=SpellE>之后的所有内存相关命令都一样,不再提示!</SPAN></FONT></SPAN></P>
+<P>&nbsp;</P>
+<P><FONT color=#ff00ff>用此函数分配的内存，必须用<SPAN 
+lang=EN-US>VirtualFreeEx</SPAN>来释放<SPAN lang=EN-US>,</SPAN>以免目标进程内存泄漏<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></FONT><BR></P></SPAN><o:p></o:p></SPAN></SPAN></SPAN>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

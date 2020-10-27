@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>FindPicEx</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.22</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>FindPicEx</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<DIV class=Section1><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">查找指定区域内的图片<SPAN 
+lang=EN-US>,</SPAN>位图必须是<SPAN lang=EN-US>24</SPAN>位色格式<SPAN 
+lang=EN-US>,</SPAN>支持透明色<SPAN lang=EN-US>,</SPAN>当图像上下左右<SPAN 
+lang=EN-US>4</SPAN>个顶点的颜色一样时<SPAN lang=EN-US>,</SPAN>则这个颜色将作为透明色处理<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">这个函数可以查找多个图片<SPAN 
+lang=EN-US>,</SPAN>并且返回所有找到的图像的坐标<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>string FindPicEx(x1, y1, x2, y2, 
+pic_name, delta_color,sim, dir)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>x1 </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>:</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">区域的左上<SPAN lang=EN-US>X</SPAN>坐标<SPAN 
+lang=EN-US><BR>y1 </SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN 
+lang=EN-US>:</SPAN>区域的左上<SPAN lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>x2 
+</SPAN><SPAN style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>X</SPAN>坐标<SPAN lang=EN-US><BR>y2 </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>区域的右下<SPAN 
+lang=EN-US>Y</SPAN>坐标<SPAN lang=EN-US><BR>pic_name </SPAN><SPAN 
+style="COLOR: gray">字符串</SPAN><SPAN lang=EN-US>:</SPAN>图片名，或者图像数据缓冲区（十进制）<SPAN 
+lang=EN-US>,</SPAN>可以是多个图片<SPAN lang=EN-US>,</SPAN>比如<SPAN 
+lang=EN-US>"test.bmp|test2.bmp|1341234"<BR>delta_color </SPAN><SPAN 
+style="COLOR: gray">字符串</SPAN><SPAN lang=EN-US>:</SPAN>颜色色偏比如<SPAN 
+lang=EN-US>"203040" </SPAN>表示<SPAN lang=EN-US>RGB</SPAN>的色偏分别是<SPAN 
+lang=EN-US>20 30 40 (</SPAN>这里是<SPAN lang=EN-US>16</SPAN>进制表示<SPAN 
+lang=EN-US>)&nbsp; <FONT color=#ff0000>该参数的缺省值为"000000"</FONT><BR>sim 
+</SPAN><SPAN style="COLOR: #339966"><SPAN 
+style="COLOR: #339966">小数型</SPAN></SPAN><SPAN lang=EN-US>:</SPAN>相似度<SPAN 
+lang=EN-US>,</SPAN>取值范围<SPAN lang=EN-US>0.1-1.0&nbsp; <FONT 
+color=#ff0000>该参数的缺省值为0.95</FONT><BR>dir </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>:</SPAN>查找方向<SPAN lang=EN-US> 
+0: </SPAN>从左到右<SPAN lang=EN-US>,</SPAN>从上到下<SPAN lang=EN-US> 1: </SPAN>从左到右<SPAN 
+lang=EN-US>,</SPAN>从下到上<SPAN lang=EN-US> 2: </SPAN>从右到左<SPAN 
+lang=EN-US>,</SPAN>从上到下<SPAN lang=EN-US> 3: </SPAN>从右到左<SPAN lang=EN-US>, 
+</SPAN>从下到上&nbsp; <FONT color=#ff0000>该参数的缺省值为0<SPAN 
+lang=EN-US><o:p></o:p></SPAN></FONT></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt">字符串<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">返回的是所有找到的坐标格式如下<SPAN 
+lang=EN-US>:"idx,x,y|idx,x,y..|idx,x,y" (</SPAN>图片左上角的坐标<SPAN 
+lang=EN-US>)<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt">比如<SPAN lang=EN-US>"1,100,20|2,30,40" 
+</SPAN>表示找到了两个<SPAN lang=EN-US>,</SPAN>第一个<SPAN 
+lang=EN-US>,</SPAN>对应的图片是图像序号为<SPAN lang=EN-US>1</SPAN>的图片<SPAN 
+lang=EN-US>,</SPAN>坐标是<SPAN lang=EN-US>(100,20),</SPAN>第二个是序号为2的图片<SPAN 
+lang=EN-US>,</SPAN>坐标<SPAN lang=EN-US>(30,40)<BR></SPAN></SPAN><FONT 
+size=3><SPAN style="COLOR: fuchsia" lang=EN-US>(</SPAN><SPAN 
+style="COLOR: fuchsia">由于内存限制<SPAN lang=EN-US>,</SPAN>返回的图片数量最多为<SPAN 
+lang=EN-US>1500</SPAN>个左右<SPAN lang=EN-US>)</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>ret = 
+lw.FindPicEx(0,0,2000,2000,"test.bmp|test2.bmp|test3.bmp|test4.bmp|test5.bmp")<BR>If 
+len(ret) &gt; 0 Then<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>ss = 
+split(ret,"|")<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>index = 
+0<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>count = UBound(ss) + 
+1<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; </SPAN>Do While index &lt; 
+count<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>TracePrint ss(index)<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>sss = 
+split(ss(index),",")<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>id = 
+int(sss(0))<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>x = int(sss(1))<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>y = 
+int(sss(2))<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>le.MoveTo x,y<BR><SPAN 
+style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>Delay 
+1000<BR><SPAN style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>index = index+1<BR><SPAN style="mso-tab-count: 1">&nbsp;&nbsp; 
+</SPAN>Loop<BR>End If</SPAN> 
+<P> 
+<P><FONT color=#ff0000 
+size=4><STRONG>注意，如果是缓冲区中的图像数据，不支持加密图像。</STRONG></FONT></P>
+<HR>
+
+<P></P></DIV></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = 
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>UnRegCom</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>UnRegCom</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt">函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#000000>卸载注册COM的组件,非命令行注册,不容易失败,推荐采用此方法.</FONT></STRONG></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff></FONT></STRONG></SPAN></SPAN>&nbsp;</P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN 
+class=GramE>int&nbsp;</SPAN>&nbsp;UnRegCom(file)<o:p></o:p></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>file </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt"><SPAN 
+style="COLOR: gray">字符串</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>:</SPAN><SPAN style="FONT-SIZE: 13.5pt"> COM组件的DLL的绝对路径.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt">返回值<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR>0:</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN 
+lang=EN-US><BR>1:</SPAN>成功<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN></FONT></STRONG></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><FONT color=#000000>ret=Plugin.lwEX.UnRegCom 
+("E:\mycom\lwsoft\lw.dll")</FONT></SPAN></SPAN></SPAN></STRONG></P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><FONT color=#000000>if ret=1 then 
+</FONT></SPAN></SPAN></SPAN></STRONG></P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><FONT color=#000000>&nbsp;&nbsp;&nbsp;&nbsp; MessageBox 
+"卸载成功"</FONT></SPAN></SPAN></SPAN></STRONG></P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><FONT color=#000000>End</FONT></SPAN></SPAN></SPAN></STRONG></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></FONT></STRONG>&nbsp;</P>
+<P><STRONG><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><FONT 
+color=#ff0000>注意,这是为按键精灵写的一个扩展插件,使用前要把压缩包里的LwEx.dll放到按键精灵的plugin目录下.</FONT></SPAN></SPAN></SPAN></STRONG></P>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

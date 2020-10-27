@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>BindWindow</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 9.00.8112.16684"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>BindWindow</H1></DIV></DIV>
+<DIV><BR>
+<DIV class=Section1><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">绑定指定的窗口<SPAN 
+lang=EN-US>,</SPAN>并指定这个窗口的屏幕颜色获取方式<SPAN lang=EN-US>,</SPAN>鼠标仿真模式<SPAN 
+lang=EN-US>,</SPAN>键盘仿真模式<SPAN lang=EN-US>,</SPAN>以及模式设定，注意：<FONT 
+color=#ff0000>在没用使用此函数绑定窗口之前，对象的所有键盘鼠标命令都无效</FONT>。</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN 
+class=GramE>int</SPAN>&nbsp;<SPAN class=SpellE>BindWindow</SPAN>(<SPAN 
+class=SpellE>hwnd,display,mouse,keypad,<SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>added</FONT></SPAN>,mode</SPAN>)<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN class=SpellE><SPAN 
+style="COLOR: green">hwnd</SPAN></SPAN><SPAN style="COLOR: green"> 
+</SPAN></SPAN><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt">指定的窗口句柄，<FONT 
+color=#000000>-1表示绑定桌面窗口</FONT>。</SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR><BR><SPAN style="COLOR: green">display </SPAN></SPAN><SPAN 
+style="COLOR: gray; FONT-SIZE: 13.5pt"><SPAN 
+style="COLOR: gray">整数型</SPAN></SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt">屏幕颜色获取方式　<FONT 
+color=#ff0000>该参数的缺省值为0</FONT>取值有以下几种&nbsp; </SPAN></P>
+<P><SPAN style="COLOR: green; FONT-SIZE: 13.5pt"></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>0&nbsp;: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">正常模式<SPAN lang=EN-US>,</SPAN>平常我们用的前台截<SPAN 
+class=GramE>屏模式</SPAN><SPAN lang=EN-US><BR>1: <SPAN 
+class=SpellE>gdi</SPAN></SPAN>模式<SPAN lang=EN-US>,</SPAN>用于窗口采用<SPAN 
+lang=EN-US>GDI</SPAN>方式刷新时<SPAN lang=EN-US>.<SPAN style="COLOR: red"> 
+</SPAN></SPAN><SPAN style="COLOR: red">此模式占用<SPAN lang=EN-US>CPU</SPAN>较大<SPAN 
+lang=EN-US>.</SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN style="COLOR: red"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US>2&nbsp;: gdi2</SPAN><SPAN style="FONT-SIZE: 13.5pt">模式<SPAN 
+lang=EN-US>,</SPAN>此模式兼容性较强<SPAN lang=EN-US>,</SPAN>但是速度比<SPAN 
+class=SpellE><SPAN lang=EN-US>gdi</SPAN></SPAN>模式要慢许多<SPAN 
+lang=EN-US>,</SPAN>如果<SPAN class=SpellE><SPAN 
+lang=EN-US>gdi</SPAN></SPAN>模式发现后台不刷新时<SPAN lang=EN-US>,</SPAN>可以考虑用<SPAN 
+lang=EN-US>gdi2</SPAN>模式<SPAN lang=EN-US>.<BR>3: dx2</SPAN>模式<SPAN 
+lang=EN-US>,</SPAN>用于窗口采用<SPAN class=SpellE><SPAN 
+lang=EN-US>dx</SPAN></SPAN>模式刷新<SPAN lang=EN-US>,</SPAN>如果<SPAN 
+class=SpellE><SPAN lang=EN-US>dx</SPAN></SPAN>方式会出现窗口所在进程崩溃的状况<SPAN 
+lang=EN-US>,</SPAN>可以考虑采用这种<SPAN lang=EN-US>.</SPAN>采用这种方式要保证窗口有一部分在屏幕外<SPAN 
+lang=EN-US>.</SPAN><SPAN lang=EN-US>vista以上系统</SPAN>不需要移动也可后台<SPAN 
+lang=EN-US>.</SPAN><SPAN style="COLOR: red">此模式占用<SPAN 
+lang=EN-US>CPU</SPAN>较大<SPAN lang=EN-US>.</SPAN></SPAN><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>4: <SPAN 
+class=SpellE>dx</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt">模式,<SPAN 
+style="COLOR: red">注意此模式需要管理员权限</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT color=#ff0000><FONT 
+color=#000000>5:opengl，用于窗口采用Opengl模式刷新。</FONT><SPAN 
+style="COLOR: red">注意此模式需要管理员权限。</SPAN></FONT></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><BR><BR><SPAN 
+style="COLOR: green">mouse </SPAN></SPAN><SPAN style="COLOR: gray"><SPAN 
+style="COLOR: gray">整数型</SPAN></SPAN><SPAN style="COLOR: green" lang=EN-US>: 
+</SPAN><SPAN style="COLOR: green">鼠标仿真模式 取值有以下几种&nbsp;&nbsp; <FONT 
+color=#ff0000>该参数的缺省值为0</FONT></SPAN><SPAN lang=EN-US><BR><BR>0: 
+</SPAN>正常模式<SPAN lang=EN-US>,</SPAN>平常我们用的前台鼠标模式<SPAN 
+lang=EN-US><BR>1：Windows</SPAN>模式<SPAN lang=EN-US>,</SPAN>采取模拟<SPAN 
+lang=EN-US>windows</SPAN>消息方式 同按键自带后台插件<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>2，Windows3</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">模式，采取模拟<SPAN lang=EN-US>windows</SPAN>消息方式<SPAN 
+lang=EN-US>,</SPAN>可以支持有多个子窗口的窗口后台<SPAN lang=EN-US>.<BR></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>3，<SPAN 
+class=SpellE>dx</SPAN></SPAN>模式<SPAN lang=EN-US>,</SPAN>采用模拟<SPAN 
+class=SpellE><SPAN 
+lang=EN-US>dx</SPAN></SPAN>后台鼠标模式。有些窗口在此模式下绑定时，需要先激活窗口再绑定<SPAN 
+lang=EN-US>(</SPAN>或者绑定以后激活<SPAN lang=EN-US>)</SPAN>，否则可能会出现绑定后鼠标无效的情况<SPAN 
+style="COLOR: red">注意此模式需要管理员权限</SPAN><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: green"><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+lang=EN-US><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000>4:<SPAN class=SpellE><SPAN class=SpellE>dx2</SPAN>模式<SPAN 
+lang=EN-US>,同DX，如果DX无效，可以尝试下这个。</SPAN></SPAN></FONT></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: green"><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+lang=EN-US><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#000000><SPAN class=SpellE><SPAN 
+lang=EN-US></SPAN></SPAN></FONT></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: green">keypad </SPAN></SPAN><SPAN 
+style="COLOR: gray">整数型</SPAN><SPAN style="COLOR: green" lang=EN-US>: 
+</SPAN><SPAN style="COLOR: green">键盘仿真模式&nbsp; <FONT 
+color=#ff0000>该参数的缺省值为0</FONT>取值有以下几种&nbsp;</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>0: </SPAN>正常模式<SPAN 
+lang=EN-US>,</SPAN>平常我们用的前台键盘模式<SPAN lang=EN-US><BR>1: Windows</SPAN>模式<SPAN 
+lang=EN-US>,</SPAN>采取模拟<SPAN lang=EN-US>windows</SPAN>消息方式 同按键的后台插件<SPAN 
+lang=EN-US>.<BR>2: Windows3模式<SPAN lang=EN-US>,</SPAN>采取模拟<SPAN 
+lang=EN-US>windows</SPAN>消息方式 
+同按键的后台插件，如果上一个模式不能正常按组合键，可能尝试此模式。</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US>3:<SPAN class=SpellE><SPAN 
+class=SpellE>dx</SPAN>模式<SPAN lang=EN-US>,</SPAN>采用模拟<SPAN class=SpellE><SPAN 
+lang=EN-US>dx</SPAN></SPAN>后台键盘模式。有些窗口在此模式下绑定时，需要先激活窗口再绑定<SPAN 
+lang=EN-US>(</SPAN>或者绑定以后激活<SPAN lang=EN-US>)</SPAN>，否则可能会出现绑定后键盘无效的情况<SPAN 
+lang=EN-US>.</SPAN></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN class=SpellE><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN lang=EN-US><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US>4:<SPAN class=SpellE><SPAN class=SpellE>dx2</SPAN>模式<SPAN 
+lang=EN-US>,同DX，如果DX无效，可以尝试下这个。</SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN lang=EN-US><SPAN 
+style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN class=SpellE><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN>&nbsp;</P></DIV></DIV>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT color=#000000><FONT 
+color=#008000>added</FONT> 整数型：附加信息，</FONT><FONT 
+color=#ff0000>该参数的缺省值为0</FONT><FONT color=#008000>取值有以下几种，<FONT 
+color=#ff0000>各值可以相加</FONT></FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>1：锁定前台窗口，让目标窗口一直以为自己是前台窗口; <SPAN 
+style="COLOR: red">注意，部分窗口在此模式下会耗费大量资源慎用<SPAN lang=EN-US>. </SPAN></SPAN><SPAN 
+lang=EN-US><BR></SPAN></FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>2：锁定窗口激活状态，保持目标窗口一直处于激活状态;<SPAN style="mso-spacerun: yes"> 
+</SPAN><SPAN style="COLOR: red">注意，部分窗口在此模式下会耗费大量资源慎用<SPAN lang=EN-US>. 
+</SPAN></SPAN></FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>4：锁定鼠标位置，如果鼠标不能正常点击，可以尝试加上这个; </FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>8：锁定键盘鼠标按键状态，如果不能正常后台后按键或者鼠标点击，可以尝试加上这个;</FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>16：需要取后台鼠标特征码; </FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>32：需要用输入法输入文本;</FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>64：增强型锁定按键状态(如果ctrl,shift,alt键无效可尝试加上这个。) 
+；</FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>128：增强型降CPU,需要在绑定图像模式不为，dx,opengl,opengl2模式时，仍要降低目标进程的CPU占用；</FONT></SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US><SPAN 
+style="COLOR: #339966; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000></FONT></SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US><SPAN 
+lang=EN-US>256：增强最小化截图，此模式主要是针对采用DX模式刷新的程序，如果DX图色模式可以正常截图，但不能最小化截图，可以尝试加上这个。<BR></P></SPAN></SPAN></SPAN>
+<P class=Section1><SPAN style="COLOR: green; FONT-SIZE: 13.5pt" lang=EN-US><FONT 
+color=#000000>512：增强鼠标。某些窗口的某些鼠标动作要开启这个才能正常执行。</FONT></SPAN></P>
+<P class=Section1><SPAN style="COLOR: green; FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P class=Section1><SPAN style="COLOR: green; FONT-SIZE: 13.5pt" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P class=Section1><SPAN style="COLOR: green; FONT-SIZE: 13.5pt" lang=EN-US>mode 
+</SPAN><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="COLOR: green; FONT-SIZE: 13.5pt">模式。 取值有以几下种&nbsp; <FONT 
+color=#ff0000>该参数的缺省值为0<SPAN lang=EN-US><o:p></o:p></SPAN></FONT></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+style="COLOR: red">0 : </SPAN></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt">推荐模式此模式比较通用，而且后台效果是最好的，并且会隐藏目标进程中的lw.dll<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>1 :&nbsp;</SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt">如果嫌用模式0绑定慢，或者模式0和模式2会造成目标进程崩溃可以用这个模式，这个模式绑定速度最快。</SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt"></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt"></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN>2 : </SPAN><SPAN class=GramE><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt">同模式</SPAN></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt" 
+lang=EN-US>0,如果模式0或者模式1绑定失败，可以尝试这个模式。</SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" 
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; 
+3：如果前几个模式都绑定不了，一定要试试这个（如果绑定不成功，可能要较长时间判断）。</SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" 
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; 4：强力绑定模式，如果前面几个绑不上，一定要试试这个。</SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN></SPAN><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt">返回值<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P class=Section1><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>0: 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN lang=EN-US><BR>1: </SPAN>成功<SPAN 
+lang=EN-US><BR><BR></SPAN></SPAN></P>
+<P class=Section1><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>// display: 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">前台 鼠标<SPAN lang=EN-US>:</SPAN>前台键盘<SPAN 
+lang=EN-US>:</SPAN>前台 模式<SPAN lang=EN-US>0<BR><SPAN class=SpellE>ret</SPAN> = 
+<SPAN class=SpellE>lw.<SPAN class=GramE>BindWindow</SPAN></SPAN><SPAN 
+class=GramE>(</SPAN>hwnd,0,0,0,0,0)<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>// display: <SPAN 
+class=SpellE>gdi</SPAN> </SPAN><SPAN style="FONT-SIZE: 13.5pt">鼠标<SPAN 
+lang=EN-US>:</SPAN>前台 键盘<SPAN lang=EN-US>:</SPAN>前台 模式<SPAN 
+lang=EN-US>1<BR><SPAN class=SpellE>ret</SPAN> = <SPAN class=SpellE>lw.<SPAN 
+class=GramE>BindWindow</SPAN></SPAN><SPAN 
+class=GramE>(</SPAN>hwnd,1,0,0,1)<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>// display: <SPAN 
+class=SpellE>dx</SPAN> </SPAN><SPAN style="FONT-SIZE: 13.5pt">鼠标<SPAN 
+lang=EN-US>:</SPAN>windows 键盘<SPAN lang=EN-US>:windows</SPAN> 模式<SPAN 
+lang=EN-US>0<BR><SPAN class=SpellE>ret</SPAN> = <SPAN class=SpellE>lw.<SPAN 
+class=GramE>BindWindow</SPAN></SPAN><SPAN 
+class=GramE>(</SPAN>hwnd,3,1,1,0,0)<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">注意<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">绑定之后<SPAN lang=EN-US>,</SPAN>所有的坐标都相对于窗口的客户区坐标<SPAN 
+lang=EN-US>(</SPAN>不包含窗口边框<SPAN lang=EN-US>)<BR></SPAN>另外<SPAN 
+lang=EN-US>,</SPAN>绑定窗口后<SPAN lang=EN-US>,</SPAN>必须加以下代码<SPAN 
+lang=EN-US>,</SPAN>以保证所有资源正常释放<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt">这个函数的意思是在脚本结束时<SPAN 
+lang=EN-US>,</SPAN>会调用这个函数。需要注意的是，目前的按键版本对于这个函数的执行不是线程级别的，也就是说，这个函数只会在主线程执行，子线程绑定的大漠对象，不保证完全释放。<SPAN 
+lang=EN-US> <BR>Sub <SPAN class=SpellE><SPAN 
+class=GramE>OnScriptExit</SPAN></SPAN><SPAN class=GramE>(</SPAN>)<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+class=SpellE>ret</SPAN> = <SPAN class=SpellE>lw.UnBindWindow</SPAN>() <BR>End 
+Sub<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt">另外 绑定<SPAN class=SpellE><SPAN 
+lang=EN-US>dx</SPAN></SPAN>会比较耗时间<SPAN lang=EN-US>,</SPAN>请不要频繁调用此函数<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt">另外如果绑定的是<SPAN 
+class=SpellE><SPAN lang=EN-US>dx</SPAN></SPAN><SPAN 
+lang=EN-US>,</SPAN>要注意不可连续操作<SPAN class=SpellE><SPAN 
+lang=EN-US>dx</SPAN></SPAN><SPAN lang=EN-US>,</SPAN>中间至少加个<SPAN 
+lang=EN-US>10MS</SPAN>的延时<SPAN lang=EN-US>,</SPAN>否则可能会导致操作失败<SPAN 
+lang=EN-US>.</SPAN>比如绑定图色<SPAN lang=EN-US>DX,</SPAN>那么不要连续取色等<SPAN 
+lang=EN-US>,</SPAN><SPAN class=GramE>键鼠也是</SPAN>一样<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p>&nbsp;</o:p></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt">还有一点特别要注意的是<SPAN 
+lang=EN-US>,</SPAN>有些窗口绑定之后必须加一定的延时<SPAN lang=EN-US>,</SPAN>否则后台也无效<SPAN 
+lang=EN-US>.</SPAN>一般<SPAN lang=EN-US>1</SPAN>秒到<SPAN 
+lang=EN-US>2</SPAN>秒的延时就足够<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P class=Section1><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p>&nbsp;</o:p></SPAN></P>
+<P class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt">发现绑定失败的几种可能<SPAN 
+lang=EN-US>(</SPAN>一般是需要管理员权限的模式才有可能会失败<SPAN 
+lang=EN-US>)<o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -20.25pt; MARGIN-LEFT: 20.25pt; mso-list: l0 level1 lfo2; tab-stops: list 20.25pt" 
+class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-list: Ignore">1.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="COLOR: red; FONT-SIZE: 13.5pt">系统登录的<SPAN 
+class=GramE>帐号</SPAN>必须有<SPAN lang=EN-US>Administrators</SPAN>权限<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -20.25pt; MARGIN-LEFT: 20.25pt; mso-list: l0 level1 lfo2; tab-stops: list 20.25pt" 
+class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-list: Ignore">2.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="COLOR: red; FONT-SIZE: 13.5pt">如果是<SPAN 
+lang=EN-US>vista以上</SPAN>，启动窗口进程必须用管理员模式启动，脚本也必须用管理员模式启动<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -20.25pt; MARGIN-LEFT: 20.25pt; mso-list: l0 level1 lfo2; tab-stops: list 20.25pt" 
+class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-list: Ignore">3.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt">一些防火墙会防止插件注入窗口所在进程，比如<SPAN 
+lang=EN-US>360</SPAN>防火墙等，必须把<SPAN lang=EN-US>lw.dll</SPAN>设置为信任<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -20.25pt; MARGIN-LEFT: 20.25pt; mso-list: l0 level1 lfo2; tab-stops: list 20.25pt" 
+class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-list: Ignore">4.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt">还有一个比较弱智的可能性，那就是插件没有注册到系统中，这时<SPAN 
+class=SpellE><SPAN lang=EN-US>CreateObject</SPAN></SPAN>压根就是失败的<SPAN 
+lang=EN-US>. </SPAN>检测对象是否创建成功很简单，如下代码<SPAN lang=EN-US><BR><BR>set&nbsp;lw = 
+<SPAN class=SpellE>createobject</SPAN>("lw<SPAN 
+class=SpellE>.lwsoft3</SPAN>")<BR><SPAN class=SpellE>ver</SPAN> = <SPAN 
+class=SpellE>lw.Ver</SPAN>()<BR>If <SPAN class=SpellE>len</SPAN>(<SPAN 
+class=SpellE>ver</SPAN>) = 0 Then<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+class=SpellE>MessageBox</SPAN> "</SPAN>创建对象失败<SPAN 
+lang=EN-US>,</SPAN>检查系统是否禁用了<SPAN class=SpellE><SPAN 
+lang=EN-US>vbs</SPAN></SPAN>脚本权限<SPAN lang=EN-US>"<BR><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+class=SpellE>EndScript</SPAN><BR>End If<o:p></o:p></SPAN></SPAN></P>
+<P style="MARGIN-LEFT: 21pt" class=Section1><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><o:p>&nbsp;</o:p></SPAN><SPAN 
+style="COLOR: red; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><BR 
+style="mso-special-character: line-break"><o:p></o:p></SPAN></SPAN></P>
+<P 
+style="TEXT-INDENT: -20.25pt; MARGIN-LEFT: 20.25pt; mso-list: l0 level1 lfo2; tab-stops: list 20.25pt" 
+class=Section1><SPAN style="COLOR: red; FONT-SIZE: 13.5pt" lang=EN-US><SPAN 
+style="mso-list: Ignore">5.<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN style="COLOR: red; FONT-SIZE: 13.5pt">窗口所在进程有保护<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<DIV>&nbsp;</DIV>
+<DIV>
+<HR>
+</DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

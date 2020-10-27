@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>GetCursorShape</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.27</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>GetCursorShape</H1></DIV></DIV>
+<DIV id=nstext><BR><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">获取鼠标特征码<SPAN lang=EN-US>. 
+当绑定时,附加信息里有"需要取鼠标特征码"时</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">获取到的是后台鼠标特征，否则是前台鼠标特征<SPAN lang=EN-US>. 
+</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 13.5pt"><SPAN lang=EN-US></SPAN></SPAN><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR><SPAN 
+class=GramE>int</SPAN>&nbsp;<SPAN 
+class=SpellE>GetCursorShape</SPAN>(mod)<o:p></o:p></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">参数定义<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN></FONT></STRONG></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><SPAN 
+lang=EN-US></SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p><FONT color=#000000><STRONG>mod:<FONT 
+color=#800000>整数型</FONT>,</STRONG>获取方式,取值有0和1两种,哪种能取到用哪种<STRONG>,</STRONG></FONT><FONT 
+color=#ff0000><STRONG>默认值为0.</STRONG></FONT></o:p></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: gray; FONT-SIZE: 13.5pt"><SPAN lang=EN-US><FONT 
+color=#800000>整数型:</FONT></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><BR></SPAN><SPAN style="FONT-SIZE: 13.5pt">成功时，返回鼠标特征码<SPAN 
+lang=EN-US>.<SPAN style="mso-spacerun: yes">&nbsp; 
+</SPAN><BR></SPAN>失败时，返回0</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt"></SPAN><STRONG><FONT color=#0000ff><SPAN 
+class=style11><SPAN style="FONT-SIZE: 13.5pt">示例<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" 
+lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR><SPAN 
+class=SpellE>mouse_tz</SPAN> = <SPAN 
+class=SpellE>lw.GetCursorShape</SPAN>()<BR>If <SPAN class=SpellE>mouse_tz</SPAN> 
+=&nbsp;1235　Then<BR><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; 
+</SPAN><SPAN class=SpellE>MessageBox</SPAN> "</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">找到特征码<SPAN lang=EN-US>"<BR>End 
+If<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="COLOR: fuchsia; FONT-SIZE: 13.5pt">注意<SPAN 
+lang=EN-US>,WIN7</SPAN>以及以上系统，必须在字体显示设置里把文字大小调整为默认<SPAN 
+lang=EN-US>(100%),</SPAN>否则特征码会变<SPAN lang=EN-US>.</SPAN></SPAN> 
+<P> 
+<P><FONT color=#ff0000 size=4>注意,在没有调用&nbsp; binwindow 
+绑定窗口之前,所有的键盘鼠标命令都无效!!!</FONT></P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>SetWindowState</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.17267"><LINK rel=stylesheet 
+href="_template.css"></HEAD>
+<BODY>
+<DIV id=nsbanner>
+<DIV id=bannerrow1>
+<TABLE class=bannerparthead>
+  <TBODY>
+  <TR id=hdr>
+    <TD class=runninghead noWrap>乐玩插件接口说明 v7.30</TD></TR></TBODY></TABLE></DIV>
+<DIV id=titlerow>
+<H1 class=dtH1>SetWindowState</H1></DIV></DIV>
+<DIV id=nstext><BR>
+<DIV class=Section1><SPAN style="FONT-SIZE: 13.5pt">
+<P class=style1><SPAN style="FONT-SIZE: 13.5pt"><FONT 
+color=#0000ff><STRONG>函数简介<SPAN 
+lang=EN-US>:<o:p></o:p></SPAN></STRONG></FONT></SPAN></P>
+<P class=style1></SPAN><SPAN style="FONT-SIZE: 13.5pt">设置窗口的状态<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>函数原型<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>int&nbsp;SetWindowState(hwnd,flag) 
+<o:p></o:p></SPAN></P>
+<P><SPAN class=style11><SPAN style="FONT-SIZE: 13.5pt"><STRONG><FONT 
+color=#0000ff>参数定义<SPAN lang=EN-US>:</SPAN></FONT></STRONG></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><BR><BR>hwnd </SPAN><SPAN 
+style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数</SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US>: </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">指定的窗口句柄<SPAN lang=EN-US><BR><BR>flag </SPAN><SPAN 
+style="COLOR: maroon">整形数</SPAN><SPAN lang=EN-US>: </SPAN>取值定义如下<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>0 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">关闭指定窗口(发送销毁消息)<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>1 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">激活指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>2 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">最小化指定窗口<SPAN lang=EN-US>,</SPAN>但不激活<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>3 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">最小化指定窗口<SPAN lang=EN-US>,</SPAN>并释放内存<SPAN 
+lang=EN-US>,</SPAN>但同时也会激活窗口</SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>4 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">最大化指定窗口<SPAN lang=EN-US>,</SPAN>同时激活窗口<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>5 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">恢复指定窗口<SPAN lang=EN-US> ,</SPAN>但不激活<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>6 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">隐藏指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>7 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">显示指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>8 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">置顶指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>9 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">取消置顶指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>10 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">禁止指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>11 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">取消禁止指定窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>12 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">恢复并激活指定窗口<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>13 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">强制结束窗口所在进程<SPAN 
+lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>14 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">闪烁指定的窗口<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>15 : </SPAN><SPAN 
+style="FONT-SIZE: 13.5pt">使指定的窗口获取输入焦点<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">返回值<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="COLOR: maroon; FONT-SIZE: 13.5pt">整形数<SPAN 
+lang=EN-US>:</SPAN></SPAN><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US><BR>0: 
+</SPAN><SPAN style="FONT-SIZE: 13.5pt">失败<SPAN lang=EN-US><BR>1: </SPAN>成功<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P><STRONG><FONT color=#0000ff><SPAN class=style11><SPAN 
+style="FONT-SIZE: 13.5pt">示例<SPAN lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 13.5pt" lang=EN-US><o:p></o:p></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>ret = lw.SetWindowState(hwnd,0) 
+<o:p></o:p></SPAN></P>
+<P><SPAN style="FONT-SIZE: 13.5pt" lang=EN-US>&nbsp;<o:p></o:p></SPAN></P></DIV>
+<P>
+<HR>
+
+<P></P></DIV>
+<DIV class=footer>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2016 <A href="乐玩插件COM版接口说明" 
+target=_blank>乐玩网络科技工作室</A>. All Rights Reserved. </P></DIV></BODY></HTML>
