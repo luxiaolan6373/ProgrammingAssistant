@@ -136,7 +136,7 @@ class init_window_main:
             f=self.ui.frame_lw
         elif item.text()=='win32':
             f=self.ui.frame_win32
-        elif item.text()=='webkj':
+        elif item.text()=='web框架':
             f=self.ui.frame_webkj
         #设置显示或者隐藏框架
         if f.isVisible()==False:

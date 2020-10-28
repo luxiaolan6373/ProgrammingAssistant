@@ -308,5 +308,5 @@ class Ui_MainWindow(object):
         self.bt_dm.setText(_translate("MainWindow", "大漠"))
         self.bt_lw.setText(_translate("MainWindow", "乐玩"))
         self.bt_win32.setText(_translate("MainWindow", "win32"))
-        self.bt_webkj.setText(_translate("MainWindow", "webkj"))
+        self.bt_webkj.setText(_translate("MainWindow", "web框架"))
         self.bt_gb.setText(_translate("MainWindow", "关闭"))
