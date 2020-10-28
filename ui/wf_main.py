@@ -40,21 +40,21 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "\n"
-"#bt_dm,#bt_python,#bt_spider,#bt_pyQt5,#bt_lw,#bt_win32,#bt_flask,#bt_gb{\n"
+"#bt_dm,#bt_python,#bt_spider,#bt_pyQt5,#bt_lw,#bt_win32,#bt_webkj,#bt_gb{\n"
 "    font: 75 10pt \"微软雅黑\";\n"
 "    background-color: rgba(0, 0, 0,200);\n"
 "\n"
 "    color: rgb(255, 255, 255);\n"
 "    border:1px solid rgb(255, 255, 255);\n"
 "}\n"
-"#bt_dm:hover,#bt_python:hover,#bt_spider:hover,#bt_pyQt5:hover,#bt_lw:hover,#bt_win32:hover,#bt_flask:hover,#bt_gb:hover{\n"
+"#bt_dm:hover,#bt_python:hover,#bt_spider:hover,#bt_pyQt5:hover,#bt_lw:hover,#bt_win32:hover,#bt_webkj:hover,#bt_gb:hover{\n"
 "    font: 75 10pt \"微软雅黑\";\n"
 "    background-color: rgba(85, 255, 255,200);\n"
 "    \n"
 "    color: rgb(0, 0, 0);\n"
 "    border:1px solid rgb(255, 255, 255);\n"
 "}\n"
-"#bt_dm:pressed,#bt_python:pressed,#bt_spider:pressed,#bt_pyQt5:pressed,#bt_lw:pressed,#bt_win32:pressed,#bt_flask:pressed,#bt_gb:pressed{\n"
+"#bt_dm:pressed,#bt_python:pressed,#bt_spider:pressed,#bt_pyQt5:pressed,#bt_lw:pressed,#bt_win32:pressed,#bt_webkj:pressed,#bt_gb:pressed{\n"
 "    font: 75 10pt \"微软雅黑\";\n"
 "    background-color: rgba(255, 0, 0,200);\n"
 "    \n"
@@ -308,5 +308,5 @@ class Ui_MainWindow(object):
         self.bt_dm.setText(_translate("MainWindow", "大漠"))
         self.bt_lw.setText(_translate("MainWindow", "乐玩"))
         self.bt_win32.setText(_translate("MainWindow", "win32"))
-        self.bt_webkj.setText(_translate("MainWindow", "web框架"))
+        self.bt_webkj.setText(_translate("MainWindow", "webkj"))
         self.bt_gb.setText(_translate("MainWindow", "关闭"))
