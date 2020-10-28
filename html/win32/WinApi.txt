@@ -1,0 +1,1522 @@
+Api函数名                               函数说明                             WIN16可用  WIN95可用  WINNT可用
+---------------------------------------------------------------------------------------------------------------
+AbortDoc                                终止一项打印作业                        是         是         是 
+AbortPath                               终止或取消DC中的一切路径                否         是         是 
+AbortPrinter                            删除打印机缓冲文件                      否         是         是 
+AbortSystemShutdowna                    停止系统工作                            否         是         是 
+AccessCheck                             检验客户访问权限                        否         是         是 
+AccessCheckAndAuditAlarm                检验访问，产生声音或警报                否         是         是 
+ActivateKeyboardLayout                  激活一个新的键盘设备                    否         是         是 
+AddAccessAllowedAce                     将ACCESS_ALLOWED_ACE加入ACL             否         是         是 
+AddAccessDeniedAce                      将ACCESS_DENIED_ACE加入ACL              否         是         是 
+AddAce                                  将ACE加入一个已存在的ACL                否         是         是 
+AddAtom                                 将一个字符串加入本地原子表              是         是         是 
+AddAuditAccessAce                       将SYSTEM_AUDIT_ACE加入ACL               否         是         是 
+AddFontResource                         将一种字体加入字体表                    是         是         是 
+AddForm                                 加入一个打印机窗体                      否         是         是 
+AddJob                                  启动一个打印作业                        否         是         是 
+AddMonitor                              加入一个打印机管理器                    否         是         是 
+AddPort                                 加入一个打印机端口                      否         是         是 
+AddPrintProcessor                       将打印处理器复制到打印机服务器中        否         是         是 
+AddPrintProvidor                        加入一个打印机支持器                    否         是         是 
+AddPrinter                              在打印机服务器上建立一个打印机          否         是         是 
+AddPrinterConnection                    为当前用户建立与打印机的联系            否         是         是 
+AddPrinterDriver                        将打印机驱动程序复制到打印机服务器中    否         是         是 
+AdjustTokenGroups                       使能/取消令牌中的群                     否         是         是 
+AdjustTokenPrivileges                   使能/取消令牌特权                       否         是         是 
+AdjustWindowRect                        计算所需窗口矩形的大小                  是         是         是 
+AdjustWindowRectEx                      计算所需窗口矩形的大小                  是         是         是 
+AdvancedDocumentProperties              进行打印机高级设置                      否         是         是 
+AllocConsole                            为当前进程建立控制台                    否         是         是 
+AllocateAndInitializeSid                分配和初始化SID                         否         是         是 
+AllocateLocallyUniqueId                 分配LUID                                否         是         是 
+AngleArc                                按指定角度画弧                          否         是         是 
+AnimatePalette                          替换逻辑调色板中的项目                  是         是         是 
+AnyPopup                                标识弹出式窗口是否存在                  是         是         是 
+AppendMenu                              在菜单中加入新的项目                    是         是         是 
+Arc                                     画弧                                    是         是         是 
+ArcTo                                   画椭圆弧                                否         是         是 
+AreAllAccessesGranted                   检查所有要求的访问                      否         是         是 
+AreAnyAccessesGranted                   检查任何要求的访问                      否         是         是 
+ArrangeIconicWindows                    排列最小化的子窗口                      是         是         是 
+AttachThreadInput                       将线索彼此相连                          否         是         是 
+auxGetDevCaps                           获取附属设备容量                        否         是         是 
+auxGetNumDevs                           返回附属设备数量                        否         是         是 
+auxGetVolume                            获取当前卷设置                          否         是         是 
+auxOutMessage                           向输出设备发送消息                      否         是         是 
+auxSetVolume                            设置附属设备卷                          否         是         是 
+BackupEventLog                          将事件记录保存至后备文件                否         是         是 
+BackupRead                              产生磁带备份读                          否         是         是 
+BackupSeek                              产生磁带备份查寻                        否         是         是 
+BackupWrite                             产生磁带备份写                          否         是         是 
+Beep                                    产生一个声调                            否         是         是 
+BeginDeferWindowPos                     创建一个窗口位置结构                    否         是         是 
+BeginPaint                              准备一个画图窗                          是         是         是 
+BeginPath                               开始一个路径等级                        是         是         是 
+BeginUpdateResource                     在可执行文件中开始资源文件更新          否         是         是 
+BitBlt                                  在设备描述表间复制位图                  是         是         是 
+BringWindowToTop                        恢复重叠窗                              是         是         是 
+BroadcastSystemMessage                                                          否         是         是 
+BuildCommDCB                            向DCB中传送设备定义字符串               是         是         是 
+BuildCommDCBAndTimeouts                 建立COMMDCB并设置超时值                 否         是         是 
+CallMsgFilter                           将消息传给消息过滤过程                  是         是         是 
+CallNamedPipe                           多管道操作                              否         是         是 
+CallNextHookEx                          调中链中的下一个挂钩过程                是         是         是 
+CallWindowProc                          将消息传答窗口函数                      否         是         是 
+CancelDC                                取消指定DC上的任何悬而未决的操作        否         是         是 
+CascadeWindows                                                                  否         是         是 
+ChangeClipboardChain                    从剪贴板查看窗口上删除一个窗口          是         是         是 
+ChangeMenu                                                                      否         是         是 
+ChangeServiceConfig                     修改服务参数                            否         是         是 
+CharLower                               将字符或字符串变为小写                  否         是         是 
+CharLowerBuff                           将字符串变为小写                        否         是         是 
+CharNext                                转到字符串的下一个字符                  否         是         是 
+CharPrev                                转到字符串的上一个字符                  否         是         是 
+CharToOem                               把字符串转换成OEM字符                   否         是         是 
+CharToOemBuff                           把字符串转换成OEM字符                   否         是         是 
+CharUpper                               将字符或字符串变为大写                  否         是         是 
+CharUpperBuff                           将字符串变为小写                        否         是         是 
+CheckColorsInGamut                      检查设备调色板中是否有色彩              否         是         是 
+CheckDlgButton                          用对话按钮修改复选标记                  是         是         是 
+CheckMenuItem                           修改菜单项的复选标记属性                是         是         是 
+CheckMenuRadioItem                                                              否         是         是 
+CheckRadioButton                        用单选按钮放置一个复选标记              是         是         是 
+ChildWindowFromPoint                    确定包含有点的窗口                      是         是         是 
+ChildWindowFromPointEx                                                          否         是         是 
+ChooseColor                             建立一个色彩选择对话框                  否         是         是 
+ChooseFont                              建立一个字体选择对话框                  否         是         是 
+ChoosePixelFormat                                                               否         是         是 
+Chord                                   画一条弦                                是         是         是 
+ClearCommBreak                          恢复字符传输                            是         是         是 
+ClearCommError                          允许出错后进行通信                      否         是         是 
+ClearEventLog                           消除事件记录                            否         是         是 
+ClientToScreen                          将客户点转换成屏幕坐标                  是         是         是 
+ClipCursor                              将光标限制在矩形内                      是         是         是 
+CloseClipboard                          关闭剪贴板                              是         是         是 
+CloseDesktop                                                                    否         是         是 
+CloseDriver                             光闭可装入的多媒体驱动程序              是         是         是 
+CloseEnhMetaFile                        光闭增强型图元文件DC                    否         是         是 
+CloseEventLog                           光闭事件记录句柄                        否         是         是 
+CloseFigure                             光闭路径中的一个数                      否         是         是 
+CloseHandle                             关闭打开的对象句柄                      否         是         是 
+CloseMetaFile                           关闭WINDOWS图元文件DC                   是         是         是 
+ClosePrinter                            关闭打开的打印机                        否         是         是 
+CloseServiceHandle                      关闭Service Control Manager对象         否         是         是 
+CloseWindow                             最小化窗口                              是         是         是 
+CloseWindowStation                                                              否         是         是 
+ColorMatchToTarget                      控件预览设备描述表                      否         是         是 
+CombineRgn                              将两个区域合成一个区域                  是         是         是 
+CombineTransform                        将两个变换式结合在一起                  否         是         是 
+CommConfigDialog                                                                否         是         是 
+CommDlgExtendedError                    返回出错数据                            否         是         是 
+CommandLineToArgv                                                               否         是         是 
+CompareFileTime                         比较两个64位文件时间                    否         是         是 
+CompareString                           比较两个局部指定字符串                  否         是         是 
+ConfigurePort                           配置打印机端口                          否         是         是 
+ConnectNamedPipe                        等待要连接的客户机                      否         是         是 
+ConnectToPrinterDlg                     显示浏览对话并连接网络打印机            否         是         是 
+ContinueDebugEvent                      使调试线索继续                          否         是         是 
+ControlService                          向服务器发送控件                        否         是         是 
+ConvertDefaultLocale                    将缺省局部转换为实际的局部值            否         是         是 
+CopyAcceleratorTable                    复制一个加速表                          否         是         是 
+CopyCursor                              复制一个光标                            是         是         是 
+CopyEnhMetaFile                         复制增强型图元文件                      否         是         是 
+CopyFile                                复制文件                                否         是         是 
+CopyIcon                                复制图标                                是         是         是 
+CopyImage                                                                       否         是         是 
+CopyLZFile                                                                      否         是         是 
+CopyMetaFile                            复制Windows图元文件                     是         是         是 
+CopyRect                                复制矩形大小                            是         是         是 
+CopySid                                 将SID复制到缓冲区中                     否         是         是 
+CountClipboardFormats                   返回剪贴板格式的数量                    是         是         是 
+CreateAcceleratorTable                  建立加速表                              否         是         是 
+CreateBitmap                            建立独立于设备的内存位图                是         是         是 
+CreateBitmapIndirect                    用BITMAP结构建立位图                    是         是         是 
+CreateBrushIndirect                     用指定属性建立一个刷子                  是         是         是 
+CreateCaret                             为系统脱字号建立新的形状                是         是         是 
+CreateColorSpace                        建立逻辑色影区域                        否         是         是 
+CreateCompatibleBitmap                  建立与DC相兼容的位图                    是         是         是 
+CreateCompatibleDC                      建立与指定DC相兼容的DC                  是         是         是 
+CreateConsoleScreenBuffer               将句柄返回给新的屏幕缓冲区              否         是         是 
+CreateCursor                            用指定的尺寸建立一个光标                是         是         是 
+CreateDC                                建立设备描述表                          是         是         是 
+CreateDIBPatternBrush                   从DIB中建立图案刷子                     是         是         是 
+CreateDIBPatternBrushPt                 从位图中建立逻辑刷子                    否         是         是 
+CreateDIBSection                                                                否         是         是 
+CreateDIBitmap                          从DIB spec中建立位图句柄                是         是         是 
+CreateDesktop                                                                   否         是         是 
+CreateDialogIndirectParam               从内存模块中建立非模态对话框            否         是         是 
+CreateDialogParam                       建立非模态对话框                        否         是         是 
+CreateDirectory                         建立一个新目录                          否         是         是 
+CreateDirectoryEx                       用模板属性建立一个目录                  否         是         是 
+CreateDiscardableBitmap                 建立可放弃位图                          是         是         是 
+CreateEllipticRgn                       建立椭圆区域                            是         是         是 
+CreateEllipticRgnIndirect               建立椭圆区域                            是         是         是 
+CreateEnhMetaFile                       建立增强型图元文件DC                    否         是         是 
+CreateEvent                             返回新事件对象一个句柄                  否         是         是 
+CreateFile                              建立、打开或截断文件                    否         是         是 
+CreateFileMapping                       返回新文件映像对象一个句柄              否         是         是 
+CreateFont                              建立逻辑字体                            是         是         是 
+CreateFontIndirect                      用LOGFONT结构建立字体                   是         是         是 
+CreateHalftonePalette                   为设备描述表建立中间色调调色板          否         是         是 
+CreateHatchBrush                        建立影线刷子                            是         是         是 
+CreateIC                                建立信息上下文                          是         是         是 
+CreateIcon                              建立有指定属性的图标                    是         是         是 
+CreateIconFromResource                  建立图标或光标                          否         是         是 
+CreateIconIndirect                      建立图标或光标                          否         是         是 
+CreateIoCompletionPort                                                          否         是         是 
+CreateMDIWindow                         建立新的MDI窗口                         否         是         是 
+CreateMailslot                          建立Mailsolt                            否         是         是 
+CreateMenu                              建立菜单                                是         是         是 
+CreateMetaFile                          建立WINDOWS图元DC                       是         是         是 
+CreateMutex                             将句柄返回给MUTEX对象                   否         是         是 
+CreateNamedPipe                         建立命名管道实例                        否         是         是 
+CreatePalette                           建立逻辑色彩调色板                      是         是         是 
+CreatePatternBrush                      从位图中建立图案刷子                    是         是         是 
+CreatePen                               建立逻辑画笔                            是         是         是 
+CreatePenIndirect                       用LOGPEN结构建立画笔                    是         是         是 
+CreatePipe                              建立匿名管道                            否         是         是 
+CreatePolyPolygonRgn                    建立由多边形组成的区域                  是         是         是 
+CreatePolygonRgn                        建立多边形区域                          是         是         是 
+CreatePopupMenu                         建立弹出式菜单                          是         是         是 
+CreatePrivateObjectSecurity             分配并初始化保护SD                      否         是         是 
+CreateProcess                           建立新的进程和线索对象                  否         是         是 
+CreateProcessAsUser                     建立指定用户的新进程                    否         是         是 
+CreateRectRgn                           建立矩形区域                            是         是         是 
+CreateRectRgnIndirect                   用RECT结构建立一个区域                  是         是         是 
+CreateRemoteThread                      在另一进程中建立线索                    否         是         是 
+CreateRoundRectRgn                      建立圆角矩形                            是         是         是 
+CreateScalableFontResource              建立带字体信息的资源文件                是         是         是 
+CreateSemaphore                         将句柄返回给新的信号量                  否         是         是 
+CreateService                           建立服务对象                            否         是         是 
+CreateSolidBrush                        用指定颜色建立实心刷子                  是         是         是 
+CreateTapePartition                     建立新的磁带分区                        否         是         是 
+CreateThread                            建立新的线索                            否         是         是 
+CreateWindowEx                          建立窗口                                是         是         是 
+DPtoLP                                  将设备坐标转换位逻辑坐标                是         是         是 
+DdeAbandonTransaction                   取消异步交互                            否         是         是 
+DdeAccessData                           访问DDE数据对象                         否         是         是 
+DdeAddData                              向DDE数据对象中加入数据                 否         是         是 
+DdeClientTransaction                    开始DDE数据事务                         否         是         是 
+DdeCmpStringHandles                     比较两个DDE字符串句柄                   否         是         是 
+DdeConnect                              建立与服务器的对话                      否         是         是 
+DdeConnectList                          建立多个DDE对话                         否         是         是 
+DdeCreateDataHandle                     建立DDE数据句柄                         否         是         是 
+DdeCreateStringHandle                   建立DDE字符串句柄                       否         是         是 
+DdeDisconnect                           终止DDE对话                             否         是         是 
+DdeDisconnectList                       取消DDE对话表列                         否         是         是 
+DdeEnableCallback                       使能或取消一个或多个DDE对话             否         是         是 
+DdeFreeDataHandle                       释放DDE数据对象                         否         是         是 
+DdeFreeStringHandle                     释放DDE字符串句柄                       否         是         是 
+DdeGetData                              将数据从DDE数据对象中复制到缓冲区       否         是         是 
+DdeGetLastError                         返回由DDEML函数设置的出错代码           否         是         是 
+DdeImpersonateClient                    DDE服务器模拟客户机                     否         是         是 
+DdeInitialize                           用DDEML登记应用程序                     否         是         是 
+DdeKeepStringHandle                     为字符串句柄增加可用记录                否         是         是 
+DdeNameService                          登记取消服务器名称                      否         是         是 
+DdePostAdvise                           提示服务器向客户机发送建议数据          否         是         是 
+DdeQueryConvInfo                        返回关于DDE对话的信息                   否         是         是 
+DdeQueryNextServer                      在对话表列中获得下一个句柄              否         是         是 
+DdeQueryString                          将字符串句柄文本复制到缓冲区            否         是         是 
+DdeReconnect                            重建DDE对话                             否         是         是 
+DdeSetQualityOfService                  指明服务的DDE质量                       否         是         是 
+DdeSetUserHandle                        将用户定义句柄与事务建立关联            否         是         是 
+DdeUnaccessData                         释放DDE数据对象                         否         是         是 
+DdeUninitialize                         释放应用程序的DDEML资源                 否         是         是 
+DebugActiveProcess                      连接调试进程                            否         是         是 
+DebugBreak                              建立断点                                是         是         是 
+DefDlgProc                              提供缺省窗口消息进程                    是         是         是 
+DefDriverProc                           定义缺省消息处理器                      是         是         是 
+DefFrameProc                            缺省MDI框架窗口消息进程                 是         是         是 
+DefMDIChildProc                         缺省MDI子窗口消息进程                   是         是         是 
+DefWindowProc                           调用缺省窗口过程                        是         是         是 
+DeferWindowPos                          更新窗口位置结构                        是         是         是 
+DefineDosDevice                         定义、重定义或删除DOS的设备名           否         是         是 
+DeleteAce                               从已存在的ACL中删除ACE                  否         是         是 
+DeleteAtom                              删除一个原子                            是         是         是 
+DeleteColorSpace                        删除指定色彩空间                        否         是         是 
+DeleteCriticalSection                   删除临界部分                            否         是         是 
+DeleteDC                                删除设备描述表                          是         是         是 
+DeleteEnhMetaFile                       取消增强图元文件句柄                    否         是         是 
+DeleteFile                              删除文件                                否         是         是 
+DeleteForm                              删除打印机窗体层差                      否         是         是 
+DeleteMenu                              删除菜单项                              是         是         是 
+DeleteMetaFile                          取消WINDOWS图元文件句柄                 是         是         是 
+DeleteMonitor                           删除打印机监视器                        否         是         是 
+DeleteObject                            从内存删除一个对象                      是         是         是 
+DeletePort                              删除打印机端口                          否         是         是 
+DeletePrintProcessor                    删除打印机处理器                        否         是         是 
+DeletePrintProvidor                     删除打印机提供者                        否         是         是 
+DeletePrinter                           删除打印机服务器上的打印机              否         是         是 
+DeletePrinterConnection                 删除与打印机的连接                      否         是         是 
+DeletePrinterDriver                     删除打印机驱动程序                      否         是         是 
+DeleteService                           从SC MANAGER数据库中删除服务            否         是         是 
+DeregisterEventSource                   光闭事件句柄                            否         是         是 
+DescribePixelFormat                                                             否         是         是 
+DestroyAcceleratorTable                 取消加速表                              否         是         是 
+DestroyCaret                            取消当前脱字号                          是         是         是 
+DestroyCursor                           取消CREATECURSOR建立的光标              是         是         是 
+DestroyIcon                             取消由CREATEICON建立的图标              是         是         是 
+DestroyMenu                             取消菜单并释放内存                      是         是         是 
+DestroyPrivateObjectSecurity            删除被保护的服务器对象的SD              否         是         是 
+DestroyWindow                           取消窗口                                是         是         是 
+DeviceCapabilities                      返回设备驱动程序的功能                  否         是         是 
+DeviceIoControl                         直接调用驱动程序                        否         是         是 
+DialogBoxIndirectParam                  从内存模块中建立对话框                  否         是         是 
+DisableThreadLibraryCalls                                                       否         是         是 
+DisconnectNamedPipe                     切断命名管道的服务器终端                否         是         是 
+DispatchMessage                         向窗口发送消息                          是         是         是 
+DlgDirList                              填充目录列表框                          是         是         是 
+DlgDirListComboBox                      填充目录列表框                          是         是         是 
+DlgDirSelectComboBoxEx                  从目录列表框中返回用户选择              是         是         是 
+DlgDirSelectEx                          从目录列表框中返回用户选择              是         是         是 
+DoEnvironmentSubst                                                              否         是         是 
+DocumentProperties                      配置打印机设置                          否         是         是 
+DosDateTimeToFileTime                   将MS-DOS日期时间转换为64位格式          否         是         是 
+DragAcceptFiles                         登记窗口是否接受托动文件的内容          否         是         是 
+DragDetect                                                                      否         是         是 
+DragFinish                              释放分配用于托动文件的内容              否         是         是 
+DragObject                                                                      否         是         是 
+DragQueryFile                           返回托动的文件名                        否         是         是 
+DragQueryPoint                          返回鼠标位置                            否         是         是 
+DrawAnimatedRects                                                               否         是         是 
+DrawCaption                                                                     否         是         是 
+DrawEdge                                                                        否         是         是 
+DrawEscape                              实现非GDI可画图设备方法                 否         是         是 
+DrawFocusRect                           用焦点风格画矩形                        是         是         是 
+DrawFrameControl                                                                否         是         是 
+DrawIcon                                在指定设备描述表中画一个图标            是         是         是 
+DrawIconEx                                                                      否         是         是 
+DrawMenuBar                             重显示菜单栏                            是         是         是 
+DrawState                                                                       否         是         是 
+DrawText                                在矩形中画出已格式化文本                是         是         是 
+DrawTextEx                                                                      否         是         是 
+DrvGetModuleHandle                      获得可安装驱动程序的例子句柄            否         是         是 
+DuplicateHandle                         复制对象句柄                            否         是         是 
+DuplicateIcon                                                                   否         是         是 
+DuplicateToken                          复制访问令牌                            否         是         是 
+Ellipse                                 画椭圆                                  是         是         是 
+EmptyClipboard                          清空剪贴板并释放数据句柄                是         是         是 
+EnableMenuItem                          使能、取消或使菜单项不可激活            是         是         是 
+EnableScrollBar                         使能、取消滚动条                        否         是         是 
+EnableWindow                            设备窗口使能状态                        是         是         是 
+EndDeferWindowPos                       更新窗口的位置及大小                    是         是         是 
+EndDialog                               隐藏对话框                              是         是         是 
+EndDoc                                  结束打印作业                            是         是         是 
+EndDocPrinter                           结束打印作业                            否         是         是 
+EndPage                                 结束一页                                是         是         是 
+EndPagePrinter                          结束打印页                              否         是         是 
+EndPaint                                在指定窗口中标记图画结尾标志            是         是         是 
+EndPath                                 结束路径                                否         是         是 
+EndUpdateResource                       在可执行文件中结束资源更新              否         是         是 
+EnterCriticalSection                    加入临界部分                            否         是         是 
+EnumCalendarInfo                                                                否         是         是 
+EnumChildWindows                        将子窗口句柄传给回调函数                否         是         是 
+EnumClipboardFormats                    返回CLIPBOARD格式                       是         是         是 
+EnumDateFormats                         枚举局部指定数据格式                    否         是         是 
+EnumDependentServices                   枚举依赖于设备的服务                    否         是         是 
+EnumDesktopWindows                                                              否         是         是 
+EnumDesktops                                                                    否         是         是 
+EnumEnhMetaFile                         用增强图元文件返回GDI调用               否         是         是 
+EnumFontFamilies                        返回指定家族的字体                      否         是         是 
+EnumFontFamiliesEx                      返回指定家族的字体                      否         是         是 
+EnumFonts                               枚举指定设备上的字体                    否         是         是 
+EnumForms                               枚举所支持的打印机窗体                  否         是         是 
+EnumICMProfiles                         枚举可用的颜色分布                      否         是         是 
+EnumJobs                                获取打印作业信息                        否         是         是 
+EnumMetaFile                            用WINDOWS图元文件返回GDI调用            否         是         是 
+EnumMonitors                            枚举可用监视器                          否         是         是 
+EnumObjects                             枚举设备描述表中的画笔和刷子            否         是         是 
+EnumPorts                               枚举可用打印机端口                      否         是         是 
+EnumPrintProcessorDatatypes             枚举打印机所支持的数据类型              否         是         是 
+EnumPrintProcessors                     枚举已安装的打印机处理器                否         是         是 
+EnumPrinterDrivers                      枚举已安装的打印机驱动程序              否         是         是 
+EnumPrinterPropertySheets                                                       否         是         是 
+EnumPrinters                                                                    否         是         是 
+EnumProps                               返回窗口属性表列                        否         是         是 
+EnumPropsEx                             返回窗口属性表列                        否         是         是 
+EnumResourceLanguages                   列出语言资源                            否         是         是 
+EnumResourceNames                       列出资源名称                            否         是         是 
+EnumResourceTypes                       列出资源类型                            否         是         是 
+EnumServicesStatus                      枚举SC管理器数据库中的服务              否         是         是 
+EnumSystemCodePages                     枚举已安装的可用系统代码页              否         是         是 
+EnumSystemLocales                       枚举已安装的系统局部                    否         是         是 
+EnumThreadWindows                       返回线索窗口                            否         是         是 
+EnumTimeFormats                         枚举本地指定时间格式                    否         是         是 
+EnumWindowStations                                                              否         是         是 
+EqualPrefixSid                          检查两个SLD前缀是否相等                 否         是         是 
+EqualRect                               确定两矩形是否相等待                    是         是         是 
+EqualRgn                                比较两区域是否相等                      是         是         是 
+EqualSid                                检查两SLD安全ID是否相等                 否         是         是 
+EraseTape                               删除磁带的指定段                        否         是         是 
+Escape                                  允许访问设备                            是         是         是 
+EscapeCommFunction                      发送扩展COMM函数                        是         是         是 
+ExcludeClipRect                         改变剪裁区                              是         是         是 
+ExcludeUpdateRgn                        从剪裁区中排斥更新区域                  是         是         是 
+ExitProcess                             退出当前进程                            否         是         是 
+ExitThread                              退出当前线索                            否         是         是 
+ExitWindows                             关闭WINDOWS                             是         是         是 
+ExitWindowsEx                           关闭WINDOWS                             否         是         是 
+ExpandEnvironmentStrings                扩充环境变量字符串                      否         是         是 
+ExtCreatePen                            建立逻辑画笔                            否         是         是 
+ExtCreateRegion                         从区域数据中建立一个区域                否         是         是 
+ExtEscape                               允许访问私有设备                        否         是         是 
+ExtFloodFill                            用当前刷子填充区域                      是         是         是 
+ExtSelectClipRgn                        选择一块区域作为剪裁区                  否         是         是 
+ExtTextOut                              在矩形区域中输出一个字符串              是         是         是 
+ExtractAssociatedIcon                   从文件或相关EXE中获取图标句柄           否         是         是 
+ExtractIcon                             从可执行文件中返回图标句柄              否         是         是 
+ExtractIconEx                                                                   否         是         是 
+FatalAppExit                            结束一个应用程序                        否         是         是 
+FatalExit                               向调试者返回控件                        是         是         是 
+FileTimeToDosDateTime                   将文件时间转换为MS-DOS日期              否         是         是 
+FileTimeToLocalFileTime                 将UTC文件时间转换成本地文件时间         否         是         是 
+FileTimeToSystemTime                    将64位时间转换为系统时间                否         是         是 
+FillConsoleOutputAttribute              将属性写入屏幕缓冲区                    否         是         是 
+FillConsoleOutputCharacter              将字符写入屏幕缓冲区                    否         是         是 
+FillPath                                填充当前路径                            否         是         是 
+FillRect                                用指定刷子填充矩形区域                  是         是         是 
+FillRgn                                 用刷子填充区域                          是         是         是 
+FindAtom                                从本地原子表中返回字符串原子            是         是         是 
+FindClose                               关闭查找文件描述表                      否         是         是 
+FindCloseChangeNotification             光闭文件或目录修改等待                  否         是         是 
+FindClosePrinterChangeNotification                                              否         是         是 
+FindEnvironmentString                                                           否         是         是 
+FindExecutable                          返回可执行文件名及句柄                  否         是         是 
+FindFirstChangeNotification             设置文件或目录修改等待                  否         是         是 
+FindFirstFile                           查找第一个匹配文件                      否         是         是 
+FindFirstFreeAce                        返回指向第一个空闲ACL字节的指针         否         是         是 
+FindFirstPrinterChangeNotification                                              否         是         是 
+FindNextChangeNotification              请求对下一个文件或目录变化的通知        否         是         是 
+FindNextFile                            查找下一个匹配文件                      否         是         是 
+FindNextPrinterChangeNotification                                               否         是         是 
+FindResource                            在模块中寻找资源                        是         是         是 
+FindResourceEx                          在模块中寻找资源                        否         是         是 
+FindText                                建立查找文本对话框                      否         是         是 
+FindWindow                              返回一个与类和窗口名相关的窗口句柄      是         是         是 
+FindWindowEx                                                                    否         是         是 
+FixBrushOrgEx                                                                   否         是         是 
+FlashWindow                             使窗口闪烁一次                          是         是         是 
+FlattenPath                             将弧变为线                              否         是         是 
+FloodFill                               用当前刷子填充区域                      是         是         是 
+FlushConsoleInputBuffer                 清除控制台输入缓冲区                    否         是         是 
+FlushFileBuffers                        清除文件缓冲区                          否         是         是 
+FlushInstructionCache                   填满指令缓冲区                          否         是         是 
+FlushViewOfFile                         用映像视图填充文件                      否         是         是 
+FoldString                              变换字符串                              否         是         是 
+FormatMessage                           格式化消息字符串                        否         是         是 
+FrameRect                               用指定刷子画一个窗口边框                否         是         是 
+FrameRgn                                在区域四周画出边框                      是         是         是 
+FreeConsole                             释放控制台                              否         是         是 
+FreeDDElParam                           释放DDE消息IPARAM                       否         是         是 
+FreeEnvironmentStrings                                                          否         是         是 
+FreeLibrary                             卸载库模块                              是         是         是 
+FreeLibraryAndExitThread                                                        否         是         是 
+FreeResource                                                                    否         是         是 
+FreeSid                                 释放SID                                 否         是         是 
+GdiComment                              向增强型图元文件中加入注释              否         是         是 
+GdiFlush                                使当前GDI闪烁                           否         是         是 
+GdiGetBatchLimit                        返回缓冲GDI函数数量                     否         是         是 
+GdiSetBatchLimit                        设置缓冲GDI函数数量                     否         是         是 
+GenerateConsoleCtrlEvent                向控制台进程组发送信号                  否         是         是 
+GetACP                                  获取ANSI系统代码页                      否         是         是 
+GetAce                                  返回指向ACL中的ACE的指针                否         是         是 
+GetAclInformation                       返回访问控件表信息                      否         是         是 
+GetActiveWindow                         返回活动窗口句柄                        是         是         是 
+GetArcDirection                         返回弧和矩形的绘画方向                  否         是         是 
+GetAspectRatioFilterEx                  返回当前ASPECT-RATIO过滤器              是         是         是 
+GetAsyncKeyState                        确定键的状态                            是         是         是 
+GetAtomName                             返回本地原子字符串                      是         是         是 
+GetBinaryType                           确定二进制可执行文件类型                否         是         是 
+GetBitmapBits                           将位图复制到缓冲区                      否         是         是 
+GetBitmapDimensionEx                    返回位图宽和高                          否         是         是 
+GetBkColor                              返回当前背景色                          否         是         是 
+GetBkMode                               返回背景模式                            否         是         是 
+GetBoundsRect                           返回当前相邻矩形                        否         是         是 
+GetBrushOrgEx                                                                   否         是         是 
+GetCPInfo                               获取代码页信息                          否         是         是 
+GetCapture                                                                      否         是         是 
+GetCaretBlinkTime                       返回脱字号闪烁时间                      否         是         是 
+GetCaretPos                             返回当前脱字号位置                      否         是         是 
+GetCharABCWidths                        返回字符宽度                            否         是         是 
+GetCharABCWidthsFloat                   返回字符宽度                            否         是         是 
+GetCharWidth                            返回字符宽度                            否         是         是 
+GetCharWidth32                          返回字符宽度                            否         是         是 
+GetCharWidthFloat                       返回部分字符宽度                        否         是         是 
+GetCharacterPlacement                   获取字符串属性数据                      否         是         是 
+GetClassInfo                            返回窗口类信息                          否         是         是 
+GetClassLong                            返回窗口类数据                          否         是         是 
+GetClassName                            返回窗口类名称                          否         是         是 
+GetClassWord                            返回窗口类内存字                        否         是         是 
+GetClientRect                           返回窗口客户区坐标                      否         是         是 
+GetClipBox                              取剪裁区域框                            否         是         是 
+GetClipCursor                           返回限制光标的矩形的坐标                否         是         是 
+GetClipRgn                              返回当前剪辑域                          否         是         是 
+GetClipboardData                        返回剪贴板数据的句柄                    否         是         是 
+GetClipboardFormatName                  返回登录的剪贴板格式名                  否         是         是 
+GetClipboardOwner                       返回剪贴板所有者窗口句柄                否         是         是 
+GetClipboardViewer                      返回第一个剪贴板浏览窗口句柄            否         是         是 
+GetColorAdjustment                      获取设备描述表调整值                    否         是         是 
+GetColorSpace                           获取指定色彩空间                        否         是         是 
+GetCommConfig                                                                   否         是         是 
+GetCommMask                             返回COMM事件屏蔽                        否         是         是 
+GetCommModemStatus                      返回调制解调器控制登录值                否         是         是 
+GetCommProperties                       返回COMM设备属性                        否         是         是 
+GetCommState                            返回COMM设备控制块                      否         是         是 
+GetCommTimeouts                         返回COMM设备超时特性值                  否         是         是 
+GetCommandLine                          返回指向命令行的指针                    否         是         是 
+GetCompressedFileSize                                                           否         是         是 
+GetComputerName                         取回当前计算机名                        否         是         是 
+GetConsoleCP                            为控制台输入获取代码页                  否         是         是 
+GetConsoleCursorInfo                    返回光标大小                            否         是         是 
+GetConsoleMode                          返回控制台输入输出模式                  否         是         是 
+GetConsoleOutputCP                      为控制台输出获取代码页                  否         是         是 
+GetConsoleScreenBufferInfo              返回屏幕缓冲区信息                      否         是         是 
+GetConsoleTitle                         返回控制台窗口标题                      否         是         是 
+GetCurrencyFormat                                                               否         是         是 
+GetCurrentDirectory                     返回当前目录                            否         是         是 
+GetCurrentObject                        返回当前对象                            否         是         是 
+GetCurrentPositionEx                    返回逻辑单元位置                        否         是         是 
+GetCurrentProcess                       返回当前进程的句柄                      否         是         是 
+GetCurrentProcessId                     返回当前进程ID值                        否         是         是 
+GetCurrentThread                        返回当前线索的句柄                      否         是         是 
+GetCurrentThreadId                      返回当前线索ID值                        否         是         是 
+GetCursor                               返回当前光标的句柄                      否         是         是 
+GetCursorPos                            返回当前光标的位置                      否         是         是 
+GetDC                                   返回窗口描述表句柄                      否         是         是 
+GetDCEx                                 返回显示描述表的句柄                    否         是         是 
+GetDCOrgEx                              返回设备描述表的转换起点                否         是         是 
+GetDIBColorTable                                                                否         是         是 
+GetDIBits                               将DIB位复制到缓冲区中                   否         是         是 
+GetDateFormat                           获取本地日期格式                        否         是         是 
+GetDefaultCommConfig                                                            否         是         是 
+GetDesktopWindow                        返回桌面窗口句柄                        否         是         是 
+GetDeviceCaps                           返回设备性能                            否         是         是 
+GetDeviceGammaRamp                      获取显示器的辉度系数                    否         是         是 
+GetDialogBaseUnits                      返回对话基础单元                        否         是         是 
+GetDiskFreeSpace                        返回空闲磁盘空间                        否         是         是 
+GetDlgCtrlID                            返回儿子窗口的ID值                      否         是         是 
+GetDlgItem                              返回对话框控件句柄                      否         是         是 
+GetDlgItemInt                           将对话框文本转换为整数                  否         是         是 
+GetDlgItemText                          返回对话框控件文本                      否         是         是 
+GetDoubleClickTime                      返回鼠标双击时间                        否         是         是 
+GetDriveType                            返回指定驱动器类型                      否         是         是 
+GetDriverModuleHandle                   返回驱动程序模块例子句柄                否         是         是 
+GetEnhMetaFile                          建立增强图元文件                        否         是         是 
+GetEnhMetaFileBits                      将增强图元文件值复制到缓冲区            否         是         是 
+GetEnhMetaFileDescription               返回增强图元文件的标题及建立者          否         是         是 
+GetEnhMetaFileHeader                    返回增强图元文件头                      否         是         是 
+GetEnhMetaFilePaletteEntries            返回增强图元文件调色板入口              否         是         是 
+GetEnvironmentStrings                   返回指向环境块的指针                    否         是         是 
+GetEnvironmentVariable                  返回过程环境变量                        否         是         是 
+GetExitCodeProcess                      返回过程中断代码                        否         是         是 
+GetExitCodeThread                       返回线索中断代码                        否         是         是 
+GetExpandedName                         取压缩文件的原文件名                    是         是         是 
+GetFileAttributes                       返回文件属性                            否         是         是 
+GetFileInformationByHandle              返回文件信息                            否         是         是 
+GetFileSecurity                         获取文件或目录安全信息                  否         是         是 
+GetFileSize                             返回指定文件大小                        否         是         是 
+GetFileTime                             返回文件64位时间                        否         是         是 
+GetFileTitle                            返回文件名                              否         是         是 
+GetFileType                             返回文件类型                            否         是         是 
+GetFileVersionInfo                      返回文件的版本信息                      否         是         是 
+GetFileVersionInfoSize                  返回可用版本信息大小                    否         是         是 
+GetFocus                                返回当前焦点窗口句柄                    是         是         是 
+GetFontData                             返回字体数据                            是         是         是 
+GetFontLanguageInfo                     获取字体显示描述表的信息                否         是         是 
+GetForegroundWindow                     返回前景窗口句柄                        否         是         是 
+GetForm                                 获取打印机窗口信息                      否         是         是 
+GetFullPathName                         返回文件的路径名                        否         是         是 
+GetGlyphOutline                         取回轮廓数据                            是         是         是 
+GetGraphicsMode                         取回指定DC的图形模式                    否         是         是 
+GetHandleInformation                                                            否         是         是 
+GetICMProfile                           返回设备场景的色彩映像                  否         是         是 
+GetIconInfo                             返回图标或光标信息                      否         是         是 
+GetInputState                           确定鼠标、键盘、定时器状态              是         是         是 
+GetJob                                  获取打印作业信息                        否         是         是 
+GetKBCodePage                           获取OEM系统代码页                       是         是         是 
+GetKernelObjectSecurity                 返回内核对象SD                          否         是         是 
+GetKerningPairs                         返回当前字体内核对                      是         是         是 
+GetKeyNameText                          返回代表键盘名字的字符串                是         是         是 
+GetKeyState                             返回虚拟键的状态                        是         是         是 
+GetKeyboardLayout                                                               否         是         是 
+GetKeyboardLayoutList                                                           否         是         是 
+GetKeyboardLayoutName                   返回活动键盘版面名                      否         是         是 
+GetKeyboardState                        返回虚拟键盘状态                        是         是         是 
+GetKeyboardType                         返回键盘信息                            是         是         是 
+GetLargestConsoleWindowSize             返回窗口尺寸的最大可能性                否         是         是 
+GetLastActivePopup                      确定最近的活动弹出式窗口                是         是         是 
+GetLastError                            返回扩充出错代码                        否         是         是 
+GetLengthSid                            返回SID长度                             否         是         是 
+GetLocalTime                            返回本地时间和日期                      否         是         是 
+GetLocaleInfo                           从记录中获取本机信息                    否         是         是 
+GetLogColorSpace                        获取逻辑色彩空间的信息                  否         是         是 
+GetLogicalDriveStrings                  返回合法驱动器字符串                    否         是         是 
+GetLogicalDrives                        指定合法驱动器                          否         是         是 
+GetMailslotInfo                         返回信箱信息                            否         是         是 
+GetMapMode                              返回映像模式                            是         是         是 
+GetMenu                                 返回指定窗口的菜单句柄                  是         是         是 
+GetMenuCheckMarkDimensions              返回缺省复选标记位图尺寸                是         是         是 
+GetMenuContextHelpId                                                            否         是         是 
+GetMenuDefaultItem                                                              否         是         是 
+GetMenuItemCount                        返回菜单项数                            是         是         是 
+GetMenuItemID                           返回菜单项标识符                        是         是         是 
+GetMenuItemInfo                                                                 否         是         是 
+GetMenuItemRect                                                                 否         是         是 
+GetMenuState                            返回指定菜单项的菜单标记                是         是         是 
+GetMenuString                           将菜单项字符串复制入缓冲区              是         是         是 
+GetMessage                              从线索消息队列中返回一条消息            是         是         是 
+GetMessageExtraInfo                     返回硬件消息的信息                      是         是         是 
+GetMessagePos                           返回最后消息的光标位置                  是         是         是 
+GetMessageTime                          返回最后消息的时间位置                  是         是         是 
+GetMetaFile                             建立WINDOWS图元文件                     是         是         是 
+GetMetaFileBitsEx                       将WINDOWS图元文件复制入缓冲区           否         是         是 
+GetMetaRgn                              返回当前图元区域                        否         是         是 
+GetMiterLimit                           返回当前MITER-JOIN长度                  否         是         是 
+GetModuleFileName                       返回指定模块的路径                      是         是         是 
+GetModuleHandle                         返回指定模块的句柄                      是         是         是 
+GetNamedPipeHandleState                 返回命名管道句柄消息                    否         是         是 
+GetNamedPipeInfo                        返回命名管道句柄消息                    否         是         是 
+GetNearestColor                         返回最近的可用色彩                      是         是         是 
+GetNearestPaletteIndex                  返回最近的匹配色彩                      是         是         是 
+GetNextDlgGroupItem                     返回前或后一组控件的句柄                是         是         是 
+GetNextDlgTabItem                       返回前或后一个WS_TABSTOP控件            是         是         是 
+GetNextWindow                           返回前或后一窗口管理器窗口              是         是         是 
+GetNumberFormat                                                                 否         是         是 
+GetNumberOfConsoleInputEvents           返回控制台队列事件数                    否         是         是 
+GetNumberOfConsoleMouseButtons          返回鼠标按钮数                          否         是         是 
+GetNumberOfEventLogRecords              获取事件记录中的记录数                  否         是         是 
+GetOEMCP                                获取OEM系统代码页                       否         是         是 
+GetObject                               返回对象信息                            是         是         是 
+GetObjectType                           返回对象类型                            否         是         是 
+GetOldestEventLogRecord                 返回最早的记录数                        否         是         是 
+GetOpenClipboardWindow                  返回打开CLIPBOARD的窗口句柄             是         是         是 
+GetOpenFileName                         建立文件名对话框                        否         是         是 
+GetOutlineTextMetrics                   返回TRUETYPE字体的公制类型              是         是         是 
+GetOverlappedResult                     返回最后重叠结果                        否         是         是 
+GetPaletteEntries                       返回调色板入口范围                      是         是         是 
+GetParent                               返回父口句柄                            是         是         是 
+GetPath                                 返回路径中的所有直线和曲线              否         是         是 
+GetPixel                                返回指定像素的RGB值                     是         是         是 
+GetPixelFormat                                                                  否         是         是 
+GetPolyFillMode                         返回当前多边形填充模式                  是         是         是 
+GetPrintProcessorDirectory              获取打印机驱动处理器路径                否         是         是 
+GetPrinter                              获取打印机信息                          否         是         是 
+GetPrinterData                          获取打印机配置信息                      否         是         是 
+GetPrinterDriver                        获取打印机驱动程序信息                  否         是         是 
+GetPrinterDriverDirectory               获取打印机驱动程序路径                  否         是         是 
+GetPriorityClass                        返回过程的优先级类                      否         是         是 
+GetPriorityClipboardFormat              返回第一个CLIPBOARD格式                 是         是         是 
+GetPrivateObjectSecurity                返回保护服务器对象SD                    否         是         是 
+GetPrivateProfileInt                    从私有文件中获取整数                    是         是         是 
+GetPrivateProfileSection                返回私有键和值                          否         是         是 
+GetPrivateProfileString                 从私有文件中获取字符串                  是         是         是 
+GetProcAddress                          返回函数地址                            否         是         是 
+GetProcessAffinityMask                  获取任务可用的处理表列                  否         是         是 
+GetProcessHeap                          获取调用过程堆句柄                      否         是         是 
+GetProcessHeaps                                                                 否         是         是 
+GetProcessShutdownParameters            返回过程停止参数                        否         是         是 
+GetProcessTimes                         获取过程计时器                          否         是         是 
+GetProcessWindowStation                 返回过程窗口站句柄                      否         是         是 
+GetProcessWorkingSetSize                                                        否         是         是 
+GetProfileInt                           从WIN.INI中获取整数                     是         是         是 
+GetProfileSection                       从WIN.INI中返回关键字和值               否         是         是 
+GetProfileString                        从WIN.INI中获取字符串                   是         是         是 
+GetProp                                 从窗口属性表列中返回数据句柄            是         是         是 
+GetQueueStatus                          确定消息队列内容                        是         是         是 
+GetQueuedCompletionStatus                                                       否         是         是 
+GetROP2                                 返回当前绘图模式                        是         是         是 
+GetRasterizerCaps                       返回系统TRUETYPE状态                    是         是         是 
+GetRegionData                           返回区域数据                            否         是         是 
+GetRgnBox                               返回区域边框矩形                        是         是         是 
+GetSaveFileName                         建立文件名保存对话框                    否         是         是 
+GetScrollInfo                                                                   否         是         是 
+GetScrollPos                            返回滑块位置                            是         是         是 
+GetScrollRange                          返回滑块运动范围                        是         是         是 
+GetSecurityDescriptorControl            取回SD校正及控制信息                    否         是         是 
+GetSecurityDescriptorDacl               返回SD离散ACL                           否         是         是 
+GetSecurityDescriptorGroup              返回SD个人组信息                        否         是         是 
+GetSecurityDescriptorLength             返回SD长度                              否         是         是 
+GetSecurityDescriptorOwner              返回SD所有人                            否         是         是 
+GetSecurityDescriptorSacl               返回SD系统ACL                           否         是         是 
+GetServiceDisplayName                   获取服务显示名称                        否         是         是 
+GetServiceKeyName                       获取服务登录关键名称                    否         是         是 
+GetShortPathName                        返回文件短路径                          否         是         是 
+GetSidIdentifierAuthority               返回ID字段地址                          否         是         是 
+GetSidLengthRequired                    返回所需SID长度                         否         是         是 
+GetSidSubAuthority                      返回次规范数组地址                      否         是         是 
+GetSidSubAuthorityCount                 返回次字段地址                          否         是         是 
+GetStartupInfo                          获取当前过程的启始信息                  否         是         是 
+GetStdHandle                            返回标准I/O句柄                         否         是         是 
+GetStockObject                          返回常用画笔、刷子或字段的句柄          是         是         是 
+GetStretchBltMode                       返回位图拉伸模式                        是         是         是 
+GetStringTypeA                          获取ANSI字符串类型                      否         是         是 
+GetStringTypeEx                                                                 否         是         是 
+GetStringTypeW                          获取UNICODE字符串类型                   否         是         是 
+GetSubMenu                              返回弹出式菜单句柄                      是         是         是 
+GetSysColor                             返回显示元素色彩                        是         是         是 
+GetSysColorBrush                                                                否         是         是 
+GetSystemDefaultLCID                    获取系统缺省本地ID                      否         是         是 
+GetSystemDefaultLangID                  获取系统缺省语言ID                      否         是         是 
+GetSystemDirectory                      返回WINDOWS系统目录路径                 是         是         是 
+GetSystemInfo                           返回系统信息                            否         是         是 
+GetSystemMenu                           访问系统菜单                            是         是         是 
+GetSystemMetrics                        返回系统公制                            是         是         是 
+GetSystemPaletteEntries                 返回系统调色板入口                      是         是         是 
+GetSystemPaletteUse                     确定使用整个系统调色板                  是         是         是 
+GetSystemPowerStatus                    获取系统AC或DC电源状态                  否         是         是 
+GetSystemTime                           返回系统时间和日期                      否         是         是 
+GetSystemTimeAdjustment                                                         否         是         是 
+GetTabbedTextExtent                     确定制表串大小                          是         是         是 
+GetTapeParameters                       返回磁带驱动器或介质信息                否         是         是 
+GetTapePosition                         返回当前磁带位置                        否         是         是 
+GetTapeStatus                           返回磁带机状态                          否         是         是 
+GetTempFileName                         建立临时文件名                          是         是         是 
+GetTempPath                             返回临时文件路径                        否         是         是 
+GetTextAlign                            返回文本对齐标志                        是         是         是 
+GetTextCharacterExtra                   返回文本字符间隔                        是         是         是 
+GetTextCharset                                                                  否         是         是 
+GetTextCharsetInfo                      返回当前字体设置信息                    否         是         是 
+GetTextColor                            返回当前文本色彩                        是         是         是 
+GetTextExtentExPoint                    返回子字符串长度数组                    否         是         是 
+GetTextExtentPoint                      返回字符串大小                          是         是         是 
+GetTextExtentPoint32                    返回字符串大小                          否         是         是 
+GetTextFace                             返回当前字体的字样                      是         是         是 
+GetTextMetrics                          返回当前字体的公制                      是         是         是 
+GetThreadContext                        返回指定线索描述表                      否         是         是 
+GetThreadDesktop                        返回线索桌面句柄                        否         是         是 
+GetThreadLocale                         获取线索本地信息                        否         是         是 
+GetThreadPriority                       返回指定线索优先级                      否         是         是 
+GetThreadSelectorEntry                  返回线索描述入口                        否         是         是 
+GetThreadTimes                          返回线索计时信息                        否         是         是 
+GetTickCount                            返回WINDOWS运行时间                     是         是         是 
+GetTimeFormat                           获取本地指定的时间字符串                否         是         是 
+GetTimeZoneInformation                  返回当前时区信息                        否         是         是 
+GetTokenInformation                     返回指定令牌信息                        否         是         是 
+GetTopWindow                            返回指定窗口的顶端儿子句柄              是         是         是 
+GetUpdateRect                           返回窗口更新区域大小                    是         是         是 
+GetUpdateRgn                            返回窗口更新区域大小                    是         是         是 
+GetUserDefaultLCID                      获取用户缺省本地ID                      否         是         是 
+GetUserDefaultLangID                    获取用户缺省语言ID                      否         是         是 
+GetUserName                             返回用户名                              否         是         是 
+GetUserObjectInformation                                                        否         是         是 
+GetUserObjectSecurity                   返回服务器对象SD信息                    否         是         是 
+GetVersion                              返回WINDOWS和操作系统版本               是         是         是 
+GetVersionEx                            返回扩展操作系统版本信息                否         是         是 
+GetViewportExtEx                        返回视窗宽度                            是         是         是 
+GetViewportOrgEx                        返回视口源                              是         是         是 
+GetVolumeInformation                    返回文件系统信息                        否         是         是 
+GetWinMetaFileBits                      返回WINDOWS格式的图元文件内容           否         是         是 
+GetWindow                               返回指定窗口句柄                        是         是         是 
+GetWindowContextHelpId                                                          否         是         是 
+GetWindowDC                             返回窗口设备厂描述表                    是         是         是 
+GetWindowExtEx                          返回窗口宽度                            是         是         是 
+GetWindowLong                           从附加窗口内存中返回长型数值            是         是         是 
+GetWindowOrgEx                          返回窗口源                              是         是         是 
+GetWindowPlacement                      返回窗口显示状态及最小/最大位置         是         是         是 
+GetWindowRect                           返回窗口坐标                            是         是         是 
+GetWindowRgn                                                                    否         是         是 
+GetWindowText                           将窗口工具栏文本复制到缓冲区            是         是         是 
+GetWindowTextLength                     返回窗口工具栏文本长度                  是         是         是 
+GetWindowThreadProcessId                返回窗口线索及过程ID                    否         是         是 
+GetWindowWord                           从附加窗口内存中返回字值                是         是         是 
+GetWindowsDirectory                     返回窗口WINDOWS目录                     是         是         是 
+GetWorldTransform                       返回当前变换式                          否         是         是 
+GlobalAddAtom                           在系统原子表中加入字符串                是         是         是 
+GlobalAlloc                             在堆中分配内存                          是         是         是 
+GlobalCompact                                                                   否         是         是 
+GlobalDeleteAtom                        从系统原子表中删除原子                  是         是         是 
+GlobalFindAtom                          从全局原子表中返回字符串原子            是         是         是 
+GlobalFix                                                                       否         是         是 
+GlobalFlags                             返回全局内存块信息                      是         是         是 
+GlobalFree                              释放全局内存块                          是         是         是 
+GlobalGetAtomName                       返回全局原子字符串                      是         是         是 
+GlobalHandle                            将全局指针转换为句柄                    是         是         是 
+GlobalLock                              锁定内存对象并返回一个指针              是         是         是 
+GlobalMemoryStatus                      检查内存状态                            否         是         是 
+GlobalReAlloc                           修改全局内存块大小/属性                 是         是         是 
+GlobalSize                              返回全局内存块大小                      是         是         是 
+GlobalUnWire                                                                    否         是         是 
+GlobalUnfix                                                                     否         是         是 
+GlobalUnlock                            开锁全局内存块                          是         是         是 
+GlobalWire                                                                      否         是         是 
+GrayString                              在指定位置画灰色文本                    否         是         是 
+HeapAlloc                               从堆中分配内存                          否         是         是 
+HeapCompact                             压缩内存堆                              否         是         是 
+HeapCreate                              建立堆                                  否         是         是 
+HeapDestroy                             取消堆                                  否         是         是 
+HeapFree                                释放从堆中分配的内存                    否         是         是 
+HeapLock                                锁定堆                                  否         是         是 
+HeapReAlloc                             从堆中重分配内存                        否         是         是 
+HeapSize                                返回堆对象的大小                        否         是         是 
+HeapUnlock                              释放堆锁                                否         是         是 
+HeapValidate                            校验指定堆结构                          否         是         是 
+HideCaret                               隐藏脱字号                              是         是         是 
+HiliteMenuItem                          修改顶级菜单项高亮度                    是         是         是 
+hread                                                                           否         是         是 
+hwrite                                                                          否         是         是 
+ImmAssociateContext                                                             否         是         是 
+ImmConfigureIME                                                                 否         是         是 
+ImmCreateContext                                                                否         是         是 
+ImmDestroyContext                                                               否         是         是 
+ImmEnumRegisterWord                                                             否         是         是 
+ImmEscape                                                                       否         是         是 
+ImmGetCandidateList                                                             否         是         是 
+ImmGetCandidateListCount                                                        否         是         是 
+ImmGetCandidateWindow                                                           否         是         是 
+ImmGetCompositionFont                                                           否         是         是 
+ImmGetCompositionString                                                         否         是         是 
+ImmGetCompositionWindow                                                         否         是         是 
+ImmGetContext                                                                   否         是         是 
+ImmGetConversionList                                                            否         是         是 
+ImmGetConversionStatus                                                          否         是         是 
+ImmGetDefaultIMEWnd                                                             否         是         是 
+ImmGetDescription                                                               否         是         是 
+ImmGetGuideLine                                                                 否         是         是 
+ImmGetIMEFileName                                                               否         是         是 
+ImmGetOpenStatus                                                                否         是         是 
+ImmGetProperty                                                                  否         是         是 
+ImmGetRegisterWordStyle                                                         否         是         是 
+ImmGetStatusWindowPos                                                           否         是         是 
+ImmGetVirtualKey                                                                否         是         是 
+ImmInstallIME                                                                   否         是         是 
+ImmIsIME                                                                        否         是         是 
+ImmIsUIMessage                                                                  否         是         是 
+ImmNotifyIME                                                                    否         是         是 
+ImmRegisterWord                                                                 否         是         是 
+ImmReleaseContext                                                               否         是         是 
+ImmSetCandidateWindow                                                           否         是         是 
+ImmSetCompositionFont                                                           否         是         是 
+ImmSetCompositionString                                                         否         是         是 
+ImmSetCompositionWindow                                                         否         是         是 
+ImmSetConversionStatus                                                          否         是         是 
+ImmSetOpenStatus                                                                否         是         是 
+ImmSetStatusWindowPos                                                           否         是         是 
+ImmSimulateHotKey                                                               否         是         是 
+ImmUnregisterWord                                                               否         是         是 
+ImpersonateDdeClientWindow              模拟DDE客户窗口                         否         是         是 
+ImpersonateLoggedOnUser                 模拟指定用户                            否         是         是 
+ImpersonateNamedPipeClient              管道服务器模拟客户                      否         是         是 
+ImpersonateSelf                         获取调用过程的模拟令牌                  否         是         是 
+InSendMessage                           确定窗口是否在进行SENDMESSAGE           是         是         是 
+InflateRect                             改变矩形大小                            是         是         是 
+InitAtomTable                           初始化本地原子杂凑表                    是         是         是 
+InitializeAcl                           建立新的访问控件表                      否         是         是 
+InitializeCriticalSection               初始化临界段对象                        否         是         是 
+InitializeSecurityDescriptor            初始化安全描述                          否         是         是 
+InitializeSid                           初始化SID                               否         是         是 
+InitiateSystemShutdown                  关闭系统                                否         是         是 
+InsertMenu                              加入新菜单项                            是         是         是 
+InsertMenuItem                                                                  否         是         是 
+InterlockedDecrement                    减少LONG                                否         是         是 
+InterlockedExchange                     自动交换32位数值                        否         是         是 
+InterlockedIncrement                    增加LONG                                否         是         是 
+IntersectClipRect                       建立剪辑区域                            是         是         是 
+IntersectRect                           计算两矩形交叠处                        是         是         是 
+InvalidateRect                          在更新区域中加入一个矩形                是         是         是 
+InvalidateRgn                           在更新区域加入一个区域                  是         是         是 
+InvertRect                              翻转矩形区域                            是         是         是 
+InvertRgn                               翻转区域颜色                            是         是         是 
+IsBadCodePtr                            确定读指针的合法性                      否         是         是 
+IsBadHugeReadPtr                        确定读指针的合法性                      否         是         是 
+IsBadHugeWritePtr                       确定进程是否有写动作                    否         是         是 
+IsBadReadPtr                            确定进程是否有读动作                    是         是         是 
+IsBadStringPtr                          确定字符串指针的合法性                  是         是         是 
+IsBadWritePtr                           确定写指针的合法性                      是         是         是 
+IsCharAlpha                             确定字符串是否是字母                    是         是         是 
+IsCharAlphaNumeric                      确定字符串是否是数字                    是         是         是 
+IsCharLower                             确定字符串是否是小写                    是         是         是 
+IsCharUpper                             确定字符串是否是大写                    是         是         是 
+IsChild                                 确定窗口是否是儿子窗                    是         是         是 
+IsClipboardFormatAvailable              确定格式是否可用                        是         是         是 
+IsDBCSLeadByte                          确定字符是否DBCS引导字节                是         是         是 
+IsDialogMessage                         确定消息是否用于对话框                  是         是         是 
+IsDlgButtonChecked                      确定按钮控件状态                        是         是         是 
+IsIconic                                确定窗口是否被最小画                    是         是         是 
+IsMenu                                  确定句柄是否是菜单                      是         是         是 
+IsRectEmpty                             确定矩形是否为空                        是         是         是 
+IsTextUnicode                                                                   否         是         是 
+IsValidAcl                              使访问控件表有效                        否         是         是 
+IsValidCodePage                         确定代码页是否有效                      否         是         是 
+IsValidLocale                           确定本地代码是否有效                    否         是         是 
+IsValidSecurityDescriptor               使安全描述有效                          否         是         是 
+IsValidSid                              使SID有效                               否         是         是 
+IsWindow                                确定窗口句柄是否有效                    是         是         是 
+IsWindowEnabled                         确定窗口是否接收用户输入                是         是         是 
+IsWindowUnicode                         确定窗口是否使用UNICODE                 否         是         是 
+IsWindowVisible                         确定窗口是否可见                        是         是         是 
+IsZoomed                                确定窗口是否最大化                      是         是         是 
+joyGetDevCaps                           确定操纵杆是否可用                      否         是         是 
+joyGetNumDevs                           返回操纵杆数目                          否         是         是 
+joyGetPos                               返回操纵杆位置及按钮活动                否         是         是 
+joyGetPosEx                             返回操纵杆位置扩展信息                  否         是         是 
+joyGetThreshold                         返回操纵杆运动临界值                    否         是         是 
+joyReleaseCapture                       释放操纵杆捕获                          否         是         是 
+joySetCapture                           对指定窗口捕获操纵杆消息                否         是         是 
+joySetThreshold                         设置操纵杆运动临界值                    否         是         是 
+keybd_event                             综合击键事件                            否         是         是 
+KillTimer                               中止定时器                              是         是         是 
+lclose                                                                          否         是         是 
+lcreat                                                                          否         是         是 
+LCMapString                             映像字符串                              否         是         是 
+LPtoDP                                  将逻辑指针变为设备指针                  是         是         是 
+LZClose                                 关闭文件                                是         是         是 
+LZCopy                                  复制文件或压缩                          是         是         是 
+LZDone                                                                          否         是         是 
+LZInit                                  初始化压缩数据结构                      是         是         是 
+LZOpenFile                              打开文件                                是         是         是 
+LZRead                                  从压缩文件中读入数据                    是         是         是 
+LZSeek                                  重定位文件中的指针                      是         是         是 
+LZStart                                                                         否         是         是 
+LeaveCriticalSection                    保留前一个输入临界段                    否         是         是 
+LineDDA                                 计算线中的连续点                        否         是         是 
+LineTo                                  从当前位置画一条线                      是         是         是 
+llseek                                                                          否         是         是 
+LoadAccelerators                        装入加速表                              是         是         是 
+LoadBitmap                              装入位图资源                            是         是         是 
+LoadCursor                              装入光标资源                            是         是         是 
+LoadCursorFromFile                                                              否         是         是 
+LoadIcon                                装入图标资源                            是         是         是 
+LoadImage                                                                       否         是         是 
+LoadKeyboardLayout                      键盘布置装入内存                        否         是         是 
+LoadLibrary                             映像模块到进行地址空间                  是         是         是 
+LoadLibraryEx                           返回库模块句柄                          否         是         是 
+LoadMenu                                装入菜单资源                            是         是         是 
+LoadMenuIndirect                        获取菜单模板句柄                        是         是         是 
+LoadModule                              装入并运行程序                          是         是         是 
+LoadResource                            返回资源句柄                            是         是         是 
+LoadString                              装入字符串资源                          是         是         是 
+LocalAlloc                              从堆分配内存                            是         是         是 
+LocalCompact                                                                    否         是         是 
+LocalFileTimeToFileTime                 将本地文件时间转移为UTC文件时间         否         是         是 
+LocalFlags                              返回本地内存块信息                      是         是         是 
+LocalFree                               释放本地内存信息                        是         是         是 
+LocalHandle                             返回本地指针句柄                        是         是         是 
+LocalLock                               锁定本地内存对象并返回指针              是         是         是 
+LocalReAlloc                            修改本地内存大小及属性                  是         是         是 
+LocalShrink                                                                     否         是         是 
+LocalSize                               返回本地内存块大小                      是         是         是 
+LocalUnlock                             开锁本地内存块                          是         是         是 
+LockFile                                锁定一个字节范围                        否         是         是 
+LockFileEx                              锁定一个字节范围                        否         是         是 
+LockResource                            返回资源地址                            是         是         是 
+LockServiceDatabase                     锁定指定SC管理器数据库                  否         是         是 
+LockWindowUpdate                        禁止或使能在窗口中的绘画                是         是         是 
+LogonUser                               登录用户                                否         是         是 
+LookupAccountName                       把帐户名转为SID                         否         是         是 
+LookupAccountSid                        把SID转为帐户名                         否         是         是 
+LookupIconIdFromDirectory               返回图标或光标ID坐标                    否         是         是 
+LookupIconIdFromDirectoryEx                                                     否         是         是 
+LookupPrivilegeDisplayName              返回可见特权名                          否         是         是 
+LookupPrivilegeName                     返回可编程特权名                        否         是         是 
+LookupPrivilegeValue                    返回特权名LUID                          否         是         是 
+lopen                                                                           否         是         是 
+lread                                                                           否         是         是 
+lstrcat                                                                         否         是         是 
+lstrcmp                                 比较两个字符串                          是         是         是 
+lstrcmpi                                比较两个字符串                          是         是         是 
+lstrcpy                                                                         否         是         是 
+lstrcpyn                                                                        否         是         是 
+lstrlen                                 返回字符串中字符数                      是         是         是 
+lwrite                                                                          否         是         是 
+MakeAbsoluteSD                          建立独立SD                              否         是         是 
+MakeSelfRelativeSD                      建立自相关SD                            否         是         是 
+MapDialogRect                           将对话框映像至像素                      是         是         是 
+MapGenericMask                          映像对专用/标准的一般性访问             否         是         是 
+MapViewOfFile                           将视图映像入地址空间                    否         是         是 
+MapViewOfFileEx                         将视图映像入地址空间                    否         是         是 
+MapVirtualKey                           转换虚拟关键字代码或扫描代码            是         是         是 
+MapVirtualKeyEx                                                                 否         是         是 
+MapWindowPoints                         将点转换到另一坐标系统                  是         是         是 
+MaskBlt                                 转换位图                                否         是         是 
+mciExecute                              执行MCI设备命令                         否         是         是 
+mciGetCreatorTask                       返回创建任务                            否         是         是 
+mciGetDeviceID                          返回设备名对应的ID                      否         是         是 
+mciGetDeviceIDFromElementID             用元素引用返回设备ID                    否         是         是 
+mciGetErrorString                       返回MCI出错代码的文本描述               否         是         是 
+mciGetYieldProc                         获取过程地址                            否         是         是 
+mciSendCommand                          向MCI设备发出一条命令消息               否         是         是 
+mciSendString                           向MCI设备发出一条命令字符串             否         是         是 
+mciSetYieldProc                         设置过程地址                            否         是         是 
+MenuItemFromPoint                                                               否         是         是 
+MessageBeep                             产生声音                                是         是         是 
+MessageBox                              建立消息框窗体                          是         是         是 
+MessageBoxEx                            建立消息框窗体                          否         是         是 
+MessageBoxIndirect                                                              否         是         是 
+midiConnect                             连接MIDI设备                            否         是         是 
+midiDisconnect                          断开MIDI设备                            否         是         是 
+midiInAddBuffer                         向MIDI设备发送输入缓冲                  否         是         是 
+midiInClose                             关闭MIDI输入设备                        否         是         是 
+midiInGetDevCaps                        确定MIDI设备性能                        否         是         是 
+midiInGetErrorText                      返回MIDI出错代码的文本描述              否         是         是 
+midiInGetID                             返回MIDI设备句柄ID                      否         是         是 
+midiInGetNumDevs                        返回MIDI设备数量                        否         是         是 
+midiInMessage                           向MIDI设备驱动程序发送消息              否         是         是 
+midiInOpen                              打开MIDI设备                            否         是         是 
+midiInPrepareHeader                     准备MIDI输入缓冲区                      否         是         是 
+midiInReset                             结束MIDI输入和标准输入缓冲区            否         是         是 
+midiInStart                             开始MIDI输入设备                        否         是         是 
+midiInStop                              结束MIDI输入                            否         是         是 
+midiInUnprepareHeader                   清除预备头                              否         是         是 
+midiOutCacheDrumPatches                 预装入MIDI碰撞修正码                    否         是         是 
+midiOutCachePatches                     预装入MIDI修正码                        否         是         是 
+midiOutClose                            关闭MIDI输出设备                        否         是         是 
+midiOutGetDevCaps                       返回MIDI输出设备性能                    否         是         是 
+midiOutGetErrorText                     返回MIDI输出出错文本                    否         是         是 
+midiOutGetID                            返回MIDI输出设备ID                      否         是         是 
+midiOutGetNumDevs                       获取MIDI输出设备数量                    否         是         是 
+midiOutGetVolume                        返回MIDI输出设备卷                      否         是         是 
+midiOutLongMsg                          发送系统专用MIDI消息                    否         是         是 
+midiOutMessage                          向MIDI设备驱动程序发送消息              否         是         是 
+midiOutOpen                             打开MIDI输出设备                        否         是         是 
+midiOutPrepareHeader                    准备MIDI输出数据块                      否         是         是 
+midiOutReset                            结束MIDI输出和标记缓冲区                否         是         是 
+midiOutSetVolume                        设置MIDI输出设备卷                      否         是         是 
+midiOutShortMsg                         向MIDI输出设备发送短消息                否         是         是 
+midiOutUnprepareHeader                  消除MIDI输出头                          否         是         是 
+midiStreamClose                         关闭打开的MIDI流                        否         是         是 
+midiStreamOpen                          打开MIDI流                              否         是         是 
+midiStreamOut                           向MIDI流发送数据                        否         是         是 
+midiStreamPause                         暂停MIDI流                              否         是         是 
+midiStreamPosition                      获取MIDI流当前位置                      否         是         是 
+midiStreamProperty                      获取MIDI流属性                          否         是         是 
+midiStreamRestart                       重启动指定MIDI流                        否         是         是 
+midiStreamStop                          停止播放MIDI流                          否         是         是 
+mixerClose                              关闭混合设备                            否         是         是 
+mixerGetControlDetails                  获取指定混合器控件                      否         是         是 
+mixerGetDevCaps                         获取混合器性能                          否         是         是 
+mixerGetID                              获取混合器ID值                          否         是         是 
+mixerGetLineControls                    返回混合器线控件                        否         是         是 
+mixerGetLineInfo                        获取混合器信息                          否         是         是 
+mixerGetNumDevs                         获取当前混合设备数量                    否         是         是 
+mixerMessage                            向混合设备发送消息                      否         是         是 
+mixerOpen                               打开混合设备                            否         是         是 
+mixerSetControlDetails                  放置混合器控件                          否         是         是 
+mmioAdvance                             直接I/O缓冲                             否         是         是 
+mmioAscend                              超出RIFF块                              否         是         是 
+mmioClose                               关闭MM文件                              否         是         是 
+mmioCreateChunk                         建立RIFF文件块                          否         是         是 
+mmioDescend                             减少RIFF块                              否         是         是 
+mmioFlush                               将MM I/O缓冲区转换至磁盘                否         是         是 
+mmioGetInfo                             返回MM文件信息                          否         是         是 
+mmioInstallIOProcA                      装入及删除自定义I/O过程                 否         是         是 
+mmioOpen                                打开多媒体文件                          否         是         是 
+mmioRead                                读入文件                                否         是         是 
+mmioRename                              重命名多媒体文件名                      否         是         是 
+mmioSeek                                改变当前文件位置                        否         是         是 
+mmioSendMessage                         向I/O过程发送消息                       否         是         是 
+mmioSetBuffer                           控制I/O缓冲                             否         是         是 
+mmioSetInfo                             设置文件信息                            否         是         是 
+mmioStringToFOURCC                      将字符串变为四个字符代码                否         是         是 
+mmioWrite                               写文件                                  否         是         是 
+mmsystemGetVersion                      返回MM软件版本                          否         是         是 
+ModifyMenu                              改变菜单项                              是         是         是 
+ModifyWorldTransform                    改变世界变换式                          否         是         是 
+mouse_event                             记录鼠标事件                            否         是         是 
+MoveFile                                更名文件                                否         是         是 
+MoveFileEx                              更名文件                                否         是         是 
+MoveToEx                                移动当前位置                            是         是         是 
+MoveWindow                              改变窗口位置及大小                      是         是         是 
+MsgWaitForMultipleObjects               等待多个对象句柄                        否         是         是 
+MulDiv                                  将两数相乘并并除以结果                  是         是         是 
+MultiByteToWideChar                     将多媒体字符串映像为通配字符串          否         是         是 
+Netbios                                 运行指定NCB                             否         是         是 
+NotifyBootConfigStatus                  通知响应引导配置                        否         是         是 
+NotifyChangeEventLog                                                            否         是         是 
+ObjectCloseAuditAlarm                   删除对象时产生审查/警报                 否         是         是 
+ObjectOpenAuditAlarm                    访问对象时产生审查/警报                 否         是         是 
+ObjectPrivilegeAuditAlarm               进行特权操作时产生审查/警报             否         是         是 
+OemKeyScan                              将OEM ASCII映像为扫描码                 是         是         是 
+OemToChar                               转换OEM字符串                           否         是         是 
+OemToCharBuff                           转换OEM字符串                           否         是         是 
+OffsetClipRgn                           移动剪辑区                              是         是         是 
+OffsetRect                              用偏移量移动矩形                        是         是         是 
+OffsetRgn                               用指定偏移量移动区域                    是         是         是 
+OffsetViewportOrgEx                     移动视口区域                            是         是         是 
+OffsetWindowOrgEx                       移动窗口区域                            是         是         是 
+OpenBackupEventLog                      打开备份事件句柄                        否         是         是 
+OpenClipboard                           打开CLIPBOARD                           是         是         是 
+OpenDesktop                                                                     否         是         是 
+OpenDriver                              打开可安装驱动程序                      是         是         是 
+OpenEvent                               打开事件对象                            否         是         是 
+OpenEventLog                            打开事件登记句柄                        否         是         是 
+OpenFile                                建立、打开或删除文件                    是         是         是 
+OpenFileMapping                         打开命名文件的映像对象                  否         是         是 
+OpenIcon                                激活最小化窗口                          是         是         是 
+OpenInputDesktop                                                                否         是         是 
+OpenMutex                               打开命名MUTEX对象                       否         是         是 
+OpenPrinter                             获取指定打印机的句柄                    否         是         是 
+OpenProcess                             将句柄返回给过程对象                    否         是         是 
+OpenProcessToken                        打开过程令牌对象                        否         是         是 
+OpenSCManager                           连接服务控件管理器                      否         是         是 
+OpenSemaphore                           打开命名信号量对象                      否         是         是 
+OpenService                             打开服务                                否         是         是 
+OpenThreadToken                         打开线索令牌对象                        否         是         是 
+OpenWindowStation                                                               否         是         是 
+OutputDebugStr                                                                  否         是         是 
+OutputDebugString                       向调试发送字符串                        是         是         是 
+PackDDElParam                           将数据打包装入DDE消息IPARAM             否         是         是 
+PageSetupDlg                            建立并显示页设置对话框                  否         是         是 
+PaintDesktop                                                                    否         是         是 
+PaintRgn                                用设备描述表中的刷子填充区域            是         是         是 
+PatBlt                                  建立位图图案                            是         是         是 
+PathToRegion                            建立区域                                否         是         是 
+PeekMessage                             检查消息队列                            是         是         是 
+PeekNamedPipe                           预显示管道队列数据                      否         是         是 
+Pie                                     绘制饼状锲形图                          是         是         是 
+PlayEnhMetaFile                         运行增强图元文件                        否         是         是 
+PlayEnhMetaFileRecord                   运行增强图元文件记录                    否         是         是 
+PlayMetaFile                            运行WINDOWS图元文件到DC                 是         是         是 
+PlayMetaFileRecord                      运行WINDOWS图元文件记录                 是         是         是 
+PlaySound                               播放声音文件                            否         是         是 
+PlgBlt                                  传输像素                                否         是         是 
+PolyBezier                              画BEZIER曲线                            否         是         是 
+PolyBezierTo                            画BEZIER曲线                            否         是         是 
+PolyDraw                                画一系列直线及BEZIER曲线                否         是         是 
+PolyPolygon                             画一系列多边形                          是         是         是 
+PolyPolyline                            画相连线段                              否         是         是 
+PolyTextOut                             书写字符串                              否         是         是 
+Polygon                                 画多边形                                是         是         是 
+Polyline                                画线段                                  是         是         是 
+PolylineTo                              画一条或多条直线                        否         是         是 
+PostMessage                             将消息加入线索消息队列                  是         是         是 
+PostQuitMessage                         通知WINDOWS线索将中断                   是         是         是 
+PostThreadMessage                       向线索发出消息                          否         是         是 
+PrepareTape                             准备磁带设备                            否         是         是 
+PrintDlg                                建立打印文本对话框                      否         是         是 
+PrinterMessageBox                       显示打印作业出错信息                    否         是         是 
+PrinterProperties                       修改打印机属性                          否         是         是 
+PrivilegeCheck                          检查特权安全描述表                      否         是         是 
+PrivilegedServiceAuditAlarm             产生特权系统服务声音警报                否         是         是 
+PtInRect                                确定点是否在矩形内                      是         是         是 
+PtInRegion                                                                      否         是         是 
+PtVisible                               查询点是否在剪辑区域内                  是         是         是 
+PulseEvent                              设置并复位事件                          否         是         是 
+PurgeComm                               消除通信队列                            否         是         是 
+QueryDosDevice                          获取DOS设备名信息                       否         是         是 
+QueryPerformanceCounter                 获取计数值                              否         是         是 
+QueryPerformanceFrequency               返回计数频率                            否         是         是 
+QueryServiceConfig                      获取服务配置参数                        否         是         是 
+QueryServiceLockStatus                  获取服务数据库锁定状态                  否         是         是 
+QueryServiceObjectSecurity              获取服务对象安全描述                    否         是         是 
+QueryServiceStatus                      获取服务状态                            否         是         是 
+RaiseException                          建立异常条件                            否         是         是 
+ReadConsole                             读控制台输入数据                        否         是         是 
+ReadConsoleOutput                       读屏幕缓冲区数据                        否         是         是 
+ReadConsoleOutputAttribute              读控制台属性字符串                      否         是         是 
+ReadConsoleOutputCharacter              读屏幕缓冲区字符串                      否         是         是 
+ReadEventLog                            读事件记录                              否         是         是 
+ReadFile                                读文件                                  否         是         是 
+ReadFileEx                              异步读文件                              否         是         是 
+ReadPrinter                             读打印机数据                            否         是         是 
+ReadProcessMemory                       在进程中读内存                          否         是         是 
+RealizePalette                          将逻辑调色板映像为系统调色板            是         是         是 
+RectInRegion                            查询矩形是否有重叠区域                  是         是         是 
+RectVisible                             查询矩形是否有剪辑区中                  是         是         是 
+Rectangle                               画一个矩形                              是         是         是 
+RedrawWindow                            更新客户窗口                            是         是         是 
+RegCloseKey                             关闭登录关键字                          否         是         是 
+RegConnectRegistry                      连接远程登录                            否         是         是 
+RegCreateKey                            建立关键字                              否         是         是 
+RegCreateKeyEx                          建立关键字                              否         是         是 
+RegDeleteKey                            删除关键字                              否         是         是 
+RegDeleteValue                          从登录关键字中删除一个值                否         是         是 
+RegEnumKey                              列举指定关键字的子关键字                否         是         是 
+RegEnumKeyEx                            列举指定关键字的子关键字                否         是         是 
+RegEnumValue                            列举指定关键字的值                      否         是         是 
+RegFlushKey                             写入关键字                              否         是         是 
+RegGetKeySecurity                       获取登录关键安全属性                    否         是         是 
+RegLoadKey                              登记关键字和子关键字                    否         是         是 
+RegNotifyChangeKeyValue                 显示登记关键字的变化                    否         是         是 
+RegOpenKey                              打开关键字                              否         是         是 
+RegOpenKeyEx                            打开关键字                              否         是         是 
+RegQueryInfoKey                         返回登录字信息                          否         是         是 
+RegQueryValue                           返回指定关键字名                        否         是         是 
+RegQueryValueEx                         返回关键字的类型和值                    否         是         是 
+RegReplaceKey                           更改关键字                              否         是         是 
+RegRestoreKey                           登录保存树                              否         是         是 
+RegSaveKey                              将登录保存了的树存入文件                否         是         是 
+RegSetKeySecurity                       设置登录关键字的安全属性                否         是         是 
+RegSetValue                             将文本字符串与指定关键字关联            否         是         是 
+RegSetValueEx                           将文本字符串与指定关键字关联            否         是         是 
+RegUnLoadKey                            从记录中卸载关键字                      否         是         是 
+RegisterClass                           登记窗口类                              否         是         是 
+RegisterClassEx                                                                 否         是         是 
+RegisterClipboardFormat                 登记新的CLIPBOARD格式                   是         是         是 
+RegisterEventSource                     返回登记的事件记录句柄                  否         是         是 
+RegisterHotKey                          登记热键                                否         是         是 
+RegisterServiceCtrlHandler              登记服务控制请求句柄                    否         是         是 
+RegisterWindowMessage                   定义新的窗口消息                        是         是         是 
+ReleaseCapture                          释放鼠标捕获                            是         是         是 
+ReleaseDC                               释放设备描述表                          是         是         是 
+ReleaseMutex                            释放公制对象                            否         是         是 
+ReleaseSemaphore                        释放信号量对象                          否         是         是 
+RemoveDirectory                         删除目录                                否         是         是 
+RemoveFontResource                      删除字体资源                            是         是         是 
+RemoveMenu                              删除菜单项和弹出式菜单                  是         是         是 
+RemoveProp                              删除属性列入口                          是         是         是 
+ReplaceText                             建立文本对话框                          否         是         是 
+ReplyMessage                            响应通过SENDMESSAGE发送的消息           是         是         是 
+ReportEvent                             写入事件记录项目                        否         是         是 
+ResetDC                                 更新设备描述表                          否         是         是 
+ResetEvent                              复位事件对象                            否         是         是 
+ResetPrinter                            设置打印数据类型和设备模式值            否         是         是 
+ResizePalette                           修改逻辑调色板大小                      是         是         是 
+RestoreDC                               恢复设备描述表                          是         是         是 
+ResumeThread                            开始暂停的线索                          否         是         是 
+ReuseDDElParam                          重利用DDE消息IPARAM                     否         是         是 
+RevertToSelf                            停止模拟                                否         是         是 
+RoundRect                               画圆角矩形                              是         是         是 
+SHAppBarMessage                         设置任务栏消息                          否         是         是 
+SHFileOperation                         执行系统文件对象的操作                  否         是         是 
+SHFreeNameMappings                      释放文件名映像对象                      否         是         是 
+SHGetFileInfo                           获取工作台外壳文件夹界面                否         是         是 
+SHGetNewLinkInfo                                                                否         是         是 
+SaveDC                                  保存设备描述表                          是         是         是 
+ScaleViewportExtEx                      调整视口大小                            是         是         是 
+ScaleWindowExtEx                        调整窗口大小                            是         是         是 
+ScheduleJob                             调度作业                                否         是         是 
+ScreenToClient                          将屏幕点转换为客户坐标                  是         是         是 
+ScrollConsoleScreenBuffer               滚动屏幕缓冲区中的数据                  否         是         是 
+ScrollDC                                水平或垂直移动矩形                      是         是         是 
+ScrollWindow                            移动窗口客户区                          是         是         是 
+ScrollWindowEx                          移动窗口客户区                          是         是         是 
+SearchPath                              查找文件                                否         是         是 
+SelectClipPath                          选定当前路径为剪辑区域                  否         是         是 
+SelectClipRgn                           选定剪辑区域                            是         是         是 
+SelectObject                            选定对象                                是         是         是 
+SelectPalette                           选定调色板                              是         是         是 
+SendDlgItemMessage                      向对话框控件发送消息                    是         是         是 
+SendDriverMessage                       向可安装驱动程序发送消息                是         是         是 
+SendMessage                             向窗口进程发送消息                      是         是         是 
+SendMessageCallback                     向窗口进程发送消息                      否         是         是 
+SendMessageTimeout                      向窗口进程发送消息                      否         是         是 
+SendNotifyMessage                       向窗口进程发送消息                      否         是         是 
+SetAbortProc                            设备打印作业的放弃函数                  否         是         是 
+SetAclInformation                       设备ACL信息                             否         是         是 
+SetActiveWindow                         激活顶级窗口                            是         是         是 
+SetArcDirection                         设置画弧方向                            否         是         是 
+SetBitmapBits                           设置位图的值                            是         是         是 
+SetBitmapDimensionEx                    设置位图的宽和高                        是         是         是 
+SetBkColor                              设置当前背景色                          是         是         是 
+SetBkMode                               设置背景模式                            是         是         是 
+SetBoundsRect                           控制相邻矩形重叠                        是         是         是 
+SetBrushOrgEx                           设置当前刷子的起点                      否         是         是 
+SetCapture                              设置鼠标捕获                            是         是         是 
+SetCaretBlinkTime                       设置脱字号闪烁时间                      是         是         是 
+SetCaretPos                             设置脱字号位置                          是         是         是 
+SetClassLong                            设置附加类内存长数值                    是         是         是 
+SetClassWord                            设置附加类内存字数值                    是         是         是 
+SetClipboardData                        设置剪贴板中数据                        是         是         是 
+SetClipboardViewer                      在CLIPBOARD浏览器链中加入窗口           是         是         是 
+SetColorAdjustment                      调整颜色                                否         是         是 
+SetColorSpace                           设置颜色空间                            否         是         是 
+SetCommBreak                            挂起字符传送                            是         是         是 
+SetCommConfig                                                                   否         是         是 
+SetCommMask                             设置通信事件屏蔽                        否         是         是 
+SetCommState                            设置通信设备状态                        是         是         是 
+SetCommTimeouts                         设置通信读写时间范围                    否         是         是 
+SetComputerName                         设置当前计算机名称                      否         是         是 
+SetConsoleActiveScreenBuffer            改变显示屏幕缓冲区                      否         是         是 
+SetConsoleCP                            设置控制台输入代码页                    否         是         是 
+SetConsoleCtrlHandler                   设置控制台进程的单个句柄                否         是         是 
+SetConsoleCursorInfo                    设置控制台光标大小                      否         是         是 
+SetConsoleCursorPosition                设置控制台光标位置                      否         是         是 
+SetConsoleMode                          设置控制台输入输出模式                  否         是         是 
+SetConsoleOutputCP                      设置控制台输出代码页                    否         是         是 
+SetConsoleScreenBufferSize              改变屏幕缓冲区大小                      否         是         是 
+SetConsoleTextAttribute                 设置屏幕文本属性                        否         是         是 
+SetConsoleTitle                         设置控制台窗口标题字符串                否         是         是 
+SetConsoleWindowInfo                    设置控制台窗口大小                      否         是         是 
+SetCurrentDirectory                     改变当前目录                            否         是         是 
+SetCursor                               改变鼠标指针                            是         是         是 
+SetCursorPos                            设置鼠标指针位置                        是         是         是 
+SetDIBColorTable                                                                否         是         是 
+SetDIBits                               设置位图位                              是         是         是 
+SetDIBitsToDevice                       设置DIB位到设备                         是         是         是 
+SetDebugErrorLevel                      设置调试事件出错等级                    否         是         是 
+SetDefaultCommConfig                                                            否         是         是 
+SetDeviceGammaRamp                      设置辉等级                              否         是         是 
+SetDlgItemInt                           将整数转换为对话框文本字符串            是         是         是 
+SetDlgItemText                          设置对话框标题或项目                    是         是         是 
+SetDoubleClickTime                      设置鼠标双击时间                        是         是         是 
+SetEndOfFile                            设置文本尾指针                          否         是         是 
+SetEnhMetaFileBits                      建立增强图元文件                        否         是         是 
+SetEnvironmentVariable                  设置环境变量                            否         是         是 
+SetErrorMode                            设置出错模式                            是         是         是 
+SetEvent                                设置事件对象                            否         是         是 
+SetFileApisToANSI                                                               否         是         是 
+SetFileApisToOEM                        设置文件API为OEM字符集                  否         是         是 
+SetFileAttributes                       设置文件属性                            否         是         是 
+SetFilePointer                          设置文件指针位置                        否         是         是 
+SetFileSecurity                         设置文件或目录安全属性                  否         是         是 
+SetFileTime                             设置文件的64位时间                      否         是         是 
+SetFocus                                设置键盘焦点                            是         是         是 
+SetForegroundWindow                     将窗口置于前台                          否         是         是 
+SetForm                                 设置窗体信息                            否         是         是 
+SetGraphicsMode                         设置图形模式                            否         是         是 
+SetHandleCount                          设置可用文件句柄                        是         是         是 
+SetHandleInformation                                                            否         是         是 
+SetICMMode                              设置图形颜色匹配                        否         是         是 
+SetICMProfile                           设置颜色外观                            否         是         是 
+SetJob                                  设置打印作业信息                        否         是         是 
+SetKernelObjectSecurity                 设置内核对象安全属性                    否         是         是 
+SetKeyboardState                        设置键盘状态表                          是         是         是 
+SetLastError                            设置扩展出错代码                        否         是         是 
+SetLastErrorEx                          设置扩展出错代码及类型                  否         是         是 
+SetLocalTime                            设置本地时间                            否         是         是 
+SetLocaleInfo                                                                   否         是         是 
+SetMailslotInfo                         设置信箱读时间                          否         是         是 
+SetMapMode                              设置映像模式                            是         是         是 
+SetMapperFlags                          设置字体映像标志                        是         是         是 
+SetMenu                                 设置窗口菜单                            是         是         是 
+SetMenuContextHelpId                                                            否         是         是 
+SetMenuDefaultItem                                                              否         是         是 
+SetMenuItemBitmaps                      将复选标记位图于菜单项关联              是         是         是 
+SetMenuItemInfo                                                                 否         是         是 
+SetMessageExtraInfo                                                             否         是         是 
+SetMessageQueue                                                                 否         是         是 
+SetMetaFileBitsEx                       建立WINDOWS图元文件                     否         是         是 
+SetMetaRgn                              将剪裁区选作图元区域                    否         是         是 
+SetMiterLimit                           设置斜面接合长度                        否         是         是 
+SetNamedPipeHandleState                 设置管道读取/阻塞模式，控制局部缓存     否         是         是 
+SetPaletteEntries                       设置彩色调色板和标志                    是         是         是 
+SetParent                               改变父窗口                              是         是         是 
+SetPixel                                设置像素颜色                            是         是         是 
+SetPixelFormat                                                                  否         是         是 
+SetPixelV                               设置像素颜色                            否         是         是 
+SetPolyFillMode                         设置多边形填充                          是         是         是 
+SetPrinter                              设置打印机信息                          否         是         是 
+SetPrinterData                          设置打印机配置                          否         是         是 
+SetPriorityClass                        设置优先级类                            否         是         是 
+SetPrivateObjectSecurity                修改SD                                  否         是         是 
+SetProcessShutdownParameters            设置进程关闭参数                        否         是         是 
+SetProcessWindowStation                                                         否         是         是 
+SetProcessWorkingSetSize                                                        否         是         是 
+SetProp                                 增加或修改属性列项                      是         是         是 
+SetROP2                                 设置当前绘图模式                        是         是         是 
+SetRect                                 设置矩形大小                            是         是         是 
+SetRectEmpty                            建立空的矩形                            是         是         是 
+SetRectRgn                              修改区域为矩形                          是         是         是 
+SetScrollInfo                                                                   是         是         是 
+SetScrollPos                            设置滚动条位置                          是         是         是 
+SetScrollRange                          设置滚动条最大和最小位置                是         是         是 
+SetSecurityDescriptorDacl               设置DACL信息                            否         是         是 
+SetSecurityDescriptorGroup              设置SD主组信息                          否         是         是 
+SetSecurityDescriptorOwner              设置SD所有者                            否         是         是 
+SetSecurityDescriptorSacl               设置SACL信息                            否         是         是 
+SetServiceBits                                                                  否         是         是 
+SetServiceObjectSecurity                修改服务对象安全描述符                  否         是         是 
+SetServiceStatus                        更新服务状态                            否         是         是 
+SetStdHandle                            设置标准设备句柄                        否         是         是 
+SetStretchBltMode                       设置位图拉伸模式                        是         是         是 
+SetSysColors                            设置系统颜色                            是         是         是 
+SetSystemCursor                                                                 是         是         是 
+SetSystemPaletteUse                     设置系统调色板状态色                    否         是         是 
+SetSystemPowerState                     暂停系统工作                            否         是         是 
+SetSystemTime                           设置系统时间和日期                      否         是         是 
+SetSystemTimeAdjustment                                                         否         是         是 
+SetTapeParameters                       设置磁带机和介质信息                    否         是         是 
+SetTapePosition                         设置磁带位置                            否         是         是 
+SetTextAlign                            设置文本对齐标志                        是         是         是 
+SetTextCharacterExtra                   设置字符间隔                            是         是         是 
+SetTextColor                            设置文件前颜色                          是         是         是 
+SetTextJustification                    调整文本输出                            是         是         是 
+SetThreadAffinityMask                                                           否         是         是 
+SetThreadContext                        设置指定线索描述表                      否         是         是 
+SetThreadDesktop                                                                否         是         是 
+SetThreadLocale                         设置线索本地信息                        否         是         是 
+SetThreadPriority                                                               否         是         是 
+SetThreadToken                                                                  否         是         是 
+SetTimeZoneInformation                  设置时区                                否         是         是 
+SetTimer                                安装系统定时器                          否         是         是 
+SetTokenInformation                     设置令牌信息                            否         是         是 
+SetUnhandledExceptionFilter             设置筛选器异常函数                      否         是         是 
+SetUserObjectInformation                                                        否         是         是 
+SetUserObjectSecurity                   设置安全描述值                          否         是         是 
+SetViewportExtEx                        设置视口宽度                            是         是         是 
+SetViewportOrgEx                        设置视口起点                            是         是         是 
+SetVolumeLabel                          设置卷标                                否         是         是 
+SetWinMetaFileBits                      由图元文件数据建立增强图元文件          否         是         是 
+SetWindowContextHelpId                                                          否         是         是 
+SetWindowExtEx                          设置窗口宽度                            是         是         是 
+SetWindowLong                           设置窗口附加内存长型数值                是         是         是 
+SetWindowOrgEx                          设置窗口源起点                          是         是         是 
+SetWindowPlacement                      设置窗口显示状态及最小/最大位置         是         是         是 
+SetWindowPos                            设置窗口大小、位置、顺序                是         是         是 
+SetWindowRgn                                                                    否         是         是 
+SetWindowText                           在目录标题或控制窗口中设置窗口文本      是         是         是 
+SetWindowWord                           设置附加窗口内存字值                    是         是         是 
+SetWindowsHook                          安装钩子过程                            否         是         是 
+SetWindowsHookEx                        安装钩子过程                            否         是         是 
+SetWorldTransform                       设置世界传送                            否         是         是 
+SetupComm                               设置通信参数                            否         是         是 
+ShellAbout                              显示SHELL ABOUT对话框                   否         是         是 
+ShellExecute                            打开或打印指定文件                      否         是         是 
+Shell_NotifyIcon                        发送修改任务栏图标                      否         是         是 
+ShowCaret                               显示脱字号                              是         是         是 
+ShowCursor                              显示光标                                是         是         是 
+ShowOwnedPopups                         显示弹出式窗口                          是         是         是 
+ShowScrollBar                           显示滚动条                              是         是         是 
+ShowWindow                              显示窗口                                是         是         是 
+ShowWindowAsync                                                                 否         是         是 
+SizeofResource                          返回资源大小                            是         是         是 
+Sleep                                   暂停线索                                否         是         是 
+SleepEx                                 暂停线索直到I/O结束                     否         是         是 
+sndPlaySound                            播放声音文件                            否         是         是 
+StartDoc                                开始打印作业                            是         是         是 
+StartDocPrinter                         开始打印作业                            否         是         是 
+StartPage                               准备打印机接收数据                      是         是         是 
+StartPagePrinter                        开始打印机                              否         是         是 
+StartService                            开始运行服务                            否         是         是 
+StartServiceCtrlDispatcher              连接线索                                否         是         是 
+StretchBlt                              复制位图                                是         是         是 
+StretchDIBits                           将DIB从源矩形移至目的矩形               是         是         是 
+StrokeAndFillPath                       关闭、填充路径                          否         是         是 
+StrokePath                              行使路径                                否         是         是 
+SubtractRect                            两个矩形相减                            否         是         是 
+SuspendThread                           挂起线索                                否         是         是 
+SwapBuffers                                                                     否         是         是 
+SwapMouseButton                         交换鼠标按钮功能                        是         是         是 
+SwitchDesktop                                                                   否         是         是 
+SystemParametersInfo                    查寻系统参数信息                        是         是         是 
+SystemTimeToFileTime                    转换系统时间为64位时间                  否         是         是 
+SystemTimeToTzSpecificLocalTime                                                 否         是         是 
+TabbedTextOut                           输出字符串                              是         是         是 
+TerminateProcess                        中止进程                                否         是         是 
+TerminateThread                         中止线索                                否         是         是 
+TextOut                                 输出字符串                              是         是         是 
+TileWindows                                                                     否         是         是 
+timeBeginPeriod                         设置计时器分辨率                        否         是         是 
+timeEndPeriod                           清除计时器分辨率                        否         是         是 
+timeGetDevCaps                          返回计时器性能                          否         是         是 
+timeGetSystemTime                       返回WINDOWS运行时间                     否         是         是 
+timeGetTime                             返回WINDOWS运行时间                     否         是         是 
+timeKillEvent                           中止计时器事件                          否         是         是 
+timeSetEvent                            设置计时回调事件                        否         是         是 
+TlsAlloc                                分配线索本地存储索引                    否         是         是 
+TlsFree                                 释放线索本地存储索引                    否         是         是 
+TlsGetValue                             返回TLS值                               否         是         是 
+TlsSetValue                             设置TLS值                               否         是         是 
+ToAscii                                 转换虚拟关键字代码为WINDOWS字符         是         是         是 
+ToAsciiEx                                                                       否         是         是 
+ToUnicode                               转换虚拟关键字代码为ANSI字符            否         是         是 
+TrackPopupMenu                          显示弹出式窗口                          是         是         是 
+TrackPopupMenuEx                                                                否         是         是 
+TransactNamedPipe                       读写命名管道                            否         是         是 
+TranslateAccelerator                    处理加速关键字                          是         是         是 
+TranslateCharsetInfo                    转换结构为给定字符串                    否         是         是 
+TranslateMDISysAccel                    处理MDI键盘加速器                       是         是         是 
+TranslateMessage                        转换虚拟关键字消息                      是         是         是 
+TransmitCommChar                        在传输队列中加入字符                    是         是         是 
+UnhandledExceptionFilter                筛选异常条件                            否         是         是 
+UnhookWindowsHook                       删除筛选函数                            否         是         是 
+UnhookWindowsHookEx                     从钩子链中删除函数                      是         是         是 
+UnionRect                               关联两个矩形                            是         是         是 
+UnloadKeyboardLayout                    删除键盘布置                            否         是         是 
+UnlockFile                              开锁文件                                否         是         是 
+UnlockFileEx                            开锁文件                                否         是         是 
+UnlockServiceDatabase                   开锁数据库                              否         是         是 
+UnmapViewOfFile                         停止文件查看映像                        否         是         是 
+UnpackDDElParam                         从DDE消息IPARAM中获取数据               否         是         是 
+UnrealizeObject                         复位逻辑调色板                          是         是         是 
+UnregisterClass                         删除窗口类                              是         是         是 
+UnregisterHotKey                        释放热键                                否         是         是 
+UpdateColors                            更新颜色                                是         是         是 
+UpdateResource                          更新资源                                否         是         是 
+UpdateWindow                            更新窗口的客户区域                      是         是         是 
+ValidateRect                            删除矩形                                是         是         是 
+ValidateRgn                             删除区域                                是         是         是 
+VerFindFile                             确定文件安装路径                        否         是         是 
+VerInstallFile                          安装文件                                否         是         是 
+VerLanguageName                         将语言ID转换为文本描述                  否         是         是 
+VerQueryValue                           获取资源项目                            否         是         是 
+VirtualAlloc                            保留虚拟页                              否         是         是 
+VirtualFree                             释放虚拟页                              否         是         是 
+VirtualLock                             锁定虚拟页                              否         是         是 
+VirtualProtect                          修改虚拟保护                            否         是         是 
+VirtualProtectEx                        修改虚拟保护                            否         是         是 
+VirtualQuery                            返回虚拟信息                            否         是         是 
+VirtualQueryEx                          返回虚拟保护                            否         是         是 
+VirtualUnlock                           开锁虚拟页                              否         是         是 
+VkKeyScan                               将字符转换为虚拟关键字代码              是         是         是 
+VkKeyScanEx                                                                     否         是         是 
+WNetAddConnection                       重定向本地设备网络资源                  是         是         是 
+WNetAddConnection2                      重定向本地设备网络资源                  否         是         是 
+WNetCancelConnection                    断开网络连接                            否         是         是 
+WNetCancelConnection2                   断开网络连接                            是         是         是 
+WNetCloseEnum                           结束网络资源列表                        否         是         是 
+WNetConnectionDialog                    开始网络连接对话框                      否         是         是 
+WNetDisconnectDialog                    断开网络对话框                          否         是         是 
+WNetEnumResource                        继续列表网络资源                        否         是         是 
+WNetGetConnection                       获取网络资源名                          是         是         是 
+WNetGetLastError                        返回网络函数最近错误                    否         是         是 
+WNetGetUniversalName                                                            否         是         是 
+WNetGetUser                             获取当前网络用户名                      否         是         是 
+WNetOpenEnum                            列出网络资源                            否         是         是 
+WaitCommEvent                           监视屏蔽的事件                          否         是         是 
+WaitForInputIdle                        监测进程空闲                            否         是         是 
+WaitForMultipleObjects                  监测多个对象                            否         是         是 
+WaitForMultipleObjectsEx                监测多个对象或I/O结束                   否         是         是 
+WaitForPrinterChange                    监测打印机或打印机服务器变化            否         是         是 
+WaitForSingleObject                     监测一个对象                            否         是         是 
+WaitForSingleObjectEx                   监测一个对象或I/O结束                   否         是         是 
+WaitMessage                             暂停应用程序运行并产生控件              是         是         是 
+WaitNamedPipe                           监测命名管道                            否         是         是 
+waveInAddBuffer                         向声音输入设备发送缓冲区                否         是         是 
+waveInClose                             关闭声音输入设备                        否         是         是 
+waveInGetDevCaps                        获取声音输入设备性能                    否         是         是 
+waveInGetErrorText                      获取声音出错的信息文本                  否         是         是 
+waveInGetID                             获取声音输入设备ID                      否         是         是 
+waveInGetNumDevs                        返回声音输入设备数量                    否         是         是 
+waveInGetPosition                       获取声音设备输入位置                    否         是         是 
+waveInMessage                           向声音输入设备发送信息                  否         是         是 
+waveInOpen                              打开声音输入设备                        否         是         是 
+waveInPrepareHeader                     预备声音输入缓冲区                      否         是         是 
+waveInReset                             停止声音输入设备工作                    否         是         是 
+waveInStart                             停止声音输入设备工作                    否         是         是 
+waveInStop                              停止声音输入                            否         是         是 
+waveInUnprepareHeader                   清除预备的声音文件头                    否         是         是 
+waveOutBreakLoop                        中断声音输出循环                        否         是         是 
+waveOutClose                            关闭声音输出设备                        否         是         是 
+waveOutGetDevCaps                       获取声音输出设备性能                    否         是         是 
+waveOutGetErrorText                     获取声音出错文本                        否         是         是 
+waveOutGetID                            获取声音输出设备ID                      否         是         是 
+waveOutGetNumDevs                       获取声音输出设备数量                    否         是         是 
+waveOutGetPitch                         获取声音输出的强度                      否         是         是 
+waveOutGetPlaybackRate                  获取声音回放率                          否         是         是 
+waveOutGetPosition                      获取声音回放位置                        否         是         是 
+waveOutGetVolume                        获取声音音量                            否         是         是 
+waveOutMessage                          向声音输出设备发送消息                  否         是         是 
+waveOutOpen                             打开声音输出设备                        否         是         是 
+waveOutPause                            暂停声音回放                            否         是         是 
+waveOutPrepareHeader                    预备声音回放数据块                      否         是         是 
+waveOutReset                            停止声音回放                            否         是         是 
+waveOutRestart                          重开始声音回放                          否         是         是 
+waveOutSetPitch                         设置波形输出强度                        否         是         是 
+waveOutSetPlaybackRate                  设置回放率                              否         是         是 
+waveOutSetVolume                        设置输出音量                            否         是         是 
+waveOutUnprepareHeader                  清除预备声音数据块                      否         是         是 
+waveOutWrite                            写入声音输出设备                        否         是         是 
+WideCharToMultiByte                     将通配符映像为多字节                    否         是         是 
+WidenPath                               设置当前路径                            否         是         是 
+WinExec                                 运行程序                                是         是         是 
+WinExecError                                                                    否         是         是 
+WinHelp                                 援引WINDOWS HELP                        是         是         是 
+WindowFromDC                            返回设备描述标窗口                      否         是         是 
+WindowFromPoint                         返回包含点的窗口                        是         是         是 
+WriteConsole                            写控制台屏幕缓冲区                      否         是         是 
+WriteConsoleOutput                      直接控制屏幕缓冲区                      否         是         是 
+WriteConsoleOutputAttribute             向控制台写入属性字符串                  否         是         是 
+WriteConsoleOutputCharacter             向控制台写入字符串                      否         是         是 
+WriteFile                               写文件                                  否         是         是 
+WriteFileEx                             写文件                                  否         是         是 
+WritePrinter                            向打印机输出数据                        否         是         是 
+WritePrivateProfileSection              向私有INI文件输出数据                   否         是         是 
+WritePrivateProfileString               向私有INI文件输出字符串                 是         是         是 
+WriteProcessMemory                      在指定进程中写内存                      否         是         是 
+WriteProfileSection                     将段写入WIN.INI                         否         是         是 
+WriteProfileString                      将字符串写入WIN.INI                     是         是         是 
+WriteTapemark                           写磁带标记                              否         是         是 
+wsprintf                                格式化字符串                            是         否         否 
+ZeroMemory                              将一块内存置零                          否         否         否 
