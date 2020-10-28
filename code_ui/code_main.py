@@ -77,6 +77,7 @@ class init_window_main:
         self.ui.bt_dm_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/dm/大漠插件接口说明.chm'))
         self.ui.bt_python_scbd.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://docs.python.org/zh-cn/3/")))
         self.ui.bt_spider_scbd.clicked.connect(lambda: self.clicked_ksrm('spider', 'scbd'))
+        self.ui.bt_webkj_scbd.clicked.connect(lambda: self.clicked_ksrm('web框架', 'scbd'))
 
         #大漠综合工具
         self.ui.bt_dm_zhgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\综合工具\大漠综合工具.exe'))
