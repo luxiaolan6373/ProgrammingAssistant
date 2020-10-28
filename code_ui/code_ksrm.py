@@ -1,20 +1,24 @@
 from PyQt5.QtWidgets import QFrame
 from ui.wf_ksrm import Ui_wf_ksrm
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QCursor
-import time
+
 class init_window_ksrm:
-    def __init__(self, window: QFrame, ui: Ui_wf_ksrm,x,y,typeText,docText):
+    def __init__(self, window: QFrame, ui: Ui_wf_ksrm,x,y,typeText,tpyeKJ,docText):
         self.window = window
         self.ui = ui
         self.x = x
         self.y = y
         self.typeText=typeText
+        self.tpyeKJ = tpyeKJ
         self.docText=docText
         self.set()
     def set(self):
         # 设置标题
-        self.window.setWindowTitle(self.typeText+"快速入门")
+        if self.tpyeKJ=='ksrm':
+            typeTitle="快速入门"
+        elif self.tpyeKJ=='scbd':
+            typeTitle = "速查宝典"
+        self.window.setWindowTitle(self.typeText+typeTitle)
         # 设置窗口无边框,和透明背景
         self.window.move(self.x, self.y)
         self.window.setWindowFlags(Qt.WindowMaximizeButtonHint  | Qt.FramelessWindowHint)

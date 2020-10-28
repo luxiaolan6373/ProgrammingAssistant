@@ -4,6 +4,8 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QCursor
 from code_ui.code_ksrm import init_window_ksrm
 from ui import wf_ksrm
+from PyQt5.QtCore import QUrl
+from PyQt5.QtGui import QDesktopServices
 import time,os,threading
 
 
@@ -36,7 +38,9 @@ class init_window_main:
         self.ui.bt_dm.setToolTip("python开发windows开发脚本必备插件(收费的),资料全部来自互联网")
         self.ui.bt_lw.setToolTip("python开发windows开发脚本必备插件(免费的),资料全部来自互联网")
         self.ui.bt_win32.setToolTip("python对接windowsAPI必备资料,资料全部来自互联网")
-        self.ui.bt_flask.setToolTip("python开发web服务器后端,api接口编写,资料全部来自互联网")
+        self.ui.bt_webkj.setToolTip("python开发web服务器后端,api接口编写,资料全部来自互联网")
+
+        self.ui.bt_python_scbd.setToolTip('里面有个搜索框,快速搜索,这是官方的中文帮助,没有比这更全面的了,搜索有点慢,慢慢翻一定可以搜到')
         # 隐藏子功能按钮
         self.ui.frame_python.setVisible(False)
         self.ui.frame_spider.setVisible(False)
@@ -44,7 +48,7 @@ class init_window_main:
         self.ui.frame_dm.setVisible(False)
         self.ui.frame_lw.setVisible(False)
         self.ui.frame_win32.setVisible(False)
-        self.ui.frame_flask.setVisible(False)
+        self.ui.frame_webkj.setVisible(False)
 
         # 重写事件---主界面的动画效果
         self.ui.frame_main.enterEvent = self.enterEvent
@@ -57,20 +61,22 @@ class init_window_main:
         self.ui.bt_dm.clicked.connect(self.clicked)
         self.ui.bt_lw.clicked.connect(self.clicked)
         self.ui.bt_win32.clicked.connect(self.clicked)
-        self.ui.bt_flask.clicked.connect(self.clicked)
+        self.ui.bt_webkj.clicked.connect(self.clicked)
         #关闭按钮
         self.ui.bt_gb.clicked.connect(self.app.exit)
         #快速入门具体功能按钮的信号绑定槽 因为 用lambad表达式传参数
-        self.ui.bt_python_ksrm.clicked.connect(lambda: self.clicked_ksrm('python'))
-        self.ui.bt_spider_ksrm.clicked.connect(lambda: self.clicked_ksrm('spider'))
-        self.ui.bt_pyQt5_ksrm.clicked.connect(lambda: self.clicked_ksrm('pyQt5'))
-        self.ui.bt_dm_ksrm.clicked.connect(lambda: self.clicked_ksrm('dm'))
-        self.ui.bt_lw_ksrm.clicked.connect(lambda: self.clicked_ksrm('lw'))
-        self.ui.bt_win32_ksrm.clicked.connect(lambda: self.clicked_ksrm('win32'))
-        self.ui.bt_flask_ksrm.clicked.connect(lambda: self.clicked_ksrm('flask'))
+        self.ui.bt_python_ksrm.clicked.connect(lambda: self.clicked_ksrm('python','ksrm'))
+        self.ui.bt_spider_ksrm.clicked.connect(lambda: self.clicked_ksrm('spider','ksrm'))
+        self.ui.bt_pyQt5_ksrm.clicked.connect(lambda: self.clicked_ksrm('pyQt5','ksrm'))
+        self.ui.bt_dm_ksrm.clicked.connect(lambda: self.clicked_ksrm('dm','ksrm'))
+        self.ui.bt_lw_ksrm.clicked.connect(lambda: self.clicked_ksrm('lw','ksrm'))
+        self.ui.bt_win32_ksrm.clicked.connect(lambda: self.clicked_ksrm('win32','ksrm'))
+        self.ui.bt_webkj_ksrm.clicked.connect(lambda: self.clicked_ksrm('web框架','ksrm'))
         #速查宝典start是不等待执行结束
         self.ui.bt_lw_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/lw/乐玩插件接口说明.chm'))
         self.ui.bt_dm_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/dm/大漠插件接口说明.chm'))
+        self.ui.bt_python_scbd.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://docs.python.org/zh-cn/3/")))
+        self.ui.bt_spider_scbd.clicked.connect(lambda: self.clicked_ksrm('spider', 'scbd'))
 
         #大漠综合工具
         self.ui.bt_dm_zhgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\综合工具\大漠综合工具.exe'))
@@ -102,7 +108,7 @@ class init_window_main:
         '''
         x = 0
 
-        tj = self.ui.frame_python.isVisible() == False and self.ui.frame_spider.isVisible() == False and self.ui.frame_pyQt5.isVisible() == False and self.ui.frame_dm.isVisible() == False and self.ui.frame_lw.isVisible() == False and self.ui.frame_win32.isVisible() == False and self.ui.frame_flask.isVisible()==False
+        tj = self.ui.frame_python.isVisible() == False and self.ui.frame_spider.isVisible() == False and self.ui.frame_pyQt5.isVisible() == False and self.ui.frame_dm.isVisible() == False and self.ui.frame_lw.isVisible() == False and self.ui.frame_win32.isVisible() == False and self.ui.frame_webkj.isVisible()==False
         print(tj )
         if self.window.x() == x and tj == True:
             for i in range(abs(self.x - x)):
@@ -128,8 +134,8 @@ class init_window_main:
             f=self.ui.frame_lw
         elif item.text()=='win32':
             f=self.ui.frame_win32
-        elif item.text()=='flask':
-            f=self.ui.frame_flask
+        elif item.text()=='web框架':
+            f=self.ui.frame_webkj
         #设置显示或者隐藏框架
         if f.isVisible()==False:
             self.ui.frame_python.setVisible(False)
@@ -138,21 +144,21 @@ class init_window_main:
             self.ui.frame_dm.setVisible(False)
             self.ui.frame_lw.setVisible(False)
             self.ui.frame_win32.setVisible(False)
-            self.ui.frame_flask.setVisible(False)
+            self.ui.frame_webkj.setVisible(False)
             f.setVisible(True)
 
         else:
             f.setVisible(False)
         print('点击:',item.text())
-    def clicked_ksrm(self,typeText):
+    def clicked_ksrm(self,typeText,typeKJ):
         '''快速入门窗口的展示'''
         #根据返回的类型来创建不一样的窗口
         self.window_ksrm = QFrame()
         self.ui_ksrm = wf_ksrm.Ui_wf_ksrm()
         self.ui_ksrm.setupUi(self.window_ksrm)
-        with open(f'html/{typeText}/ksrm.html', 'r', encoding='utf-8')as f:
+        with open(f'html/{typeText}/{typeKJ}.html', 'r', encoding='utf-8')as f:
             docText = f.read()
         init_window_ksrm(self.window_ksrm, self.ui_ksrm, self.ui.frame_python.x() + self.ui.frame_python.width() - 8,
-                         self.ui.frame_python.y(), typeText,docText)
+                         self.ui.frame_python.y(), typeText,typeKJ,docText)
         self.window_ksrm.show()
 

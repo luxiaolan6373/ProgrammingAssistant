@@ -590,7 +590,7 @@ QPushButton:pressed{
      </item>
     </layout>
    </widget>
-   <widget class="QFrame" name="frame_flask">
+   <widget class="QFrame" name="frame_webkj">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -616,7 +616,7 @@ QPushButton:pressed{
       <number>0</number>
      </property>
      <item>
-      <widget class="QPushButton" name="bt_flask_ksrm">
+      <widget class="QPushButton" name="bt_webkj_ksrm">
        <property name="minimumSize">
         <size>
          <width>71</width>
@@ -629,7 +629,7 @@ QPushButton:pressed{
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="bt_flask_scbd">
+      <widget class="QPushButton" name="bt_webkj_scbd">
        <property name="minimumSize">
         <size>
          <width>71</width>
@@ -642,7 +642,7 @@ QPushButton:pressed{
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="bt_flask_lrgj">
+      <widget class="QPushButton" name="bt_webkj_lrgj">
        <property name="minimumSize">
         <size>
          <width>71</width>
@@ -655,7 +655,7 @@ QPushButton:pressed{
       </widget>
      </item>
      <item>
-      <spacer name="hs_flask">
+      <spacer name="hs_webkj">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
@@ -779,7 +779,7 @@ QPushButton:pressed{
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="bt_flask">
+      <widget class="QPushButton" name="bt_webkj">
        <property name="minimumSize">
         <size>
          <width>71</width>
@@ -787,7 +787,7 @@ QPushButton:pressed{
         </size>
        </property>
        <property name="text">
-        <string>flask</string>
+        <string>web框架</string>
        </property>
       </widget>
      </item>
