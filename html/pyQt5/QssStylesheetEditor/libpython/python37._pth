@@ -1,0 +1,7 @@
+python37.zip
+python.zip
+.
+Lib
+#Lib\OCC\oce\3rdparty
+# Uncomment to run site.main() automatically
+#import site

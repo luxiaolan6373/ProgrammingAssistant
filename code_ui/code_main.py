@@ -6,7 +6,7 @@ from code_ui.code_ksrm import init_window_ksrm
 from ui import wf_ksrm
 from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QDesktopServices
-import time,os,threading
+import time,os
 
 
 class init_window_main:
@@ -44,6 +44,7 @@ class init_window_main:
         self.ui.bt_python_gnhs.setToolTip('收集的一些常用封装好的功能性函数,直接复制粘贴岂不快哉!')
         self.ui.bt_spider_jsonjx.setToolTip('超好用的json解析工具')
         self.ui.bt_spider_zbgj.setToolTip('全网公认最好用的抓包工具Fiddler,可以抓手机电视等只要联网的设备的包')
+        self.ui.bt_pyQt5_qssgj.setToolTip('全网公认最好用的QSS可视化编辑神器,不要太好用喔,哈哈')
         # 隐藏子功能按钮
         self.ui.frame_python.setVisible(False)
         self.ui.frame_spider.setVisible(False)
@@ -77,23 +78,28 @@ class init_window_main:
         self.ui.bt_win32_ksrm.clicked.connect(lambda: self.clicked_ksrm(self.ui.frame_win32,'win32','ksrm'))
         self.ui.bt_webkj_ksrm.clicked.connect(lambda: self.clicked_ksrm(self.ui.frame_webkj,'webkj','ksrm'))
         #速查宝典start是不等待执行结束
-        self.ui.bt_lw_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/lw/乐玩插件接口说明.chm'))
-        self.ui.bt_dm_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/dm/大漠插件接口说明.chm'))
+        self.ui.bt_lw_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}\html\lw\乐玩插件接口说明.chm'))
+        self.ui.bt_dm_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}\html\dm\大漠插件接口说明.chm'))
         self.ui.bt_win32_scbd.clicked.connect(lambda: os.system(f'start hh {self.path}/html/win32/PyWin32.chm ' ))
         self.ui.bt_python_scbd.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://docs.python.org/zh-cn/3/")))
         self.ui.bt_spider_scbd.clicked.connect(lambda: self.clicked_ksrm(self.ui.frame_spider,'spider', 'scbd'))
         self.ui.bt_webkj_scbd.clicked.connect(lambda: self.clicked_ksrm(self.ui.frame_webkj,'webkj', 'scbd'))
 
         #大漠综合工具
-        self.ui.bt_dm_zhgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\综合工具\大漠综合工具.exe'))
+        self.ui.bt_dm_zhgj.clicked.connect(lambda: os.system(f'start {self.path}\html\dm\综合工具\大漠综合工具.exe'))
         #大漠绑定工具
-        self.ui.bt_dm_bdgj.clicked.connect(lambda: os.system(f'start {self.path}/html\dm\绑定工具\大漠插件绑定测试工具(VIP专用).exe'))
+        self.ui.bt_dm_bdgj.clicked.connect(lambda: os.system(f'start {self.path}\html\dm\绑定工具\大漠插件绑定测试工具(VIP专用).exe'))
         # 乐玩编程助手
-        self.ui.bt_lw_lwzs.clicked.connect(lambda: os.system(f'start {self.path}/html\lw\编程助手\乐玩助手.exe'))
+        self.ui.bt_lw_lwzs.clicked.connect(lambda: os.system(f'start {self.path}\html\lw\编程助手\乐玩助手.exe'))
         #fiddler抓包工具
-        self.ui.bt_spider_zbgj.clicked.connect(lambda: os.system(f'start {self.path}/html\spider\Fiddler\Fiddler.exe'))
+        self.ui.bt_spider_zbgj.clicked.connect(lambda: os.system(f'start {self.path}\html\spider\Fiddler\Fiddler.exe'))
         #JSONG解析
         self.ui.bt_spider_jsonjx.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://www.bejson.com/jsonviewernew/")))
+        # Qss工具
+
+        pythonPath = f'\html\pyQt5\QssStylesheetEditor\libpython\pythonw.exe'
+        exePath = f'\html\pyQt5\QssStylesheetEditor\scripts\main.pyc'
+        self.ui.bt_pyQt5_qssgj.clicked.connect(lambda: os.system(f'start {self.path}{pythonPath} {self.path}{exePath}'))
 
         #功能函数
         self.ui.bt_python_gnhs.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("http://012.plus/static/pyec/iframe/index.html#/pyec/wangye")))

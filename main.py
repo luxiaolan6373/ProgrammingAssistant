@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QApplication,QMainWindow
 from ui import wf_main
 from code_ui.code_main import init_window_main
-import sys
+import sys,subprocess
 
 if __name__ == '__main__':
     app=QApplication(sys.argv)
