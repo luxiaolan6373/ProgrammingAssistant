@@ -19,19 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d09db-ce2c-4e25-9ecb-6f277ce77f92" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python编程AI助手.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonZhuShou.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python编程助手.iml" beforeDir="false" />
+    <list default="true" id="c83d09db-ce2c-4e25-9ecb-6f277ce77f92" name="默认的" comment="20201029">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonZhuShou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonZhuShou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_ui/code_ksrm.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_ui/code_ksrm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_ui/code_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_ui/code_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lw/编程助手/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/html/lw/编程助手/user.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/wf_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/wf_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/wf_main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/wf_main.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/code_ui/code_main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -60,6 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +65,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonProjects\pythonZhuShou" />
+      <recent name="D:\pythonProjects\pythonZhuShou\html\win32\apiZhuShou" />
+      <recent name="D:\pythonProjects\pythonZhuShou\html\win32" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -108,8 +113,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603980365719</updated>
-      <workItem from="1603980369919" duration="3933000" />
+      <workItem from="1603980369919" duration="7583000" />
+      <workItem from="1604044713838" duration="26000" />
+      <workItem from="1606028416430" duration="2888000" />
+      <workItem from="1606057423141" duration="5955000" />
+      <workItem from="1606155229036" duration="2521000" />
+      <workItem from="1606157831320" duration="19000" />
+      <workItem from="1606157875362" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="20201029">
+      <created>1603984894834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603984894834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20201029">
+      <created>1603985009880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603985009880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,28 +151,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20201029" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201029" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="679" y="79" key="#main" timestamp="1603980428322">
+    <state x="968" y="171" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606060410203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="79" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1603980428322" />
-    <state width="1880" height="242" key="GridCell.Tab.0.bottom" timestamp="1603983648070">
+    <state x="968" y="171" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606060410203" />
+    <state x="1321" y="264" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606060411914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603983648070" />
-    <state width="1880" height="242" key="GridCell.Tab.0.center" timestamp="1603983648070">
+    <state x="1321" y="264" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606060411914" />
+    <state x="679" y="79" key="#main" timestamp="1606057508408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603983648070" />
-    <state width="1880" height="242" key="GridCell.Tab.0.left" timestamp="1603983648070">
+    <state x="679" y="79" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1606057508408" />
+    <state x="949" y="287" key="FileChooserDialogImpl" timestamp="1606157482575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603983648070" />
-    <state width="1880" height="242" key="GridCell.Tab.0.right" timestamp="1603983648070">
+    <state x="949" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606157482575" />
+    <state width="766" height="264" key="GridCell.Tab.0.bottom" timestamp="1606063388837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603983648070" />
+    <state width="766" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606063388837" />
+    <state width="766" height="264" key="GridCell.Tab.0.center" timestamp="1606063388837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="766" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606063388837" />
+    <state width="766" height="264" key="GridCell.Tab.0.left" timestamp="1606063388837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="766" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606063388837" />
+    <state width="766" height="264" key="GridCell.Tab.0.right" timestamp="1606063388837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="766" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606063388837" />
     <state width="1880" height="300" key="GridCell.Tab.1.bottom" timestamp="1603982907461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,12 +206,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1880" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603982907461" />
-    <state x="475" y="132" key="SettingsEditor" timestamp="1603982350609">
+    <state x="121" y="160" key="SettingsEditor" timestamp="1606157565712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="132" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603982350609" />
+    <state x="121" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606157565712" />
+    <state x="712" y="288" key="Vcs.Push.Dialog.v2" timestamp="1606059012108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="288" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606059012108" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonZhuShou$main.coverage" NAME="main Coverage Results" MODIFIED="1603983564670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonZhuShou$main.coverage" NAME="main Coverage Results" MODIFIED="1606063296068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow,QFrame,QApplication,qApp
 from ui.wf_main import Ui_MainWindow
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QCursor
+from PyQt5.QtGui import QCursor,QIcon
 from code_ui.code_ksrm import init_window_ksrm
 from ui import wf_ksrm
 from PyQt5.QtCore import QUrl
@@ -22,8 +22,8 @@ class init_window_main:
     def set(self):
         # 设置标题
         self.window.setWindowTitle('python懒人工具www.52pojie.cn')
+        self.window.setWindowIcon(QIcon('logo.ico'))
         # 设置窗口无边框,和透明背景
-
         self.ui.frame_main_hb.setContentsMargins(0, 0, 0, 0)
         self.ui.frame_main.setContentsMargins(0, 0, 0, 0)
         self.window.move(self.x, self.y)
@@ -45,6 +45,8 @@ class init_window_main:
         self.ui.bt_spider_jsonjx.setToolTip('超好用的json解析工具')
         self.ui.bt_spider_zbgj.setToolTip('全网公认最好用的抓包工具Fiddler,可以抓手机电视等只要联网的设备的包')
         self.ui.bt_pyQt5_qssgj.setToolTip('全网公认最好用的QSS可视化编辑神器,不要太好用喔,哈哈')
+        self.ui.bt_win32_apizs.setToolTip('易语言官方的api中文助手:有一定python win32基础后用这个搜索api功能非常方便!')
+        self.ui.bt_win32_jyzs.setToolTip('精易编程助手:功能有查看窗口信息,抓包,翻译,取色,正则表达式等都有.稍微代码转换一下到python就行了!')
         # 隐藏子功能按钮
         self.ui.frame_python.setVisible(False)
         self.ui.frame_spider.setVisible(False)
@@ -96,13 +98,16 @@ class init_window_main:
         #JSONG解析
         self.ui.bt_spider_jsonjx.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://www.bejson.com/jsonviewernew/")))
         # Qss工具
-
         pythonPath = f'\html\pyQt5\QssStylesheetEditor\libpython\pythonw.exe'
         exePath = f'\html\pyQt5\QssStylesheetEditor\scripts\main.pyc'
         self.ui.bt_pyQt5_qssgj.clicked.connect(lambda: os.system(f'start {self.path}{pythonPath} {self.path}{exePath}'))
-
         #功能函数
         self.ui.bt_python_gnhs.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("http://012.plus/static/pyec/iframe/index.html#/pyec/wangye")))
+
+        # api中文助手
+        self.ui.bt_win32_apizs.clicked.connect(lambda: os.system(f'start {self.path}\html\win32\\apiZhuShou\API助手.exe'))
+        #精易编程助手
+        self.ui.bt_win32_jyzs.clicked.connect(lambda: os.system(f'start {self.path}\html\win32\精易编程助手\精易编程助手.exe'))
 
 
 

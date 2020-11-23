@@ -563,7 +563,7 @@ QPushButton:pressed{
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="bt_win32_lrgj">
+      <widget class="QPushButton" name="bt_win32_apizs">
        <property name="minimumSize">
         <size>
          <width>71</width>
@@ -571,7 +571,20 @@ QPushButton:pressed{
         </size>
        </property>
        <property name="text">
-        <string>懒人工具</string>
+        <string>API易助手</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bt_win32_jyzs">
+       <property name="minimumSize">
+        <size>
+         <width>71</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>精易助手</string>
        </property>
       </widget>
      </item>

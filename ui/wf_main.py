@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'ui/wf_main.ui'
+# Form implementation generated from reading ui file 'ui\wf_main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.1
 #
@@ -201,10 +201,14 @@ class Ui_MainWindow(object):
         self.bt_win32_scbd.setMinimumSize(QtCore.QSize(71, 70))
         self.bt_win32_scbd.setObjectName("bt_win32_scbd")
         self.frame_win32_hb.addWidget(self.bt_win32_scbd)
-        self.bt_win32_lrgj = QtWidgets.QPushButton(self.frame_win32)
-        self.bt_win32_lrgj.setMinimumSize(QtCore.QSize(71, 70))
-        self.bt_win32_lrgj.setObjectName("bt_win32_lrgj")
-        self.frame_win32_hb.addWidget(self.bt_win32_lrgj)
+        self.bt_win32_apizs = QtWidgets.QPushButton(self.frame_win32)
+        self.bt_win32_apizs.setMinimumSize(QtCore.QSize(71, 70))
+        self.bt_win32_apizs.setObjectName("bt_win32_apizs")
+        self.frame_win32_hb.addWidget(self.bt_win32_apizs)
+        self.bt_win32_jyzs = QtWidgets.QPushButton(self.frame_win32)
+        self.bt_win32_jyzs.setMinimumSize(QtCore.QSize(71, 70))
+        self.bt_win32_jyzs.setObjectName("bt_win32_jyzs")
+        self.frame_win32_hb.addWidget(self.bt_win32_jyzs)
         spacerItem5 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.frame_win32_hb.addItem(spacerItem5)
         self.frame_webkj = QtWidgets.QFrame(self.centralwidget)
@@ -297,7 +301,8 @@ class Ui_MainWindow(object):
         self.bt_lw_lwzs.setText(_translate("MainWindow", "乐玩助手"))
         self.bt_win32_ksrm.setText(_translate("MainWindow", "快速入门"))
         self.bt_win32_scbd.setText(_translate("MainWindow", "速查宝典"))
-        self.bt_win32_lrgj.setText(_translate("MainWindow", "懒人工具"))
+        self.bt_win32_apizs.setText(_translate("MainWindow", "API易助手"))
+        self.bt_win32_jyzs.setText(_translate("MainWindow", "精易助手"))
         self.bt_webkj_ksrm.setText(_translate("MainWindow", "快速入门"))
         self.bt_webkj_scbd.setText(_translate("MainWindow", "速查宝典"))
         self.bt_webkj_lrgj.setText(_translate("MainWindow", "懒人工具"))

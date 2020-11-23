@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QFrame
 from ui.wf_ksrm import Ui_wf_ksrm
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
 
 class init_window_ksrm:
     def __init__(self, window: QFrame, ui: Ui_wf_ksrm,x,y,typeText,tpyeKJ,docText):
@@ -19,6 +20,7 @@ class init_window_ksrm:
         elif self.tpyeKJ=='scbd':
             typeTitle = "速查宝典"
         self.window.setWindowTitle(self.typeText+typeTitle)
+        self.window.setWindowIcon(QIcon('logo.ico'))
         # 设置窗口无边框,和透明背景
         self.window.move(self.x, self.y)
         self.window.setWindowFlags(Qt.WindowMaximizeButtonHint  | Qt.FramelessWindowHint)
